@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+<head>
+    {{- partial "head-meta.html" . }}
+
+    <!-- Link to self -->
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <!-- Favicon   -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ `favicon.ico` | absURL }}"/>
+
+    <!-- Page title -->
+    <title>{{ block "title" . }}{{ with .Title }}{{ . | markdownify | plainify | safeHTML }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
+
+    <!-- Stylesheets -->
+    {{ partial "stylesheets.html" . }}
+
+    <!-- Google Analytics -->
+    {{ template "_internal/google_analytics_async.html" . }}
+</head>
+<body>
+
+<!-- Main page content -->
+<section id="page">
+    <div class="container">
+        <!-- Heading -->
+        {{- block "heading" . }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
+
+        <!-- Main content -->
+        {{ block "main" . }}
+        {{ .Content }}
+        {{ end }}
+
+    </div>
+</section>
+
+{{ partial "scripts" . }}
+</body>
+</html>

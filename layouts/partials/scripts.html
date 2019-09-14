@@ -1,0 +1,4 @@
+{{- $jquery    := resources.Get "js/jquery-3.4.1.js" -}}
+{{- $popper    := resources.Get "js/popper.js" -}}
+{{- $bootstrap := resources.Get "js/bootstrap.js" -}}
+<script src="{{ (slice $jquery $popper $bootstrap | resources.Concat `js/bundle.js` | minify).Permalink }}"></script>

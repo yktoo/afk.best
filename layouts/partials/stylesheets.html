@@ -1,0 +1,4 @@
+{{- $main := (resources.Get "scss/main.scss" | toCSS) -}}
+{{- $fa   := resources.Get "fontawesome-5.1.0/all.css" -}}
+<!-- Make a minified bundle of all stylesheets -->
+<link href="{{ (slice $main $fa | resources.Concat `css/bundle.css` | minify).Permalink }}" rel="stylesheet">
