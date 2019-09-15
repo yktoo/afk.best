@@ -1,0 +1,44 @@
+{{ define "title" }}{{ .Site.Title }} • {{ i18n "siteTitle" }}{{ end }}
+{{ define "heading" }}
+<div class="jumbotron">
+    <img src="/images/logo.png" alt="Logo">
+    <h1>{{ i18n "siteTitle" }}</h1>
+    <ul class="nav">
+    {{ range .AllTranslations }}
+        <li class="nav-item">
+            {{- if eq $.Page.Lang .Language.Lang }}
+            <span class="nav-link">{{- .Language.LanguageName }}</span>
+            {{- else }}
+                <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+            {{- end }}
+        </li>
+    {{ end }}
+    </ul>
+</div>
+{{ end }}
+
+{{ define "main" }}
+<form id="search-form">
+    <div class="form-group">
+        <input type="search" class="form-control" id="search-text" aria-describedby="search-help" placeholder="{{ i18n `typeAbbreviation` }}">
+        <div id="search-help" class="form-text text-muted text-small">{{ i18n "searchHelp" }}</div>
+    </div>
+</form>
+
+<div class="text-muted d-none" id="results-none">{{ i18n "resultsNone" }}</div>
+<div class="text-muted d-none" id="results-present">{{ i18n "resultsPresent" }}&nbsp;<span id="result-count"></span></div>
+
+<table class="table" id="abbr-table">
+    {{ range .Site.Data.abbreviations }}
+    <tr class="d-none">
+        <td>{{ .abbr }}</td>
+        <td>{{ .text }}</td>
+        <td>{{ index .translation $.Page.Lang | markdownify }}</td>
+    </tr>
+    {{ end }}
+</table>
+{{ end }}
+
+{{ define "footer" }}
+<footer class="fixed-bottom text-center">{{ T "copyright" (dict "year" now.Year) | markdownify }}</footer>
+{{ end }}

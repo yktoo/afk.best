@@ -1,0 +1,6 @@
+- {id: copyright,        translation: 'Авторское право ©2000—{{ .year }} [Дмитрий Канн](https://yktoo.com).'}
+- {id: resultsNone,      translation: Увы, ничего не найдено.}
+- {id: resultsPresent,   translation: 'Найдено:'}
+- {id: searchHelp,       translation: 'Например:'}
+- {id: siteTitle,        translation: Сокращения нидерландского языка}
+- {id: typeAbbreviation, translation: Введите сокращение…}

@@ -1,0 +1,6 @@
+- {id: copyright,        translation: 'Copyright ©2000—{{ .year }} [Dmitry Kann](https://yktoo.com).'}
+- {id: resultsNone,      translation: Nothing found.}
+- {id: resultsPresent,   translation: 'Found:'}
+- {id: searchHelp,       translation: 'Some examples:'}
+- {id: siteTitle,        translation: Dutch abbreviations}
+- {id: typeAbbreviation, translation: Type any abbreviation…}

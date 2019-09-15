@@ -1,3 +1,26 @@
 baseURL: https://afk.best/
 languageCode: en-us
-title: Afk. — Сокращения нидерландского языка
+title: Afkortingen
+#googleAnalytics: TODO UA-19569086-3
+enableRobotsTXT: true
+disableKinds:
+    - taxonomy
+    - taxonomyTerm
+    - RSS
+
+# Language settings
+defaultContentLanguage: ru
+defaultContentLanguageInSubdir: true
+languages:
+    en:
+        weight: 1
+        languageName: English
+    ru:
+        weight: 2
+        languageName: Русский
+        params:
+            description: 'Распространённые сокращения нидерландского языка и их перевод на русский'
+
+# Params
+params:
+    description: 'Common Dutch abbreviations and their translations into English'

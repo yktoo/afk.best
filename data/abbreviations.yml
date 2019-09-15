@@ -1,0 +1,3360 @@
+- abbr: aav
+  text: algemene administratievoorschriften
+  translation:
+      ru: Общие административные предписания
+
+- abbr: a/b
+  text: aan boord
+  translation:
+      ru: На борт (корабля)
+
+- abbr: ABC-eilanden
+  text: Aruba, Bonaire, Curaçao
+  translation:
+      ru: 'Нидерландские Карибские острова: Аруба, Бонэйр, Кюрасао'
+
+- abbr: ABN
+  text: Algemeen Beschaafd Nederlands
+  translation:
+      ru: Стандартный нидерландский язык
+
+- abbr: AC&M
+  text: Autoriteit Consument en Markt
+  translation:
+      ru: Национальный надзорный орган по защите прав потребителей
+
+- abbr: AD
+  text: Algemeen Dagblad
+  translation:
+      ru: Голландская ежедневная газета "Algemeen Dagblad"
+
+- abbr: AD
+  text: Anno Domini
+  translation:
+      ru: Нашей эры
+
+- abbr: adh
+  text: aanbevolen dagelijkse hoeveelheid
+  translation:
+      ru: Рекомендуемая ежесуточная доза
+
+- abbr: ADHD
+  text: attention deficit hyperactivity disorder
+  translation:
+      ru: Синдром дефицита внимания и гиперактивности
+
+- abbr: a.d.h.v.
+  text: aan de hand van
+  translation:
+      ru: На основании *того-то*
+
+- abbr: AED
+  text: automatische externe defibrillator
+  translation:
+      ru: Автоматический дефибриллятор
+
+- abbr: AEX
+  text: Amsterdam Exchange Index
+  translation:
+      ru: Амстердамская фондовая биржа
+
+- abbr: afb.
+  text: afbeelding
+  translation:
+      ru: Изображение
+
+- abbr: afd.
+  text: afdeling
+  translation:
+      ru: Отдел, отделение
+
+- abbr: afk.
+  text: afkorting
+  translation:
+      ru: Сокращение
+
+- abbr: AFM
+  text: Autoriteit Financiële Markten
+  translation:
+      ru: Национальный надзорный орган за финансовыми рынками
+
+- abbr: afz.
+  text: afzender
+  translation:
+      ru: Отправитель
+
+- abbr: a.g.v.
+  text: als gevolg van
+  translation:
+      ru: Как следствие *того-то*
+
+- abbr: a.h.w.
+  text: als het ware
+  translation:
+      ru: Так сказать
+
+- abbr: AI
+  text: Artificiële Intelligentie
+  translation:
+      ru: Искусственный интеллект
+
+- abbr: a.i.
+  text: ad interim
+  translation:
+      ru: исполняющий обязанности (*лат.*)
+
+- abbr: airco.
+  text: airconditioning
+  translation:
+      ru: Кондиционер воздуха
+
+- abbr: AIVD
+  text: Algemene Inlichtingen- en Veiligheidsdienst
+  translation:
+      ru: Служба разведки и безопасности
+
+- abbr: alg.
+  text: algemeen
+  translation:
+      ru: Общий (в противоположность специализированному)
+
+- abbr: ANP
+  text: Algemeen Nederlands Persbureau
+  translation:
+      ru: Нидерландское пресс-бюро
+
+- abbr: anwb
+  text: Koninklijke Nederlandse Toeristenbond ANWB (algemene wielrijdersbond)
+  translation:
+      ru: Нидерландская автомобильная ассоциация
+
+- abbr: Ao
+  text: Anno
+  translation:
+      ru: В *таком-то* году (*лат.*)
+
+- abbr: aov
+  text: Arbeidsongeschiktheidsverzekering
+  translation:
+      ru: Страховка по нетрудоспособности
+
+- abbr: AOW
+  text: Algemene Ouderdomswet
+  translation:
+      ru: Общий закон о пенсиях по старости
+
+- abbr: ap
+  text: autoriteit persoonsgegevens
+  translation:
+      ru: Национальный орган по защите персональных данных
+
+- abbr: AP
+  text: Amsterdams Peil
+  translation:
+      ru: Стандартный амстердамский уровень (воды)
+
+- abbr: apk
+  text: algemene periodieke keuring
+  translation:
+      ru: Периодический техосмотр (транспортного средства)
+
+- abbr: apv
+  text: algemene plaatselijke verordening
+  translation:
+      ru: Общее местное законодательство
+
+- abbr: arbo.
+  text: arbeidsomstandigheden
+  translation:
+      ru: Условия труда
+
+- abbr: art.
+  text: artikel
+  translation:
+      ru: Артикул, товар
+
+- abbr: a.s.
+  text: aanstaande
+  translation:
+      ru: Предстоящий, следующий (о дате)
+
+- abbr: a.u.b.
+  text: alstublieft
+  translation:
+      ru: Пожалуйста
+
+- abbr: AVG
+  text: Algemene verordening gegevensbescherming
+  translation:
+      ru: Общий регламент по защите персональных данных
+
+- abbr: avrotros
+  text: algemene vereniging radio-omroep/Televisie Radio Omroep Stichting
+  translation:
+      ru: Национальная телерадиокомпания
+
+- abbr: azc
+  text: asielzoekerscentrum
+  translation:
+      ru: Центр приёма беженцев
+
+- abbr: b.a.
+  text: bij afwezigheid
+  translation:
+      ru: При отсутствии
+
+- abbr: BAG
+  text: Basisregistraties Adressen en Gebouwen
+  translation:
+      ru: Национальный реестр адресов и строений
+
+- abbr: BAM
+  text: Bataafsche AannemingsMaatschappij
+  translation:
+      ru: Строительная корпорация
+
+- abbr: bbp
+  text: bruto binnenlands product
+  translation:
+      ru: Валовой внутренний продукт
+
+- abbr: b.d.
+  text: buiten dienst
+  translation:
+      ru: Не работает
+
+- abbr: B en W
+  text: Burgemeester en Wethouders
+  translation:
+      ru: Бургомистр и коллегия городского совета
+
+- abbr: BeNeLux
+  text: België, Nederland, Luxemburg
+  translation:
+      ru: Бенилюкс
+
+- abbr: betr.
+  text: betreft
+  translation:
+      ru: Касательно
+
+- abbr: bez.vnw.
+  text: bezittelijk voornaamwoord
+  translation:
+      ru: Притяжательное местоимение
+
+- abbr: bga
+  text: beschermde geografische aanduiding
+  translation:
+      ru: Защищённое законом географическое наименование
+
+- abbr: b.g.g.
+  text: bij geen gehoor
+  translation:
+      ru: При отсутствии ответа
+
+- abbr: bh
+  text: bustehouder
+  translation:
+      ru: Бюстгалтер (.)(.)
+
+- abbr: bhv
+  text: bedrijfshulpverlening
+  translation:
+      ru: Помощь при ЧП на предприятии
+
+- abbr: BI
+  text: Bureau Inlichtingen
+  translation:
+      ru: Информбюро
+
+- abbr: bibl.
+  text: bibliotheek
+  translation:
+      ru: Библиотека
+
+- abbr: bijl.
+  text: bijlage
+  translation:
+      ru: Приложение (к чему-то)
+
+- abbr: bijv.
+  text: bijvoorbeeld
+  translation:
+      ru: Например
+
+- abbr: bijz.
+  text: bijzonder
+  translation:
+      ru: Особенно
+
+- abbr: bila
+  text: bilateraal overleg
+  translation:
+      ru: Двустороннее совещание
+
+- abbr: BKR
+  text: Bureau Kredietregistratie
+  translation:
+      ru: Бюро регистрации кредитной истории
+
+- abbr: blz.
+  text: bladzijde
+  translation:
+      ru: Страница
+
+- abbr: BN
+  text: bekende Nederlander
+  translation:
+      ru: Голландская знаменитость
+
+- abbr: bnp
+  text: bruto nationaal product
+  translation:
+      ru: Валовой национальный продукт
+
+- abbr: bnw.
+  text: bijvoeglijk naamwoord
+  translation:
+      ru: Прилагательное
+
+- abbr: boa
+  text: buitengewoon opsporingsambtenaar
+  translation:
+      ru: Следователь по особым делам
+
+- abbr: bom
+  text: bewust ongehuwde moeder
+  translation:
+      ru: Сознательно незамужняя мать
+
+- abbr: BPM
+  text: Belasting van personenauto's en motorrijwielen
+  translation:
+      ru: Налог на транспортные средства
+
+- abbr: bps
+  text: beelden per seconde
+  translation:
+      ru: Кадров в секунду
+
+- abbr: br.
+  text: broeder
+  translation:
+      ru: Брат
+
+- abbr: BRP
+  text: Basisregistratie Personen
+  translation:
+      ru: Национальный реестр персональных данных
+
+- abbr: bsn
+  text: burgerservicenummer
+  translation:
+      ru: Идентификатор гражданина
+
+- abbr: bso
+  text: buitenschoolse opvang
+  translation:
+      ru: Продлёнка после школы
+
+- abbr: btw
+  text: belasting over de toegevoegde waarde
+  translation:
+      ru: Налог на добавленную стоимость
+
+- abbr: buma
+  text: bureau muziekauteursrechten
+  translation:
+      ru: Бюро по авторским правам на музыку
+
+- abbr: BuZa
+  text: Buitenlandse Zaken
+  translation:
+      ru: Министерство внешних дел
+
+- abbr: bv.
+  text: bijvoorbeeld
+  translation:
+      ru: Например
+
+- abbr: bv
+  text: besloten vennootschap
+  translation:
+      ru: Закрытое партнёрство
+
+- abbr: b.v.d.
+  text: bij voorbaat dank
+  translation:
+      ru: Заранее благодарен(на)
+
+- abbr: bw.
+  text: bijwoord
+  translation:
+      ru: Наречие
+
+- abbr: BW
+  text: Burgerlijk Wetboek
+  translation:
+      ru: Гражданский кодекс
+
+- abbr: B&W
+  text: Burgemeester & Wethouders
+  translation:
+      ru: Бургомистр и коллегия городского совета
+
+- abbr: b.z.a.
+  text: biedt zich aan
+  translation:
+      ru: Предлагает услуги
+
+- abbr: C&A
+  text: Clemens & August
+  translation:
+      ru: Сеть магазинов C&A
+
+- abbr: ca.
+  text: circa
+  translation:
+      ru: Примерно (*лат.*)
+
+- abbr: cado
+  text: calamiteitendoorsteek
+  translation:
+      ru: Открывающаяся секция «отбойника» на трассе для проезда аварийных служб
+
+- abbr: cao
+  text: collectieve arbeidsovereenkomst
+  translation:
+      ru: Коллективное трудовое соглашение
+
+- abbr: cat.
+  text: catalogus
+  translation:
+      ru: Каталог
+
+- abbr: CBR
+  text: Centraal Bureau Rijvaardigheidsbewijzen
+  translation:
+      ru: Центральное бюро регистрации ограничений к вождению
+
+- abbr: CBS
+  text: Centraal Bureau voor de Statistiek
+  translation:
+      ru: Центральное статистическое бюро
+
+- abbr: cd
+  text: compact disc
+  translation:
+      ru: Компакт-диск
+
+- abbr: c.i.
+  text: civiel ingenieur
+  translation:
+      ru: Гражданский инженер
+
+- abbr: CITo
+  text: Centraal Instituut voor Toetsontwikkeling
+  translation:
+      ru: Центральный институт разработки экзаменов
+
+- abbr: CJIB
+  text: Centraal Justitieel Incassobureau
+  translation:
+      ru: Сентральное бюро инкассации
+
+- abbr: CPB
+  text: Centraal Planbureau
+  translation:
+      ru: Центральное бюро планирования
+
+- abbr: c.q.
+  text: casu quo
+  translation:
+      ru: И/или (*лат.*)
+
+- abbr: CS
+  text: Centraal station
+  translation:
+      ru: Центральный вокзал
+
+- abbr: CT
+  text: computertomografie
+  translation:
+      ru: Компьютерная томография
+
+- abbr: cv
+  text: commanditaire vennootschap
+  translation:
+      ru: Товарищество на вере
+
+- abbr: cv
+  text: centrale verwarming
+  translation:
+      ru: Центральное отопление
+
+- abbr: cvba
+  text: coöperatieve vennootschap met beperkte aansprakelijkheid
+  translation:
+      ru: Товарищество на вере с ограниченной ответственностью
+
+- abbr: cve
+  text: centrale verwerkingseenheid
+  translation:
+      ru: Мэйнфрейм
+
+- abbr: CWI
+  text: Centrum voor Werk en Inkomen
+  translation:
+      ru: Центр по трудоустройству и доходам
+
+- abbr: czs
+  text: centraal zenuwstelsel
+  translation:
+      ru: Центральная нервная система
+
+- abbr: D66
+  text: Democraten 66
+  translation:
+      ru: Демократы-66 (политическая партия)
+
+- abbr: d.d.
+  text: de dato
+  translation:
+      ru: Датируемый (*лат.*)
+
+- abbr: DG
+  text: directeur-generaal
+  translation:
+      ru: Генеральный директор
+
+- abbr: dhr.
+  text: de heer
+  translation:
+      ru: Господин
+
+- abbr: d.i.
+  text: dit is
+  translation:
+      ru: То есть
+
+- abbr: dir.
+  text: directeur
+  translation:
+      ru: Директор
+
+- abbr: d.m.v.
+  text: door middel van
+  translation:
+      ru: При помощи/посредством
+
+- abbr: DNB
+  text: De Nederlandsche Bank
+  translation:
+      ru: Нидерландский центробанк
+
+- abbr: DR
+  text: Drenthe
+  translation:
+      ru: Дренте (провинция)
+
+- abbr: dr.
+  text: doctor
+  translation:
+      ru: Доктор
+
+- abbr: drs.
+  text: doctorandus
+  translation:
+      ru: Доктор наук (*лат.*)
+
+- abbr: ds.
+  text: dominee
+  translation:
+      ru: Священник
+
+- abbr: DUO
+  text: Dienst Uitvoering Onderwijs
+  translation:
+      ru: Исполнительная служба образования
+
+- abbr: DWDD
+  text: De wereld draait door
+  translation:
+      ru: De wereld draait door (голландская телепрограмма)
+
+- abbr: d.w.z.
+  text: dat wil zeggen
+  translation:
+      ru: Иными словами
+
+- abbr: e.a.
+  text: en andere(n)
+  translation:
+      ru: И другие
+
+- abbr: e.c.
+  text: exempli causa
+  translation:
+      ru: Например (*лат.*)
+
+- abbr: ecg
+  text: elektrocardiogram
+  translation:
+      ru: Электрокардиограмма
+
+- abbr: ed.
+  text: editie
+  translation:
+      ru: Издание
+
+- abbr: e.d.
+  text: en dergelijke(n)
+  translation:
+      ru: И тому подобное
+
+- abbr: e.e.a.
+  text: een en ander
+  translation:
+      ru: Тот или иной
+
+- abbr: eeg
+  text: elektro-encefalogram
+  translation:
+      ru: Электроэнцефалограмма
+
+- abbr: EEG
+  text: Europese Economische Gemeenschap
+  translation:
+      ru: ЕЭС
+
+- abbr: e.g.
+  text: exempli gratia
+  translation:
+      ru: Например (*лат.*)
+
+- abbr: EG
+  text: Europese Gemeenschap
+  translation:
+      ru: Евросоюз
+
+- abbr: EHBO
+  text: Eerste hulp bij ongelukken
+  translation:
+      ru: Первая помощь при происшествиях
+
+- abbr: e.i.
+  text: elektrotechnisch ingenieur
+  translation:
+      ru: Инженер-электротехник
+
+- abbr: EK
+  text: Europees kampioenschap
+  translation:
+      ru: Чемпионат Европы
+
+- abbr: emg
+  text: elektromyogram
+  translation:
+      ru: Электромиограмма
+
+- abbr: enz.
+  text: enzovoort
+  translation:
+      ru: И так далее
+
+- abbr: e.o.
+  text: en omstreken
+  translation:
+      ru: И окрестности
+
+- abbr: EPD
+  text: Elektronisch patiëntendossier
+  translation:
+      ru: Электронное досье пациента
+
+- abbr: et al.
+  text: et alii
+  translation:
+      ru: И другие (*лат.*)
+
+- abbr: etc.
+  text: et cetera
+  translation:
+      ru: И так далее (*лат.*)
+
+- abbr: e.v.
+  text: en volgende(n)
+  translation:
+      ru: И следующие
+
+- abbr: e.v.a.
+  text: en vele andere(n)
+  translation:
+      ru: И многие другие
+
+- abbr: evt.
+  text: eventueel
+  translation:
+      ru: Возможно/возможный
+
+- abbr: excl.
+  text: exclusief
+  translation:
+      ru: Исключая
+
+- abbr: exx.
+  text: exemplaren
+  translation:
+      ru: Экземпляры
+
+- abbr: EZ
+  text: Ministerie van Economische Zaken
+  translation:
+      ru: Министерство экономики
+
+- abbr: fa.
+  text: firma
+  translation:
+      ru: Фирма
+
+- abbr: fam.
+  text: familie
+  translation:
+      ru: Семья
+
+- abbr: FC
+  text: Football Club
+  translation:
+      ru: Футбольный клуб
+
+- abbr: fig.
+  text: figuur(lijk)
+  translation:
+      ru: Фигурально
+
+- abbr: FL
+  text: Flevoland
+  translation:
+      ru: Флеволанд (провинция)
+
+- abbr: fl.
+  text: florijn (gulden)
+  translation:
+      ru: Гульден (нидерландская валюта до евро)
+
+- abbr: FR
+  text: Friesland
+  translation:
+      ru: Фрисландия (провинция)
+
+- abbr: FVD
+  text: Forum voor Democratie
+  translation:
+      ru: Форум за демократию (партия)
+
+- abbr: GD
+  text: Gelderland
+  translation:
+      ru: Гелдерланд (провинция)
+
+- abbr: GBA
+  text: Gemeentelijke Basis Administratie
+  translation:
+      ru: Муниципальный реестр персональных данных, ныне заменён на BRP
+
+- abbr: geb.
+  text: geboren
+  translation:
+      ru: Родился(лась)
+
+- abbr: Gebr.
+  text: Gebroeders
+  translation:
+      ru: Братья
+
+- abbr: geh.
+  text: geheel
+  translation:
+      ru: В целом
+
+- abbr: geh.
+  text: gehuwd
+  translation:
+      ru: В браке
+
+- abbr: gem.
+  text: gemeente
+  translation:
+      ru: Муниципалитет
+
+- abbr: gem.
+  text: gemiddeld
+  translation:
+      ru: В среднем
+
+- abbr: get.
+  text: getekend
+  translation:
+      ru: Подписавшийся(шаяся)
+
+- abbr: get.
+  text: getuige
+  translation:
+      ru: Свидетель(ница)
+
+- abbr: gez.
+  text: gezang
+  translation:
+      ru: Песня
+
+- abbr: gez.
+  text: gezusters
+  translation:
+      ru: Сёстры
+
+- abbr: gft
+  text: Groente-, fruit- en tuinafval
+  translation:
+      ru: Био-отходы (овощные, фруктовые и садовые)
+
+- abbr: GGD
+  text: Gemeentelijke gezondheidsdienst
+  translation:
+      ru: Муниципальная служба здравоохранения
+
+- abbr: g.g.d.
+  text: grootste gemene deler
+  translation:
+      ru: Наибольший общий делитель
+
+- abbr: ggo
+  text: Genetisch Gemodificeerd Organisme
+  translation:
+      ru: Генетически модифицированный организм, ГМО
+
+- abbr: GGZ
+  text: Geestelijke gezondheidszorg
+  translation:
+      ru: Охрана психического здоровья
+
+- abbr: gld.
+  text: gulden
+  translation:
+      ru: Гульден (нидерландская валюта до евро)
+
+- abbr: glw
+  text: gas, licht en water
+  translation:
+      ru: Газ, свет (электричество) и вода
+
+- abbr: GR
+  text: Groningen
+  translation:
+      ru: Гронинген (провинция)
+
+- abbr: GS
+  text: Gedeputeerde Staten
+  translation:
+      ru: Провинциальная исполнительная власть
+
+- abbr: GTST
+  text: Goede tijden, slechte tijden
+  translation:
+      ru: «Хорошие времена, плохие времена» (голландский телесериал)
+
+- abbr: gym
+  text: gymnasium
+  translation:
+      ru: Гимнастика
+
+- abbr: H.
+  text: Heilige
+  translation:
+      ru: Святой
+
+- abbr: havo
+  text: hoger algemeen voortgezet onderwijs
+  translation:
+      ru: Неоконченное общее высшее образование
+
+- abbr: hbo
+  text: hoger beroepsonderwijs
+  translation:
+      ru: Высшее профессиональное образование
+
+- abbr: heao
+  text: hoger economisch en administratief onderwijs
+  translation:
+      ru: Высшее административно-экономическое образование
+
+- abbr: HEMA
+  text: Hollandsche Eenheidsprijzen Maatschappij Amsterdam
+  translation:
+      ru: «Голландское Амстердамское общество единых цен» (сеть магазинов "HEMA")
+
+- abbr: hfl
+  text: Hollandse florijn (gulden)
+  translation:
+      ru: Гульден (нидерландская валюта до евро)
+
+- abbr: H.K.H.
+  text: Hare Koninklijke Hoogheid
+  translation:
+      ru: Её Королевское Высочество
+
+- abbr: H.M.
+  text: Hare Majesteit
+  translation:
+      ru: Её Величество
+
+- abbr: horeca
+  text: hotel, restaurant, café
+  translation:
+      ru: Хорека (отельно-ресторанный бизнес)
+
+- abbr: Hr.
+  text: Heer
+  translation:
+      ru: Господин
+
+- abbr: H.R.
+  text: Hoge Raad
+  translation:
+      ru: Верховный суд Нидерландов
+
+- abbr: HS
+  text: Hollands Spoor
+  translation:
+      ru: «Голландская железная дорога» (станция в Гааге)
+
+- abbr: hsl
+  text: hogesnelheidslijn
+  translation:
+      ru: Скоростная железная дорога
+
+- abbr: hst
+  text: hogesnelheidstrein
+  translation:
+      ru: Скоростной поезд
+
+- abbr: hts
+  text: hogere technische school
+  translation:
+      ru: Высшая техническая школа
+
+- abbr: i.a.v.
+  text: in aanwezigheid van
+  translation:
+      ru: В отсутствии *того-то*
+
+- abbr: i.a.v.
+  text: in afwachting van
+  translation:
+      ru: В ожидании *того-то*
+
+- abbr: IB
+  text: Inkomstenbelasting
+  translation:
+      ru: Подоходный налог
+
+- abbr: i.b.d.
+  text: in buitengewone dienst
+  translation:
+      ru: На особой службе
+
+- abbr: i.b.v.
+  text: in bezit van
+  translation:
+      ru: Владеющий *тем-то*
+
+- abbr: IC
+  text: Intercity
+  translation:
+      ru: Интерсити (скоростной поезд)
+
+- abbr: i.c.
+  text: in casu
+  translation:
+      ru: В данном случае (*лат.*)
+
+- abbr: ICE
+  text: Intercity Express
+  translation:
+      ru: Интерсити-экспресс (скоростной поезд)
+
+- abbr: i.c.m.
+  text: in combinatie met
+  translation:
+      ru: В сочетании с
+
+- abbr: ICT
+  text: Informatie- en Communicatietechnologie
+  translation:
+      ru: ИТ (*букв.* «информационные и коммуникационные технологии»)
+
+- abbr: id.
+  text: idem
+  translation:
+      ru: То же самое (*лат.*)
+
+- abbr: ID-bewijs
+  text: identiteitsbewijs
+  translation:
+      ru: Удостоверение личности
+
+- abbr: idd
+  text: inderdaad
+  translation:
+      ru: Действительно
+
+- abbr: i.e.
+  text: id est
+  translation:
+      ru: То есть (*лат.*)
+
+- abbr: i.g.st.
+  text: in goede staat
+  translation:
+      ru: В хорошем состоянии
+
+- abbr: i.g.v.
+  text: in geval van
+  translation:
+      ru: В случае *того-то*
+
+- abbr: i.h.a.
+  text: in het algemeen
+  translation:
+      ru: В целом
+
+- abbr: i.h.b.
+  text: in het bijzonder
+  translation:
+      ru: В особенности
+
+- abbr: i.h.k.v.
+  text: in het kader van
+  translation:
+      ru: В рамках *того-то*
+
+- abbr: i.h.t.v.
+  text: in het teken van
+  translation:
+      ru: Знаменующийся *тем-то*
+
+- abbr: i.i.g.
+  text: in ieder geval
+  translation:
+      ru: В любом случае
+
+- abbr: IND
+  text: Immigratie- en Naturalisatiedienst
+  translation:
+      ru: Иммиграционно-натурализационная служба
+
+- abbr: incl.
+  text: inclusief
+  translation:
+      ru: Включая
+
+- abbr: info
+  text: informatie
+  translation:
+      ru: Информация
+
+- abbr: ing.
+  text: ingenieur
+  translation:
+      ru: Инженер
+
+- abbr: intern.
+  text: internationaal
+  translation:
+      ru: Международный
+
+- abbr: i.o.m.
+  text: in overeenstemming met
+  translation:
+      ru: В соответствии с
+
+- abbr: i.o.m.
+  text: in overleg met
+  translation:
+      ru: В обсуждении с
+
+- abbr: i.o.v.
+  text: in opdracht van
+  translation:
+      ru: По поручению *того-то*
+
+- abbr: i.p.v.
+  text: in plaats van
+  translation:
+      ru: Вместо *того-то*
+
+- abbr: ir.
+  text: ingenieur
+  translation:
+      ru: Инженер
+
+- abbr: i.r.t.
+  text: in relatie tot
+  translation:
+      ru: В отношении *того-то*
+
+- abbr: i.s.m.
+  text: In samenwerking met
+  translation:
+      ru: В сотрудничестве с
+
+- abbr: i.t.t.
+  text: in tegenstelling tot
+  translation:
+      ru: В противоположность *тому-то*
+
+- abbr: ivf
+  text: In-vitrofertilisatie
+  translation:
+      ru: Экстракорпоральное оплодотворение (ЭКО)
+
+- abbr: i.v.m.
+  text: in verband met
+  translation:
+      ru: В связи с
+
+- abbr: i.z.g.st.
+  text: in zeer goede staat
+  translation:
+      ru: В очень хорошем состоянии
+
+- abbr: j.
+  text: jaar
+  translation:
+      ru: Год
+
+- abbr: jhr.
+  text: Jonkheer
+  translation:
+      ru: Эсквайр
+
+- abbr: jkvr.
+  text: jonkvrouw
+  translation:
+      ru: Леди
+
+- abbr: jl.
+  text: jongstleden
+  translation:
+      ru: Прошлый (о дате)
+
+- abbr: jr.
+  text: junior
+  translation:
+      ru: Младший
+
+- abbr: K.B.
+  text: Koninklijk Besluit
+  translation:
+      ru: Королевское постановление
+
+- abbr: kca
+  text: klein chemisch afval
+  translation:
+      ru: Мелкий химический мусор
+
+- abbr: kdt
+  text: keuken, douche en toilet
+  translation:
+      ru: Кухня, душ и туалет
+
+- abbr: k.g.v.
+  text: kleinste gemene veelvoud
+  translation:
+      ru: Наименьшее общее кратное
+
+- abbr: KI
+  text: Kunstmatige inseminatie
+  translation:
+      ru: Искуственное осеменение
+
+- abbr: Kifid
+  text: Klachteninstituut Financiële Dienstverlening
+  translation:
+      ru: Институт претензий по финансовым услугам
+
+- abbr: k.k.
+  text: kosten koper
+  translation:
+      ru: Расходы оплачивает покупатель
+
+- abbr: KL
+  text: Koninklijke Landmacht
+  translation:
+      ru: Королевская пехота
+
+- abbr: Kliko
+  text: Klinkenberg en Koster
+  translation:
+      ru: «Кли́ко» (народное название контейнеров для мусора)
+
+- abbr: KLM
+  text: Koninklijke Luchtvaart Maatschappij
+  translation:
+      ru: Королевское воздухоплавательное общество (авиакомпания)
+
+- abbr: KLPD
+  text: Korps landelijke politiediensten
+  translation:
+      ru: Корпус национальной полиции
+
+- abbr: KLu
+  text: Koninklijke Luchtmacht
+  translation:
+      ru: Королевские военно-воздушные силы
+
+- abbr: KM
+  text: Koninklijke Marine
+  translation:
+      ru: Королевские военно-морские силы
+
+- abbr: KMAR
+  text: Koninklijke Marechaussee
+  translation:
+      ru: Королевская военная полиция
+
+- abbr: KNMI
+  text: Koninklijk Nederlands Meteorologisch Instituut
+  translation:
+      ru: Королевский метеорологический институт
+
+- abbr: kno
+  text: Keel-, neus- en oor-(heelkunde)
+  translation:
+      ru: Ухо-горло-нос («ЛОР»)
+
+- abbr: Kon.
+  text: Koninklijk
+  translation:
+      ru: Королевский (префикс)
+
+- abbr: KP
+  text: Kanaalpeil
+  translation:
+      ru: Уровень воды в канале
+
+- abbr: KPN
+  text: Koninklijke PTT Nederland N.V.
+  translation:
+      ru: Королевская почтово-телеграфная компания (телеком-провайдер)
+
+- abbr: K.v.K.
+  text: Kamer van Koophandel
+  translation:
+      ru: Торговая палата
+
+- abbr: l.a.
+  text: linksaf
+  translation:
+      ru: Налево
+
+- abbr: lab
+  text: laboratorium
+  translation:
+      ru: Лаборатория
+
+- abbr: lavo
+  text: lager algemeen voortgezet onderwijs
+  translation:
+      ru: Низшее общее продолженное образование
+
+- abbr: LB
+  text: Limburg
+  translation:
+      ru: Лимбург (провинция)
+
+- abbr: lbo
+  text: lager beroepsonderwijs
+  translation:
+      ru: Низшее профессиональное образование
+
+- abbr: leao
+  text: lager economisch en administratief onderwijs
+  translation:
+      ru: Низшее административно-экономическое образование
+
+- abbr: lez
+  text: Lage emissizone
+  translation:
+      ru: Экологическая зона
+
+- abbr: l.g.
+  text: laatstgenoemde
+  translation:
+      ru: Упомянутый последним
+
+- abbr: l.i.
+  text: landbouwkundig ingenieur
+  translation:
+      ru: Сельскохозяйственный инженер
+
+- abbr: LIO
+  text: Leraar in opleiding
+  translation:
+      ru: Учитель-стажёр
+
+- abbr: ll.
+  text: laatstleden
+  translation:
+      ru: Прошлый (о дате)
+
+- abbr: LO
+  text: lager onderwijs
+  translation:
+      ru: Низшее образование
+
+- abbr: LO
+  text: lichamelijke opvoeding
+  translation:
+      ru: Физподготовка
+
+- abbr: LOM
+  text: Kinderen met leer- en opvoedingsmoeilijkheden
+  translation:
+      ru: Дети с трудностями в обучении или воспитании
+
+- abbr: lsd
+  text: lysergeenzuurdi-ethylamide
+  translation:
+      ru: ЛСД (наркотик)
+
+- abbr: lt.
+  text: Luitenant
+  translation:
+      ru: Лейтенант
+
+- abbr: lts
+  text: lagere technische school
+  translation:
+      ru: Низшая техническая школа
+
+- abbr: m.
+  text: mannelijk
+  translation:
+      ru: Мужской род
+
+- abbr: m.
+  text: meneer / mijnheer
+  translation:
+      ru: Господин
+
+- abbr: mavo
+  text: middelbaar algemeen voortgezet onderwijs
+  translation:
+      ru: Среднее общее продолженное образование
+
+- abbr: m.a.w.
+  text: met andere woorden
+  translation:
+      ru: Другими словами
+
+- abbr: max.
+  text: maximum/maximaal
+  translation:
+      ru: Максимум/максимальный
+
+- abbr: MBA
+  text: Moderne Bedrijfsadministratie
+  translation:
+      ru: Современное бизнес-администрирование
+
+- abbr: mbo
+  text: middelbaar beroepsonderwijs
+  translation:
+      ru: Среднее профессиональное образование
+
+- abbr: m.b.t.
+  text: met betrekking tot
+  translation:
+      ru: В отношении *того-то*
+
+- abbr: m.b.v.
+  text: met behulp van
+  translation:
+      ru: При помощи *того-то*
+
+- abbr: ME
+  text: Mobiele Eenheid
+  translation:
+      ru: Мобильное спецподразделение полиции
+
+- abbr: ME
+  text: Middeleeuwen
+  translation:
+      ru: Средние века
+
+- abbr: meao
+  text: middelbaar economisch en administratief onderwijs
+  translation:
+      ru: Среднее административно-экономическое образование
+
+- abbr: mej.
+  text: mejuffrouw
+  translation:
+      ru: Мисс
+
+- abbr: mevr.
+  text: mevrouw
+  translation:
+      ru: Госпожа
+
+- abbr: m.h.g.
+  text: met hartelijke groeten
+  translation:
+      ru: С наилучшими пожеланиями
+
+- abbr: m.i.
+  text: mijns inziens
+  translation:
+      ru: По моему мнению
+
+- abbr: mi.
+  text: middag
+  translation:
+      ru: Полдень
+
+- abbr: Mij
+  text: maatschappij
+  translation:
+      ru: Общество (организация)
+
+- abbr: min.
+  text: minimum/minimaal
+  translation:
+      ru: Минимум/минимальный
+
+- abbr: min.
+  text: minister
+  translation:
+      ru: Министр
+
+- abbr: min.
+  text: minuut
+  translation:
+      ru: Минута
+
+- abbr: m.i.v.
+  text: met ingang van
+  translation:
+      ru: Начиная с (даты)
+
+- abbr: m.i.v.
+  text: met inbegrip van
+  translation:
+      ru: Включая
+
+- abbr: mkb
+  text: Midden- en kleinbedrijf
+  translation:
+      ru: Средний и малый бизнес
+
+- abbr: mld.
+  text: miljard
+  translation:
+      ru: Миллиард
+
+- abbr: mln.
+  text: miljoen
+  translation:
+      ru: Миллион
+
+- abbr: MMT
+  text: Mobiel Medisch Team
+  translation:
+      ru: Мобильная медбригада
+
+- abbr: m.m.v.
+  text: met medewerking van
+  translation:
+      ru: При сотрудничестве с
+
+- abbr: m.n.
+  text: met name
+  translation:
+      ru: Особенно
+
+- abbr: mngt
+  text: Management
+  translation:
+      ru: Менеджмент
+
+- abbr: MP
+  text: Militaire politie
+  translation:
+      ru: Военная полиция
+
+- abbr: mr.
+  text: meester
+  translation:
+      ru: Мастер, магистр
+
+- abbr: ms
+  text: motorschip
+  translation:
+      ru: Моторная лодка
+
+- abbr: MSc
+  text: Magister Scientiae
+  translation:
+      ru: Магистр наук
+
+- abbr: mts
+  text: maatschap
+  translation:
+      ru: Партнёрство
+
+- abbr: mts
+  text: middelbare technische school
+  translation:
+      ru: Средняя техническая школа
+
+- abbr: m.u.v.
+  text: met uitzondering van
+  translation:
+      ru: За исключением *того-то*
+
+- abbr: mv.
+  text: meervoud
+  translation:
+      ru: Множественное число
+
+- abbr: m.v.g.
+  text: met vriendelijke groet
+  translation:
+      ru: С дружескими пожеланиями
+
+- abbr: mw.
+  text: mevrouw
+  translation:
+      ru: Госпожа
+
+- abbr: N
+  text: noorden
+  translation:
+      ru: Север
+
+- abbr: NA
+  text: Nationaal Archief
+  translation:
+      ru: Национальный архив
+
+- abbr: nabo
+  text: niet actief beveiligde overweg
+  translation:
+      ru: Неактивный охраняемый переезд
+
+- abbr: NAP
+  text: Normaal Amsterdams Peil
+  translation:
+      ru: Нормальный амстердамский уровень (воды)
+
+- abbr: n.a.v.
+  text: naar aanleiding van
+  translation:
+      ru: Как результат *того-то*
+
+- abbr: NAVO
+  text: Noord-Atlantische Verdragsorganisatie
+  translation:
+      ru: НАТО
+
+- abbr: NAW
+  text: Naam, Adres en Woonplaats
+  translation:
+      ru: Имя, адрес, место жительства (данные)
+
+- abbr: NB
+  text: Noord-Brabant
+  translation:
+      ru: Северный Брабант (провинция)
+
+- abbr: N.B.
+  text: Nota bene
+  translation:
+      ru: Обрати внимание
+
+- abbr: N.Br.
+  text: noorderbreedte
+  translation:
+      ru: Северной широты
+
+- abbr: n.C.
+  text: na Christus
+  translation:
+      ru: После (рождения) Христа, нашей эры
+
+- abbr: NCV
+  text: Noodcommunicatievoorziening
+  translation:
+      ru: Средство аварийной связи
+
+- abbr: Ndl.
+  text: Nederlands
+  translation:
+      ru: Нидерландский язык
+
+- abbr: Ned.
+  text: Nederlands
+  translation:
+      ru: Нидерландский язык
+
+- abbr: n.e.g.
+  text: niet eerder genoemd
+  translation:
+      ru: Ранее не упоминавшийся
+
+- abbr: ngo
+  text: Niet-gouvernementele organisatie
+  translation:
+      ru: Негосударственная организация
+
+- abbr: NH
+  text: Noord-Holland
+  translation:
+      ru: Северная Голландия (провинция)
+
+- abbr: NHG
+  text: Nationale Hypotheek Garantie
+  translation:
+      ru: Национальная ипотечная гарантия
+
+- abbr: Nibud
+  text: Nationaal Instituut voor Budgetvoorlichting
+  translation:
+      ru: Национальный институт бюджетного информирования
+
+- abbr: NL
+  text: Nederland
+  translation:
+      ru: Нидерланды
+
+- abbr: Nl.
+  text: Nederlands
+  translation:
+      ru: Нидерландский язык
+
+- abbr: nl.
+  text: namelijk
+  translation:
+      ru: А именно
+
+- abbr: n.m.
+  text: na de middag
+  translation:
+      ru: После обеда
+
+- abbr: NmG
+  text: Nederlands met Gebarentaal
+  translation:
+      ru: Нидерландский язык с сурдопереводом
+
+- abbr: n.m.m.
+  text: naar mijn mening
+  translation:
+      ru: По моему мнению
+
+- abbr: N.N.
+  text: nomen nescio
+  translation:
+      ru: Имя неизвестно (*лат.*)
+
+- abbr: n.n.b.
+  text: nog niet bekend
+  translation:
+      ru: Пока неизвестно
+
+- abbr: N.N.O.
+  text: noordnoordoosten
+  translation:
+      ru: Северо-северо-восток
+
+- abbr: N.N.W.
+  text: noordnoordwesten
+  translation:
+      ru: Северо-северо-запад
+
+- abbr: No.
+  text: numéro
+  translation:
+      ru: Номер (*лат.*)
+
+- abbr: no.
+  text: netto
+  translation:
+      ru: Нетто
+
+- abbr: N.O.
+  text: noordoosten
+  translation:
+      ru: Северо-восток
+
+- abbr: NOS
+  text: Nederlandse Omroep Stichting
+  translation:
+      ru: Нидерландская вещательная корпорация
+
+- abbr: n.o.t.k.
+  text: nader overeen te komen
+  translation:
+      ru: Подлежит соглашению
+
+- abbr: NP
+  text: Niet parkeren
+  translation:
+      ru: Парковка запрещена
+
+- abbr: NPO
+  text: Nederlandse Publieke Omroep
+  translation:
+      ru: Нидерландское общественное вещание (телерадиокомпания)
+
+- abbr: nr.
+  text: nummer
+  translation:
+      ru: (Порядковый) номер
+
+- abbr: nrs.
+  text: nummers
+  translation:
+      ru: (Порядковые) номера
+
+- abbr: NS
+  text: Nederlandse Spoorwegen
+  translation:
+      ru: Нидерландские железные дороги (компания)
+
+- abbr: N.T.
+  text: Nieuwe Testament
+  translation:
+      ru: Новый Завет
+
+- abbr: n.t.b.
+  text: nader te bepalen
+  translation:
+      ru: Подлежит определению
+
+- abbr: n.t.o.
+  text: nog te ontwikkelen
+  translation:
+      ru: Подлежит разработке
+
+- abbr: NTR
+  text: Nederlands publiek omroepbestel
+  translation:
+      ru: Нидерландское публичное вещательное правление (NPS, Teleac и RVU)
+
+- abbr: Nuffic
+  text: Netherlands Universities’ Foundation for International Cooperation
+  translation:
+      ru: Нидерландский университетский фонд международного сотрудничества
+
+- abbr: NUHO
+  text: Niet-Universitair Hoger Onderwijs
+  translation:
+      ru: Вне-университетское высшее образование
+
+- abbr: nv, N.V.
+  text: Naamloze Vennootschap
+  translation:
+      ru: Открытое акционерное общество
+
+- abbr: NVH
+  text: Niet voor handelsdoeleinden
+  translation:
+      ru: Не для продажи
+
+- abbr: n.v.t.
+  text: niet van toepassing
+  translation:
+      ru: Неприменимо
+
+- abbr: N.W.
+  text: noordwesten
+  translation:
+      ru: Северо-запад
+
+- abbr: o.
+  text: onzijdig
+  translation:
+      ru: Беспристрастный
+
+- abbr: O.
+  text: oosten
+  translation:
+      ru: Восток
+
+- abbr: o.a.
+  text: onder andere(n)
+  translation:
+      ru: Помимо прочего
+
+- abbr: ob.
+  text: obiit
+  translation:
+      ru: Умерший (*лат.*)
+
+- abbr: OB
+  text: Omzetbelasting
+  translation:
+      ru: Налог на оборот, НДС
+
+- abbr: OBD
+  text: Open Bedrijvendag
+  translation:
+      ru: День открытых дверей в компании
+
+- abbr: obl.
+  text: obligatie
+  translation:
+      ru: Облигация (ценная бумага)
+
+- abbr: o.b.s.
+  text: openbare basisschool
+  translation:
+      ru: Общая начальная школа
+
+- abbr: o.b.v.
+  text: op basis van
+  translation:
+      ru: На основе *того-то*
+
+- abbr: o.b.v.
+  text: onder begeleiding van
+  translation:
+      ru: Под руководством *того-то*
+
+- abbr: o.c.
+  text: opere citato
+  translation:
+      ru: В цитируемой работе (*лат.*)
+
+- abbr: OD
+  text: Ordedienst
+  translation:
+      ru: Служба охраны правопорядка
+
+- abbr: o.d.a.m.
+  text: om de andere maand
+  translation:
+      ru: Каждый второй месяц
+
+- abbr: o.d.t.
+  text: onder de titel
+  translation:
+      ru: Озаглавленный
+
+- abbr: o.d.t.
+  text: onder de toonbank
+  translation:
+      ru: (Торговля) из-под прилавка
+
+- abbr: o.d.z.
+  text: onder de zinspreuk
+  translation:
+      ru: Под девизом
+
+- abbr: o.e.r.
+  text: op erewoord retour
+  translation:
+      ru: Возврат под честное слово
+
+- abbr: o.g.
+  text: of gelijkwaardig
+  translation:
+      ru: Либо равноценный
+
+- abbr: o.g.
+  text: ondergetekende
+  translation:
+      ru: Нижеподписавшийся(аяся/иеся)
+
+- abbr: o.g.v.
+  text: op grond van
+  translation:
+      ru: На основании *того-то*
+
+- abbr: o.g.v.
+  text: onder gebruikelijk voorbehoud
+  translation:
+      ru: С обычными оговорками
+
+- abbr: o.i.
+  text: onzes inziens
+  translation:
+      ru: По нашему мнению
+
+- abbr: o.i.d.
+  text: of iets dergelijks
+  translation:
+      ru: Либо что-то подобное
+
+- abbr: o.i.v.
+  text: onder invloed van
+  translation:
+      ru: Под воздействием (алкоголя, наркотиков и т.п.)
+
+- abbr: ok
+  text: operatiekamer
+  translation:
+      ru: Операционная
+
+- abbr: O.L.
+  text: Oosterlengte
+  translation:
+      ru: Восточной долготы
+
+- abbr: o.l.s.
+  text: openbare lagere school
+  translation:
+      ru: Общая низшая школа
+
+- abbr: OLT
+  text: Openluchttheater
+  translation:
+      ru: Театр под открытым небом
+
+- abbr: o.l.v.
+  text: onder leiding van
+  translation:
+      ru: Под руководством *того-то*
+
+- abbr: O.L.V.
+  text: Onze-Lieve-Vrouw
+  translation:
+      ru: Наша Богородица, Дева Мария
+
+- abbr: o.m.
+  text: onder meer
+  translation:
+      ru: Помимо прочего
+
+- abbr: o.m.
+  text: ongehuwde man
+  translation:
+      ru: Неженатый мужчина
+
+- abbr: OM
+  text: Openbaar ministerie
+  translation:
+      ru: Прокуратура
+
+- abbr: ong.
+  text: ongeveer
+  translation:
+      ru: Примерно
+
+- abbr: ong.
+  text: ongenummerd
+  translation:
+      ru: Ненумерованный
+
+- abbr: ong.
+  text: ongeadresseerd
+  translation:
+      ru: Без адресата
+
+- abbr: O.N.O.
+  text: oostnoordoosten
+  translation:
+      ru: Востоко-северо-восток
+
+- abbr: onov.ww.
+  text: onovergankelijk werkwoord
+  translation:
+      ru: Непереходный глагол
+
+- abbr: O.O.
+  text: onderofficier
+  translation:
+      ru: Сержант
+
+- abbr: o.o.v.
+  text: onvoorziene omstandigheden voorbehouden
+  translation:
+      ru: За исключением непредвиденных обстоятельств
+
+- abbr: opm.
+  text: opmerking
+  translation:
+      ru: Примечание
+
+- abbr: opp.
+  text: oppervlakte
+  translation:
+      ru: Поверхность/площадь
+
+- abbr: OR
+  text: Ondernemingsraad
+  translation:
+      ru: Предпринимательский совет
+
+- abbr: org.
+  text: organisatie
+  translation:
+      ru: Организация
+
+- abbr: orv
+  text: Overlijdensrisicoverzekering
+  translation:
+      ru: Страховка на случай смерти
+
+- abbr: O.T.
+  text: Oude Testament
+  translation:
+      ru: Ветхий Завет
+
+- abbr: OTAP
+  text: Ontwikkeling, test, acceptatie en productie
+  translation:
+      ru: DTAP (окружение компьютерной системы)
+
+- abbr: o.t.t.
+  text: onvoltooid tegenwoordige tijd
+  translation:
+      ru: Несовершенное настоящее время
+
+- abbr: OU
+  text: Open Universiteit
+  translation:
+      ru: Открытый Университет (вуз)
+
+- abbr: o.v.
+  text: onder voorbehoud
+  translation:
+      ru: С оговорками
+
+- abbr: OV
+  text: Openbaar vervoer
+  translation:
+      ru: Общественный транспорт
+
+- abbr: OV
+  text: Overijssel
+  translation:
+      ru: Оверайссел (провинция)
+
+- abbr: OV
+  text: opleidingsvorm
+  translation:
+      ru: Форма обучения
+
+- abbr: ov.cmpl.
+  text: over complicatie
+  translation:
+      ru: Переусложнение
+
+- abbr: o.v.t.
+  text: onvoltooid verleden tijd
+  translation:
+      ru: Несовершенное прошлое время
+
+- abbr: o.v.v.
+  text: onder vermelding van
+  translation:
+      ru: С указанием *того-то*
+
+- abbr: ozb
+  text: onroerendezaakbelasting
+  translation:
+      ru: Налог на недвижимое имущество
+
+- abbr: O.Z.O.
+  text: oostzuidoosten
+  translation:
+      ru: Востоко-юго-восток
+
+- abbr: p.a.
+  text: per adres
+  translation:
+      ru: На попечении
+
+- abbr: pabo
+  text: Pedagogische academie voor het basisonderwijs
+  translation:
+      ru: Педагогическая академия начального образования
+
+- abbr: pae
+  text: Personenauto-equivalent
+  translation:
+      ru: Эквивалент личного автомобиля
+
+- abbr: pag.
+  text: pagina
+  translation:
+      ru: Страница
+
+- abbr: par.
+  text: paragraaf
+  translation:
+      ru: Параграф
+
+- abbr: p.c.
+  text: par couvert
+  translation:
+      ru: Вложенный (*фр.*)
+
+- abbr: p.c.
+  text: pour condoléance
+  translation:
+      ru: К (моему) соболезнованию (*фр.*)
+
+- abbr: penn.
+  text: penningmeester
+  translation:
+      ru: Казначей
+
+- abbr: pgb
+  text: Persoonsgebonden budget
+  translation:
+      ru: Персональный бюджет
+
+- abbr: pin
+  text: Persoonlijk identificatienummer
+  translation:
+      ru: ПИН, персональный идентификационный номер
+
+- abbr: p.k.
+  text: Paardenkracht
+  translation:
+      ru: Лошадиная сила
+
+- abbr: plm.
+  text: plusminus
+  translation:
+      ru: Плюс-минус (±), примерно
+
+- abbr: plv.
+  text: plaatsvervangend
+  translation:
+      ru: Исполняющий обязанности
+
+- abbr: p.m.
+  text: pro memoria
+  translation:
+      ru: Для напоминания (*лат.*)
+
+- abbr: p.m.
+  text: post mortem
+  translation:
+      ru: Пост-мортем, после смерти (*лат.*)
+
+- abbr: pmd
+  text: Plastic, metaalverpakkingen en drankkartons
+  translation:
+      ru: Пластик, металлическая и картонная упаковка от напитков (сорт мусора)
+
+- abbr: P.O.
+  text: Per ondertekening
+  translation:
+      ru: Соответственно подписям
+
+- abbr: p.o.
+  text: per omgaande
+  translation:
+      ru: Почтой
+
+- abbr: p.o.b.
+  text: per ontvangen bericht
+  translation:
+      ru: По полученному сообщению
+
+- abbr: pp.
+  text: pagina's
+  translation:
+      ru: Страницы
+
+- abbr: p.p.
+  text: per persoon
+  translation:
+      ru: С/на человека
+
+- abbr: p.p.
+  text: per procuratie
+  translation:
+      ru: По доверенности
+
+- abbr: p.p.p.d.
+  text: per persoon per dag
+  translation:
+      ru: С/на человека в день
+
+- abbr: P+R
+  text: Parkeren + Reizen
+  translation:
+      ru: Паркинг системы «Припарковался и повезли»
+
+- abbr: Pres.
+  text: president
+  translation:
+      ru: Президент/председатель
+
+- abbr: prof.
+  text: professor
+  translation:
+      ru: Профессор
+
+- abbr: prof. em.
+  text: professor emeritus
+  translation:
+      ru: Заслуженный профессор
+
+- abbr: prov.
+  text: provincie
+  translation:
+      ru: Провинция (орган территориального деления)
+
+- abbr: PS
+  text: postscriptum
+  translation:
+      ru: Постскриптум
+
+- abbr: pseud.
+  text: pseudoniem
+  translation:
+      ru: Псевдоним
+
+- abbr: p.st.
+  text: per stuk
+  translation:
+      ru: За штуку
+
+- abbr: PSV
+  text: Philips Sport Vereniging
+  translation:
+      ru: «Спортивное объединение Philips» (футбольный клуб)
+
+- abbr: PTA
+  text: Programma van Toetsing en Afsluiting
+  translation:
+      ru: Заключительная программа экзаменации (в школе)
+
+- abbr: ptolu
+  text: Pas toe of leg uit
+  translation:
+      ru: Применить либо объяснить
+
+- abbr: PTSS
+  text: Posttraumatische stressstoornis
+  translation:
+      ru: Пост-травматическое стрессовое расстройство
+
+- abbr: P.T.T.
+  text: Posterijen, Telegrafie, Telefonie
+  translation:
+      ru: Почта, телеграф, телефон
+
+- abbr: pvb
+  text: persoonsvolgend budget
+  translation:
+      ru: Персональный бюджет
+
+- abbr: PvdA
+  text: Partij van de Arbeid
+  translation:
+      ru: Рабочая партия
+
+- abbr: PvdD
+  text: Partij voor de Dieren
+  translation:
+      ru: Партия защиты животных
+
+- abbr: PVV
+  text: Partij voor de Vrijheid
+  translation:
+      ru: Партия свободы
+
+- abbr: r.a.
+  text: rechtsaf
+  translation:
+      ru: Направо
+
+- abbr: Rb.
+  text: Rechtbank
+  translation:
+      ru: Суд, судебная инстанция
+
+- abbr: RC
+  text: rechter-commissaris
+  translation:
+      ru: Назначенный судья
+
+- abbr: r.d.
+  text: rechtdoor
+  translation:
+      ru: Прямо
+
+- abbr: R.D.
+  text: reverendus dominus
+  translation:
+      ru: Почтенный (сан священника) (*лат.*)
+
+- abbr: RDW
+  text: (Rijks)Dienst (voor het) Wegverkeer
+  translation:
+      ru: Государственная дорожная служба
+
+- abbr: red.
+  text: redactie/redacteur
+  translation:
+      ru: Редакция/редактор
+
+- abbr: ref.
+  text: referenties/referent
+  translation:
+      ru: Ссылки/референт
+
+- abbr: resp.
+  text: respectievelijk
+  translation:
+      ru: Соответственно (по порядку)
+
+- abbr: ROC
+  text: regionaal opleidingencentrum
+  translation:
+      ru: Региональный учебный центр
+
+- abbr: ROVA
+  text: Regionaal Orgaan Verwijdering Afvalstoffen
+  translation:
+      ru: Региональный орган по вывозу мусора
+
+- abbr: rvs
+  text: Roestvast (roestvrij) staal
+  translation:
+      ru: Нержавеющая сталь
+
+- abbr: RWS
+  text: Recht op Waardig Sterven
+  translation:
+      ru: Право на достойную смерть
+
+- abbr: RWS
+  text: Rijkswaterstaat
+  translation:
+      ru: Рейксватерстат, государственная служба по контролю водных коммуникаций
+
+- abbr: RWZI
+  text: Rioolwaterzuiveringsinstallatie
+  translation:
+      ru: Канализационно-очистное сооружение
+
+- abbr: S.B.
+  text: Stuurboord
+  translation:
+      ru: Правление
+
+- abbr: SBB
+  text: Staatsbosbeheer
+  translation:
+      ru: Лесничество
+
+- abbr: SBO
+  text: Speciaal Basis Onderwijs
+  translation:
+      ru: Специальное начальное образование
+
+- abbr: SBU
+  text: studiebelastingsuur
+  translation:
+      ru: Час обучения
+
+- abbr: SDP
+  text: Sociaal-Democratische Partij
+  translation:
+      ru: Социал-демократическая партия
+
+- abbr: SEH
+  text: Spoedeisende hulp
+  translation:
+      ru: Скорая (медицинская) помощь
+
+- abbr: sec
+  text: seconde
+  translation:
+      ru: Секунда
+
+- abbr: Secr.
+  text: secretaris
+  translation:
+      ru: Секретарь
+
+- abbr: SH
+  text: Slechthorend
+  translation:
+      ru: Слабослышащий
+
+- abbr: s.l.
+  text: sensu lato
+  translation:
+      ru: В широком смысле (*лат.*)
+
+- abbr: SO
+  text: speciaal/secundair onderwijs
+  translation:
+      ru: Специальное/дополнительное образование
+
+- abbr: soa
+  text: seksueel overdraagbare aandoening
+  translation:
+      ru: Заболевание, передающееся половым путём
+
+- abbr: soc.
+  text: sociaal
+  translation:
+      ru: Общественный, социальный
+
+- abbr: SP
+  text: Socialistische Partij
+  translation:
+      ru: Социалистическая партия
+
+- abbr: sp.
+  text: species
+  translation:
+      ru: Вид (*лат.*)
+
+- abbr: SPE
+  text: Speciale Politie Eenheid
+  translation:
+      ru: Спецподразделение полиции
+
+- abbr: Sr.
+  text: senior
+  translation:
+      ru: Старший/пожилой (*лат.*)
+
+- abbr: ss
+  text: stoomschip
+  translation:
+      ru: Паровое судно
+
+- abbr: s.s.
+  text: sensu stricto
+  translation:
+      ru: В узком смысле (*лат.*)
+
+- abbr: s.s.t.t.
+  text: salvis titulis
+  translation:
+      ru: Титулы опущены (*лат.*)
+
+- abbr: s.t.
+  text: salvo titulo
+  translation:
+      ru: Титул опущен (*лат.*)
+
+- abbr: St.
+  text: Sint
+  translation:
+      ru: Святой
+
+- abbr: St.
+  text: Stichting
+  translation:
+      ru: Фонд/корпорация
+
+- abbr: StuFi
+  text: studiefinanciering
+  translation:
+      ru: Финансовое пособие обучающемуся
+
+- abbr: StuVo
+  text: studentenvoorzieningen
+  translation:
+      ru: Средства для студентов
+
+- abbr: SVB
+  text: Sociale Verzekeringsbank
+  translation:
+      ru: Банк социального страхования
+
+- abbr: s.v.p.
+  text: s'il vous plaît
+  translation:
+      ru: Просим/пожалуйста (*фр.*)
+
+- abbr: SVT
+  text: schoolvorderingentest
+  translation:
+      ru: Тест успеваемости в школе
+
+- abbr: S.V.Z.
+  text: Stand van zaken
+  translation:
+      ru: Положение вещей
+
+- abbr: synd.
+  text: syndicaat
+  translation:
+      ru: Синдикат
+
+- abbr: TAB
+  text: technisch applicatiebeheer
+  translation:
+      ru: Служба технического администрирования
+
+- abbr: tab.
+  text: tabel
+  translation:
+      ru: Таблица
+
+- abbr: TAN
+  text: Transactie Autorisatie Nummer
+  translation:
+      ru: Код авторизации транзакции (код подтверждения)
+
+- abbr: t.a.v.
+  text: ter attentie van
+  translation:
+      ru: Вниманию *такого-то*
+
+- abbr: t.a.v.
+  text: ten aanzien van
+  translation:
+      ru: В отношении *того-то*
+
+- abbr: tb/tbc
+  text: Tuberculose
+  translation:
+      ru: Туберкулёз
+
+- abbr: tbs
+  text: terbeschikkingstelling
+  translation:
+      ru: Мера пресечения для психически неуравновешенного преступника
+
+- abbr: TBV
+  text: taken, bevoegdheden en verantwoordelijkheden
+  translation:
+      ru: Задачи, полномочия и сфера ответственности
+
+- abbr: t.b.v.
+  text: ten behoeve van
+  translation:
+      ru: Ради *того-то*
+
+- abbr: t.b.v.
+  text: ten bate van
+  translation:
+      ru: От лица *того-то*
+
+- abbr: t.b.v.
+  text: ter beschikking van
+  translation:
+      ru: В распоряжение *того-то*
+
+- abbr: t.b.v.
+  text: ten bedrage van
+  translation:
+      ru: На сумму *такую-то*
+
+- abbr: t.e.a.b.
+  text: tegen elk aannemelijk bedrag
+  translation:
+      ru: (Продаётся) за любую приемлемую сумму
+
+- abbr: tel.
+  text: telefoon
+  translation:
+      ru: Телефон
+
+- abbr: telw.
+  text: telwoord
+  translation:
+      ru: Числительное
+
+- abbr: t.g.t.
+  text: te gebruiken tot
+  translation:
+      ru: Использовать до *даты*
+
+- abbr: t.g.t.
+  text: te gelegener tijd
+  translation:
+      ru: В удобное время
+
+- abbr: t.g.v.
+  text: ten gevolge van
+  translation:
+      ru: Вследствие *того-то*
+
+- abbr: t.g.v.
+  text: ter gelegenheid van
+  translation:
+      ru: По случаю *того-то*
+
+- abbr: t.g.v.
+  text: ten gunste van
+  translation:
+      ru: В пользу *того-то*
+
+- abbr: th
+  text: te huur
+  translation:
+      ru: Сдаётся в аренду
+
+- abbr: t.h.o.d.n.
+  text: tevens handelend onder de naam
+  translation:
+      ru: Также действующий под именем/названием
+
+- abbr: t.h.t.
+  text: ten minste houdbaar tot
+  translation:
+      ru: Как минимум годен то *даты*
+
+- abbr: t.h.v.
+  text: ter hoogte van
+  translation:
+      ru: Вблизи *чего-то*
+
+- abbr: tk.
+  text: te koop
+  translation:
+      ru: Продаётся
+
+- abbr: t.k.g.
+  text: ter kennisgeving
+  translation:
+      ru: В целях информирования
+
+- abbr: t.k.n.
+  text: ter kennisneming
+  translation:
+      ru: Для вашего сведения
+
+- abbr: tl
+  text: tube luminescent
+  translation:
+      ru: Люминесцентная лампа-трубка
+
+- abbr: t/m
+  text: tot en met
+  translation:
+      ru: До *даты/номера* включительно
+
+- abbr: TMG
+  text: Telegraaf Media Groep
+  translation:
+      ru: Медиагруппа «Telegraaf»
+
+- abbr: t.n.v.
+  text: ten name van
+  translation:
+      ru: На имя *того-то*
+
+- abbr: t/o
+  text: tegenover
+  translation:
+      ru: Напротив (например, в адресах жилых лодок)
+
+- abbr: TOAH
+  text: Tijdelijk onderwijs aan huis
+  translation:
+      ru: Временное образование на дому
+
+- abbr: t.o.v.
+  text: ten opzichte van
+  translation:
+      ru: В сравнении с
+
+- abbr: t.o.v.
+  text: ten overstaan van
+  translation:
+      ru: В присутствии *того-то*
+
+- abbr: TROS
+  text: Televisie en Radio Omroep Stichting
+  translation:
+      ru: Нидерландская телерадиовещательная корпорация
+
+- abbr: tto
+  text: tweetalig onderwijs
+  translation:
+      ru: Двуязычное образование
+
+- abbr: t.t.v.
+  text: ten tijde van
+  translation:
+      ru: Во времена/время *того-то*
+
+- abbr: t.t.v.v.
+  text: tussentijdse verkoop voorbehouden
+  translation:
+      ru: Продаваемый товар временно зарезервирован
+
+- abbr: TU
+  text: Technische universiteit
+  translation:
+      ru: Технический университет
+
+- abbr: tv
+  text: Televisie
+  translation:
+      ru: Телевидение
+
+- abbr: t.v.
+  text: te voren
+  translation:
+      ru: Ранее/заранее
+
+- abbr: tvb
+  text: taken, verantwoordelijkheden en bevoegdheden
+  translation:
+      ru: Задачи, полномочия и сфера ответственности
+
+- abbr: t.w.
+  text: te weten
+  translation:
+      ru: А именно
+
+- abbr: t.w.v.
+  text: ter waarde van
+  translation:
+      ru: Эквивалентный сумме *такой-то*
+
+- abbr: t.z.
+  text: ter zake
+  translation:
+      ru: Относящийся к делу
+
+- abbr: t.z.
+  text: ter zee
+  translation:
+      ru: В море
+
+- abbr: t.z.t.
+  text: te zijner tijd
+  translation:
+      ru: В должное время
+
+- abbr: t.z.v.
+  text: ter zake van
+  translation:
+      ru: Относящийся к *такому-то* делу
+
+- abbr: UA
+  text: uitgesloten aansprakelijkheid
+  translation:
+      ru: Исключённый вид ответственности (в страховке)
+
+- abbr: u.a.n.
+  text: uit aller naam
+  translation:
+      ru: От лица всех
+
+- abbr: Ued.
+  text: U Edele
+  translation:
+      ru: Ваша честь
+
+- abbr: uitsl.
+  text: uitsluitend
+  translation:
+      ru: Исключая
+
+- abbr: ulo
+  text: uitgebreid lager onderwijs
+  translation:
+      ru: Расширенное низшее образование
+
+- abbr: UT
+  text: Utrecht
+  translation:
+      ru: Утрехт (провинция)
+
+- abbr: UU
+  text: Universiteit Utrecht
+  translation:
+      ru: Утрехтский университет
+
+- abbr: uv
+  text: ultraviolet
+  translation:
+      ru: Ультрафиолетовое излучение
+
+- abbr: UvA
+  text: Universiteit van Amsterdam
+  translation:
+      ru: Амстердамский университет
+
+- abbr: u.v.d.
+  text: uiterste verkoopdatum
+  translation:
+      ru: Максимальная дата продажи
+
+- abbr: UvT
+  text: Universiteit van Tilburg
+  translation:
+      ru: Тилбургский университет
+
+- abbr: UWV
+  text: Uitvoeringsinstituut Werknemersverzekeringen
+  translation:
+      ru: Орган, отвечающий за страхование от безработицы
+
+- abbr: v.
+  text: vrouwelijk
+  translation:
+      ru: Женский род
+
+- abbr: V&D
+  text: Vroom & Dreesmann
+  translation:
+      ru: Сеть магазинов «V&D» (ныне обанкротившаяся)
+
+- abbr: v.a.
+  text: vanaf
+  translation:
+      ru: С *даты/места/возраста и т.д.*
+
+- abbr: VAE
+  text: Verenigde Arabische Emiraten
+  translation:
+      ru: ОАЭ
+
+- abbr: VAO
+  text: Voortgezette Academische Opleiding
+  translation:
+      ru: Продолженное академическое образование
+
+- abbr: VAR
+  text: Verklaring arbeidsrelatie
+  translation:
+      ru: Заявление о трудовых отношениях (предшественник "DBA")
+
+- abbr: VARA
+  text: Vereniging van Arbeiders Radio Amateurs
+  translation:
+      ru: Объединение рабочих-радиолюбителей (телерадиокомпания)
+
+- abbr: vavo
+  text: voortgezet algemeen volwassenenonderwijs
+  translation:
+      ru: Продолженное общее взрослое образование
+
+- abbr: v.C.
+  text: voor Christus
+  translation:
+      ru: До нашей эры (*букв.* «до Христа»)
+
+- abbr: ver.
+  text: vereniging
+  translation:
+      ru: Объединение
+
+- abbr: VGB
+  text: Verklaring van geen bezwaar
+  translation:
+      ru: Заявление об отсутствии возражений
+
+- abbr: vgl.
+  text: vergelijk(ing)
+  translation:
+      ru: Сравни/сравнение
+
+- abbr: vglo
+  text: voortgezet lager onderwijs
+  translation:
+      ru: Продолженное низшее образование
+
+- abbr: v.h.
+  text: voorheen
+  translation:
+      ru: Ранее
+
+- abbr: vhmo
+  text: Voorbereidend Hoger en Middelbaar Onderwijs
+  translation:
+      ru: Подготовительное высшее и среднее образование
+
+- abbr: Vinex
+  text: Vierde Nota Ruimtelijke Ordening Extra
+  translation:
+      ru: Дополнение к четвёртой статье положения о градостроительстве
+
+- abbr: VK
+  text: Verenigd Koninkrijk
+  translation:
+      ru: Соединённое королевство Великобритании и Северной Ирландии
+
+- abbr: VL
+  text: Verstandelijke leeftijd
+  translation:
+      ru: Осознанный возраст
+
+- abbr: v.l.n.r.
+  text: van links naar rechts
+  translation:
+      ru: Слева направо
+
+- abbr: vmbo
+  text: Voorbereidend middelbaar beroepsonderwijs
+  translation:
+      ru: Подготовительное среднее профессиональное образование
+
+- abbr: VN
+  text: Verenigde Naties
+  translation:
+      ru: Организация объединённых наций (ООН)
+
+- abbr: VNG
+  text: Vereniging van Nederlandse Gemeenten
+  translation:
+      ru: Объединение нидерландских муниципалитетов
+
+- abbr: vnl.
+  text: voornamelijk
+  translation:
+      ru: Преимущественно
+
+- abbr: vnw.
+  text: voornaamwoord
+  translation:
+      ru: Местоимение
+
+- abbr: vof
+  text: vennootschap onder firma
+  translation:
+      ru: Полное товарищество (организационно-правовая форма)
+
+- abbr: VOG
+  text: Verklaring omtrent het gedrag
+  translation:
+      ru: Заявление о поведении (документ, выдаваемый муниципалитетом для устройства на работу)
+
+- abbr: v.o.n.
+  text: Vrij op naam
+  translation:
+      ru: Без юридических расходов
+
+- abbr: voorz.
+  text: voorzitter
+  translation:
+      ru: Председатель
+
+- abbr: VPB
+  text: Vennootschapsbelasting
+  translation:
+      ru: Налог на товарищество
+
+- abbr: VRI
+  text: verkeersregelinstallatie
+  translation:
+      ru: Светофорная установка
+
+- abbr: VS
+  text: Verenigde Staten
+  translation:
+      ru: США
+
+- abbr: vs.
+  text: versus
+  translation:
+      ru: Против (в сравнениях, матчах и т.д.)
+
+- abbr: vso
+  text: voortgezet speciaal onderwijs
+  translation:
+      ru: Продолженное специальное образование
+
+- abbr: v.t.t.
+  text: voltooid tegenwoordige tijd
+  translation:
+      ru: Совершенное настоящее время
+
+- abbr: VU
+  text: Vrije Universiteit Amsterdam
+  translation:
+      ru: Свободный университет Амстердама (вуз)
+
+- abbr: VUT
+  text: Vervroegde uittreding
+  translation:
+      ru: Досрочная отставка
+
+- abbr: v.v.
+  text: vice versa
+  translation:
+      ru: И наоборот
+
+- abbr: VVD
+  text: Volkspartij voor Vrijheid en Democratie
+  translation:
+      ru: Народная партия за свободу и демократию
+
+- abbr: VVE
+  text: Vereniging van Eigenaars
+  translation:
+      ru: Товарищество собственников жилья
+
+- abbr: vvo
+  text: verhuurbare vloeroppervlakte
+  translation:
+      ru: Площадь, сдаваемая в аренду
+
+- abbr: v.v.t.
+  text: voltooid verleden tijd
+  translation:
+      ru: Совершенное прошлое время
+
+- abbr: V.V.V.
+  text: Vereniging voor Vreemdelingenverkeer
+  translation:
+      ru: Объединение по Иностранным Путешествиям (туристическая организация)
+
+- abbr: v.w.b.
+  text: voor wat betreft
+  translation:
+      ru: Что касается
+
+- abbr: vwo
+  text: voorbereidend wetenschappelijk onderwijs
+  translation:
+      ru: Подготовительное научное образование
+
+- abbr: Vz.
+  text: voorzitter
+  translation:
+      ru: Председатель
+
+- abbr: W
+  text: west
+  translation:
+      ru: Запад
+
+- abbr: W.A.
+  text: Wettelijke aansprakelijkheid
+  translation:
+      ru: Ответственность по закону
+
+- abbr: WAO
+  text: Wet op de arbeidsongeschiktheidsverzekering
+  translation:
+      ru: Закон о страховании нетрудоспособности
+
+- abbr: wc
+  text: watercloset
+  translation:
+      ru: Туалет
+
+- abbr: w.g.
+  text: was getekend
+  translation:
+      ru: Был подписан
+
+- abbr: w.i.
+  text: werktuigkundig ingenieur
+  translation:
+      ru: Инженер строительной техники
+
+- abbr: WIA
+  text: Wet Werk en Inkomen naar Arbeidsvermogen
+  translation:
+      ru: Закон о работе и доходе в соответствии с рабочими возможностями
+
+- abbr: wk
+  text: week
+  translation:
+      ru: Неделя
+
+- abbr: WK
+  text: Wereldkampioenschap
+  translation:
+      ru: Чемпионат мира
+
+- abbr: WKA
+  text: Wet Ketenaansprakelijkheid
+  translation:
+      ru: Закон о последовательной ответственности
+
+- abbr: W.L.
+  text: Westerlengte
+  translation:
+      ru: Западной долготы
+
+- abbr: wnd.
+  text: waarnemend
+  translation:
+      ru: Временный, исполянющий обязанности
+
+- abbr: wnw
+  text: westnoordwest
+  translation:
+      ru: Западо-северо-запад
+
+- abbr: wo.
+  text: waaronder
+  translation:
+      ru: Среди которых
+
+- abbr: w.o.
+  text: wetenschappelijk onderzoek
+  translation:
+      ru: Научное исследование
+
+- abbr: WO
+  text: wetenschappelijk onderwijs
+  translation:
+      ru: Научное образование
+
+- abbr: w.t.b.w.
+  text: wat te bewijzen was
+  translation:
+      ru: Что и требовалось доказать
+
+- abbr: WvS
+  text: Wetboek van Strafrecht
+  translation:
+      ru: Уголовный кодекс
+
+- abbr: w.v.t.t.k.
+  text: wat verder ter tafel komt
+  translation:
+      ru: Темы, предложенные для обсуждения
+
+- abbr: ww.
+  text: werkwoord
+  translation:
+      ru: Глагол
+
+- abbr: WW
+  text: Wegenwacht
+  translation:
+      ru: Дорожный надзор
+
+- abbr: wzw
+  text: westzuidwest
+  translation:
+      ru: Западо-юго-запад
+
+- abbr: xtc
+  text: Extacy
+  translation:
+      ru: «Экстази» (наркотик)
+
+- abbr: z.
+  text: Zuid
+  translation:
+      ru: Юг
+
+- abbr: z.a.
+  text: zie aldaar
+  translation:
+      ru: Смотри *там-то*
+
+- abbr: zat.
+  text: zaterdag
+  translation:
+      ru: Суббота
+
+- abbr: Z.B.
+  text: Zuiderbreedte
+  translation:
+      ru: Южной широты
+
+- abbr: z.b.b.h.h.
+  text: zijne bezigheden buitenshuis hebbende
+  translation:
+      ru: Исполняющий свои обязанности вне дома
+
+- abbr: zbo
+  text: zelfstandig bestuursorgaan
+  translation:
+      ru: Независимый руководящий орган
+
+- abbr: Z.D.
+  text: Zijne Doorluchtigheid
+  translation:
+      ru: Его Светлость
+
+- abbr: Z.D.H.
+  text: Zijne Doorluchtige Hoogheid
+  translation:
+      ru: Его Светлое Высочество
+
+- abbr: Z.E.
+  text: Zijne Edelheid
+  translation:
+      ru: Его Благородие
+
+- abbr: Z.E.
+  text: Zeer Eerwaarde
+  translation:
+      ru: Высокопочтенный
+
+- abbr: Z.Em.
+  text: Zijne Eminentie
+  translation:
+      ru: Его Преосвященство
+
+- abbr: zg.
+  text: zogenaamd
+  translation:
+      ru: Так называемый
+
+- abbr: z.g.
+  text: zaliger gedachtenis
+  translation:
+      ru: Почивший
+
+- abbr: z.g.a.n.
+  text: zo goed als nieuw
+  translation:
+      ru: Совсем как новый
+
+- abbr: zgn.
+  text: zogenaamd
+  translation:
+      ru: Так называемый
+
+- abbr: ZH
+  text: Zuid-Holland
+  translation:
+      ru: Южная Голландия (провинция)
+
+- abbr: Z.H.
+  text: Zijne Heiligheid
+  translation:
+      ru: Его Святейшество
+
+- abbr: Z.H.
+  text: Zijne Hoogheid
+  translation:
+      ru: Его Высочество
+
+- abbr: z.h.s.
+  text: zonder hoofdelijke stemming
+  translation:
+      ru: Подавляющим большинством
+
+- abbr: z.i.
+  text: zijns inziens
+  translation:
+      ru: По его мнению
+
+- abbr: z.j.
+  text: zonder jaartal
+  translation:
+      ru: Без указания года
+
+- abbr: Z.K.H.
+  text: Zijne Koninklijke Hoogheid
+  translation:
+      ru: Его Королевское Высочество
+
+- abbr: Z.K.M.
+  text: Zijne Koninklijke Majesteit
+  translation:
+      ru: Его Королевское Величество
+
+- abbr: ZM
+  text: zittende magistratuur
+  translation:
+      ru: Суд, ведущий заседание
+
+- abbr: ZL
+  text: Zeeland
+  translation:
+      ru: Зеландия (провинция)
+
+- abbr: Z.M.
+  text: Zijne Majesteit
+  translation:
+      ru: Его Величество
+
+- abbr: Z.M.L.K.
+  text: Zeer Moeilijk Lerende Kinderen
+  translation:
+      ru: Дети, с большим трудом поддающиеся обучению
+
+- abbr: Z.M.O.K.
+  text: Zeer Moeilijk Opvoedbare Kinderen
+  translation:
+      ru: Дети, с большим трудом поддающиеся воспитанию
+
+- abbr: zn.
+  text: zoon/zonen
+  translation:
+      ru: Сын/сыновья
+
+- abbr: znw.
+  text: zelfstandig naamwoord
+  translation:
+      ru: Существительное
+
+- abbr: z.o.
+  text: zuidoost
+  translation:
+      ru: Юго-восток
+
+- abbr: ZOA
+  text: zeer open asfalt
+  translation:
+      ru: Водопроницаемый асфальт
+
+- abbr: ZOAB
+  text: zeer open asfalt beton
+  translation:
+      ru: Водопроницаемый асфальтобетон
+
+- abbr: z.o.z.
+  text: zie ommezijde
+  translation:
+      ru: Смотри оборот
+
+- abbr: Zr.
+  text: zuster
+  translation:
+      ru: Сестра
+
+- abbr: z.s.m.
+  text: zo spoedig mogelijk
+  translation:
+      ru: Как можно быстрее, при первой возможности
+
+- abbr: z.v.
+  text: zoon van
+  translation:
+      ru: Сын *того-то*
+
+- abbr: z.v.k.
+  text: zonder verdere kosten
+  translation:
+      ru: Без дополнительных расходов
+
+- abbr: z.v.v.a.
+  text: zonder verlies van algemeenheid
+  translation:
+      ru: Не теряя общности
+
+- abbr: z.w.
+  text: zuidwest
+  translation:
+      ru: Юго-запад
+
+- abbr: zzo
+  text: zuidzuidoost
+  translation:
+      ru: Юго-юго-восток
+
+- abbr: zzp
+  text: zelfstandige zonder personeel
+  translation:
+      ru: Индивидуальный предприниматель без персонала
+
+- abbr: zzw
+  text: zuidzuidwest
+  translation:
+      ru: Юго-юго-запад
+

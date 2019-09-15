@@ -24,4 +24,16 @@ $enable-gradients: true;
 
 body {
     font-family: 'Arimo', sans-serif;
+    padding: 1rem 0;
+}
+
+a.search-example {
+    display: inline-block;
+    margin: 0 0.3rem;
+}
+
+footer {
+    background-color: #eee;
+    color: #6c757d;
+    padding: 0.3rem;
 }

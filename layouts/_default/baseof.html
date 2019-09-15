@@ -30,8 +30,10 @@
         {{ block "main" . }}
         {{ .Content }}
         {{ end }}
-
     </div>
+
+    <!-- Footer -->
+    {{ block "footer" . }}{{ end }}
 </section>
 
 {{ partial "scripts" . }}
