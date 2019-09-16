@@ -9,7 +9,7 @@ disableKinds:
     - RSS
 
 # Language settings
-defaultContentLanguage: ru
+defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
     en:
@@ -19,8 +19,23 @@ languages:
         weight: 2
         languageName: Русский
         params:
+            author: Дмитрий Канн
             description: 'Распространённые сокращения нидерландского языка и их перевод на русский'
+            keywords:
+                - сокращение
+                - нидерландский язык
+                - голландский язык
+                - Нидерланды
+                - Голландия
+                - перевод
 
 # Params
 params:
+    author: Dmitry Kann
     description: 'Common Dutch abbreviations and their translations into English'
+    keywords:
+        - abbreviation
+        - Dutch language
+        - Netherlands
+        - Holland
+        - translation
