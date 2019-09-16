@@ -27,14 +27,14 @@
 </form>
 
 <!-- No results banner -->
-<div class="text-muted d-none" id="results-none">{{ i18n "resultsNone" }}</div>
+<div class="text-muted" id="results-none" style="display: none">{{ i18n "resultsNone" }}</div>
 
 <!-- Search results -->
-<div id="results" class="d-none">
+<div id="results" style="display: none">
     <div class="text-muted">{{ i18n "resultsPresent" }}&nbsp;<span id="result-count"></span></div>
     <table class="table" id="abbr-table">
         {{ range .Site.Data.abbreviations }}
-        <tr class="d-none">
+        <tr>
             <td>{{ .abbr }}</td>
             <td>{{ .text }}</td>
             <td>{{ index .translation $.Page.Lang | markdownify }}</td>

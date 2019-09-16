@@ -3,20 +3,14 @@ $(document).ready(function () {
     var reCleanup = /[^a-zа-яё0-9]+/g;
     var abbrRows = $('#abbr-table tr');
     var searchBox = $('#search-text');
+    var resultPane = $('#results');
+    var noResultsPane = $('#results-none');
 
     // Remove search timer, if any
     function clearTimer() {
         if (timer !== undefined) {
             clearTimeout(timer);
             timer = undefined;
-        }
-    }
-
-    function setVisible(element, isVisible) {
-        if (isVisible) {
-            element.removeClass('d-none');
-        } else {
-            element.addClass('d-none');
         }
     }
 
@@ -32,7 +26,7 @@ $(document).ready(function () {
         // If a pattern is given, push it to the search input
         if (pattern) {
             searchBox.val(pattern);
-        // Otherwise use whatever in the search box
+        // Otherwise use whatever is in the search box
         } else {
             pattern = searchBox.val();
         }
@@ -45,20 +39,30 @@ $(document).ready(function () {
         var cnt = 0;
         if (hasPattern) {
             abbrRows.each(function () {
-                var abbr = $('td', this).text().toLowerCase().replace(reCleanup, '');
-                if (abbr.includes(cleanPattern)) {
-                    setVisible($(this), true);
-                    cnt++;
-                } else {
-                    setVisible($(this), false);
-                }
+                // Check if pattern is found in any of the row's <td>s
+                var match = $('td', this)
+                    .filter(function () {
+                        return $(this).text().toLowerCase().replace(reCleanup, '').includes(cleanPattern);
+                    })
+                    .length;
+
+                // If not, hide the row. Use Bootstrap's d-none class instead of jQuery's .toggle() because it's much,
+                // much slower
+                $(this).toggleClass('d-none', !match);
+
+                // Increment found counter
+                match && cnt++;
             });
         }
 
         // Adjust result display
-        $('#result-count').html(cnt);
-        setVisible($('#results-none'), hasPattern && cnt === 0);
-        setVisible($('#results'),      hasPattern && cnt > 0);
+        if (cnt > 0) {
+            $('#result-count').html(cnt);
+            resultPane.fadeIn();
+        } else {
+            resultPane.fadeOut();
+        }
+        noResultsPane.fadeTo('fast', hasPattern && cnt === 0 ? 1 : 0);
 
         // Update page URL
         hasPattern && !noHistory && history.pushState(null, pattern, '#' + pattern);
@@ -74,11 +78,12 @@ $(document).ready(function () {
     }
 
     // Add a search pattern change listener
-    searchBox.on('keyup change paste', function (e) {
+    searchBox.on('keyup change paste', function () {
         clearTimer();
         timer = setTimeout(doSearch, 500);
     });
     searchBox.on('search', function () {
+        // On pressing Enter or clearing the input, trigger search immediately
         doSearch();
     });
 
