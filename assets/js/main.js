@@ -90,14 +90,9 @@ $(document).ready(function () {
     for (var i = 0; i <=3; i++) {
         var idx = Math.floor(Math.random() * abbrRows.length);
         var row = abbrRows.eq(idx);
-        exList.append('<a class="search-example" href="#">' + $('td:first-child', row).text() + '</a>')
+        var abbr = $('td:first-child', row).text();
+        exList.append('<a class="search-example" href="#' + encodeURIComponent(abbr) + '">' + abbr + '</a>')
     }
-
-    // Init example click handler
-    $('.search-example').click(function (event) {
-        event.preventDefault();
-        doSearch($(this).text());
-    });
 
     // Perform initial search if the URL contains a hash part
     searchCurHash();
