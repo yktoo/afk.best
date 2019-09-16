@@ -1846,7 +1846,7 @@
       ru: Госпожа
       en:
 
-- abbr: N
+- abbr: 'N'
   text: noorden
   translation:
       ru: Север
@@ -1868,7 +1868,6 @@
   text: Normaal Amsterdams Peil
   translation:
       ru: Нормальный амстердамский уровень (воды)
-      en:
       en: Amsterdam Ordnance Datum
 
 - abbr: n.a.v.
