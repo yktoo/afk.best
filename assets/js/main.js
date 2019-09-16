@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    let timer;
-    let reCleanup = /[^a-zа-яё0-9]+/g;
+    var timer;
+    var reCleanup = /[^a-zа-яё0-9]+/g;
 
     // Remove search timer, if any
     function clearTimer() {
@@ -21,10 +21,10 @@ $(document).ready(function () {
     // Perform abbreviation search
     function doSearch() {
         clearTimer();
-        let search = $('#search-text').val().toLowerCase().replace(reCleanup, '');
-        let cnt = 0;
+        var search = $('#search-text').val().toLowerCase().replace(reCleanup, '');
+        var cnt = 0;
         $('#abbr-table tr').each(function () {
-            let abbr = $('td', this).text().toLowerCase().replace(reCleanup, '');
+            var abbr = $('td', this).text().toLowerCase().replace(reCleanup, '');
             if (search.length > 0 && abbr.includes(search)) {
                 setVisible($(this), true);
                 cnt++;
@@ -46,11 +46,11 @@ $(document).ready(function () {
     });
 
     // Init some examples
-    let rows = $('#abbr-table tr');
-    let exList = $('#search-help');
+    var rows = $('#abbr-table tr');
+    var exList = $('#search-help');
     for (var i = 0; i <=3; i++) {
-        let idx = Math.floor(Math.random() * rows.length);
-        let row = rows.eq(idx);
+        var idx = Math.floor(Math.random() * rows.length);
+        var row = rows.eq(idx);
         exList.append('<a class="search-example" href="#">' + $('td:first-child', row).text() + '</a>')
     }
     $('.search-example').click(function (event) {
