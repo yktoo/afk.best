@@ -1,15 +1,6 @@
-// Import fonts
-@import url('https://fonts.googleapis.com/css?family=Arimo|Roboto+Condensed&display=swap');
-
 // Base colours
 $primary: #0776ff;
 $secondary: #ff6707;
-
-// Our own vars
-$primary-fade: fade_out($primary, 0.7);
-$primary-light: adjust_color($primary, $saturation: -50%, $lightness: 40%);
-$primary-pale: adjust_color($primary, $saturation: -70%, $lightness: 20%);
-$secondary-fade: fade_out($secondary, 0.87);
 
 // Secondary elements
 $body-color: #666;
@@ -23,7 +14,6 @@ $enable-gradients: true;
 @import "../bootstrap-4.3.1/scss/bootstrap";
 
 body {
-    font-family: 'Arimo', sans-serif;
     padding: 1rem 0;
 }
 
