@@ -608,739 +608,739 @@
   text: Centrum voor Werk en Inkomen
   translation:
       ru: Центр по трудоустройству и доходам
-      en:
+      en: Employment and Income Agency
 
 - abbr: czs
   text: centraal zenuwstelsel
   translation:
       ru: Центральная нервная система
-      en:
+      en: Central nervous system
 
 - abbr: D66
   text: Democraten 66
   translation:
       ru: Демократы-66 (политическая партия)
-      en:
+      en: Democrats 66 (political party)
 
 - abbr: d.d.
   text: de dato
   translation:
       ru: Датируемый (*лат.*)
-      en:
+      en: Dated (*Latin*)
 
 - abbr: DG
   text: directeur-generaal
   translation:
       ru: Генеральный директор
-      en:
+      en: Director-general
 
 - abbr: dhr.
   text: de heer
   translation:
       ru: Господин
-      en:
+      en: Mr
 
 - abbr: d.i.
   text: dit is
   translation:
       ru: То есть
-      en:
+      en: That is
 
 - abbr: dir.
   text: directeur
   translation:
       ru: Директор
-      en:
+      en: (Managing) director
 
 - abbr: d.m.v.
   text: door middel van
   translation:
       ru: При помощи/посредством
-      en:
+      en: By means of
 
 - abbr: DNB
   text: De Nederlandsche Bank
   translation:
       ru: Нидерландский центробанк
-      en:
+      en: Central bank of the Netherlands
 
 - abbr: DR
   text: Drenthe
   translation:
       ru: Дренте (провинция)
-      en:
+      en: Drenthe (province)
 
 - abbr: dr.
   text: doctor
   translation:
       ru: Доктор
-      en:
+      en: Doctor, Ph.D.
 
 - abbr: drs.
   text: doctorandus
   translation:
       ru: Доктор наук (*лат.*)
-      en:
+      en: Master of Arts (M.A.)/Master of Science (M.Sc.) (*Latin*)
 
 - abbr: ds.
   text: dominee
   translation:
       ru: Священник
-      en:
+      en: Minister
 
 - abbr: DUO
   text: Dienst Uitvoering Onderwijs
   translation:
       ru: Исполнительная служба образования
-      en:
+      en: Dutch Education Agency
 
 - abbr: DWDD
   text: De wereld draait door
   translation:
       ru: De wereld draait door (голландская телепрограмма)
-      en:
+      en: De wereld draait door (Dutch TV show)
 
 - abbr: d.w.z.
   text: dat wil zeggen
   translation:
       ru: Иными словами
-      en:
+      en: That is/means
 
 - abbr: e.a.
   text: en andere(n)
   translation:
       ru: И другие
-      en:
+      en: And other(s)
 
 - abbr: e.c.
   text: exempli causa
   translation:
       ru: Например (*лат.*)
-      en:
+      en: For example (*Latin*)
 
 - abbr: ecg
   text: elektrocardiogram
   translation:
       ru: Электрокардиограмма
-      en:
+      en: Electrocardiogram
 
 - abbr: ed.
   text: editie
   translation:
       ru: Издание
-      en:
+      en: Edition
 
 - abbr: e.d.
   text: en dergelijke(n)
   translation:
       ru: И тому подобное
-      en:
+      en: And the like
 
 - abbr: e.e.a.
   text: een en ander
   translation:
       ru: Тот или иной
-      en:
+      en: This and that
 
 - abbr: eeg
   text: elektro-encefalogram
   translation:
       ru: Электроэнцефалограмма
-      en:
+      en: Electroencephalogram
 
 - abbr: EEG
   text: Europese Economische Gemeenschap
   translation:
-      ru: ЕЭС
-      en:
+      ru: Европейское Экономическое Сообщество (ЕЭС)
+      en: European Economic Community (EEC)
 
 - abbr: e.g.
   text: exempli gratia
   translation:
       ru: Например (*лат.*)
-      en:
+      en: For example (*Latin*)
 
 - abbr: EG
   text: Europese Gemeenschap
   translation:
       ru: Евросоюз
-      en:
+      en: European Union (EU)
 
 - abbr: EHBO
   text: Eerste hulp bij ongelukken
   translation:
       ru: Первая помощь при происшествиях
-      en:
+      en: First aid
 
 - abbr: e.i.
   text: elektrotechnisch ingenieur
   translation:
       ru: Инженер-электротехник
-      en:
+      en: Electrical engineer
 
 - abbr: EK
   text: Europees kampioenschap
   translation:
       ru: Чемпионат Европы
-      en:
+      en: European championship
 
 - abbr: emg
   text: elektromyogram
   translation:
       ru: Электромиограмма
-      en:
+      en: Electromyogram
 
 - abbr: enz.
-  text: enzovoort
+  text: enzovoort(s)
   translation:
       ru: И так далее
-      en:
+      en: And so on, etc.
 
 - abbr: e.o.
   text: en omstreken
   translation:
       ru: И окрестности
-      en:
+      en: And (its) environs
 
 - abbr: EPD
   text: Elektronisch patiëntendossier
   translation:
       ru: Электронное досье пациента
-      en:
+      en: Electronic patient file
 
 - abbr: et al.
   text: et alii
   translation:
       ru: И другие (*лат.*)
-      en:
+      en: And other(s) (*Latin*)
 
 - abbr: etc.
   text: et cetera
   translation:
       ru: И так далее (*лат.*)
-      en:
+      en: And so on (*Latin*)
 
 - abbr: e.v.
   text: en volgende(n)
   translation:
       ru: И следующие
-      en:
+      en: And the following
 
 - abbr: e.v.a.
   text: en vele andere(n)
   translation:
       ru: И многие другие
-      en:
+      en: And many other(s)
 
 - abbr: evt.
   text: eventueel
   translation:
       ru: Возможно/возможный
-      en:
+      en: Possible/possibly
 
 - abbr: excl.
   text: exclusief
   translation:
       ru: Исключая
-      en:
+      en: Excluding
 
 - abbr: exx.
   text: exemplaren
   translation:
       ru: Экземпляры
-      en:
+      en: Copies
 
 - abbr: EZ
-  text: Ministerie van Economische Zaken
+  text: (Ministerie van) Economische Zaken
   translation:
       ru: Министерство экономики
-      en:
+      en: (Ministry of) Economic Affairs
 
 - abbr: fa.
   text: firma
   translation:
       ru: Фирма
-      en:
+      en: Firm
 
 - abbr: fam.
   text: familie
   translation:
       ru: Семья
-      en:
+      en: Family
 
 - abbr: FC
   text: Football Club
   translation:
       ru: Футбольный клуб
-      en:
+      en: Football Club
 
 - abbr: fig.
   text: figuur(lijk)
   translation:
-      ru: Фигурально
-      en:
+      ru: Фигурально/фигуральный
+      en: Figurative
 
 - abbr: FL
   text: Flevoland
   translation:
       ru: Флеволанд (провинция)
-      en:
+      en: Flevoland (province)
 
 - abbr: fl.
-  text: florijn (gulden)
+  text: florijn
   translation:
-      ru: Гульден (нидерландская валюта до евро)
-      en:
+      ru: Флорин
+      en: Florin
 
 - abbr: FR
   text: Friesland
   translation:
       ru: Фрисландия (провинция)
-      en:
+      en: Friesland (province)
 
 - abbr: FVD
   text: Forum voor Democratie
   translation:
       ru: Форум за демократию (партия)
-      en:
+      en: Forum for Democracy (political party)
 
 - abbr: GD
   text: Gelderland
   translation:
       ru: Гелдерланд (провинция)
-      en:
+      en: Gelderland, Guelders (province)
 
 - abbr: GBA
   text: Gemeentelijke Basis Administratie
   translation:
       ru: Муниципальный реестр персональных данных, ныне заменён на BRP
-      en:
+      en: Municipal personal data register, now superseded by BRP
 
 - abbr: geb.
   text: geboren
   translation:
       ru: Родился(лась)
-      en:
+      en: Born
 
-- abbr: Gebr.
-  text: Gebroeders
+- abbr: gebr.
+  text: gebroeders
   translation:
       ru: Братья
-      en:
+      en: Brothers
 
 - abbr: geh.
   text: geheel
   translation:
       ru: В целом
-      en:
+      en: Entire, whole
 
 - abbr: geh.
   text: gehuwd
   translation:
       ru: В браке
-      en:
+      en: Married
 
 - abbr: gem.
   text: gemeente
   translation:
       ru: Муниципалитет
-      en:
+      en: Local authority/council
 
 - abbr: gem.
   text: gemiddeld
   translation:
       ru: В среднем
-      en:
+      en: (On) average
 
 - abbr: get.
   text: getekend
   translation:
-      ru: Подписавшийся(шаяся)
-      en:
+      ru: Подписавшийся(шаяся), отмеченный(ая)
+      en: Marked
 
 - abbr: get.
   text: getuige
   translation:
       ru: Свидетель(ница)
-      en:
+      en: Witness
 
 - abbr: gez.
   text: gezang
   translation:
       ru: Песня
-      en:
+      en: Song
 
 - abbr: gez.
   text: gezusters
   translation:
       ru: Сёстры
-      en:
+      en: Sisters
 
 - abbr: gft
   text: Groente-, fruit- en tuinafval
   translation:
       ru: Био-отходы (овощные, фруктовые и садовые)
-      en:
+      en: Organic waste (vegetable, fruit and garden waste)
 
 - abbr: GGD
   text: Gemeentelijke gezondheidsdienst
   translation:
       ru: Муниципальная служба здравоохранения
-      en:
+      en: Local/Public Health Authority
 
 - abbr: g.g.d.
   text: grootste gemene deler
   translation:
       ru: Наибольший общий делитель
-      en:
+      en: The greatest common divisor
 
 - abbr: ggo
   text: Genetisch Gemodificeerd Organisme
   translation:
-      ru: Генетически модифицированный организм, ГМО
-      en:
+      ru: Генетически модифицированный организм (ГМО)
+      en: Genetically modified organism (GMO)
 
 - abbr: GGZ
   text: Geestelijke gezondheidszorg
   translation:
       ru: Охрана психического здоровья
-      en:
+      en: Mental health care
 
 - abbr: gld.
   text: gulden
   translation:
       ru: Гульден (нидерландская валюта до евро)
-      en:
+      en: Guilder (Dutch currency before euro)
 
 - abbr: glw
   text: gas, licht en water
   translation:
       ru: Газ, свет (электричество) и вода
-      en:
+      en: Gas, light, and water
 
 - abbr: GR
   text: Groningen
   translation:
       ru: Гронинген (провинция)
-      en:
+      en: Groningen (province)
 
 - abbr: GS
   text: Gedeputeerde Staten
   translation:
       ru: Провинциальная исполнительная власть
-      en:
+      en: Provincial Executive
 
 - abbr: GTST
   text: Goede tijden, slechte tijden
   translation:
       ru: «Хорошие времена, плохие времена» (голландский телесериал)
-      en:
+      en: '"Good times, bad times" (Dutch TV series)'
 
 - abbr: gym
   text: gymnasium
   translation:
-      ru: Гимнастика
-      en:
+      ru: Гимназия
+      en: Gymnasium, grammar school
 
 - abbr: H.
   text: Heilige
   translation:
       ru: Святой
-      en:
+      en: Saint
 
 - abbr: havo
   text: hoger algemeen voortgezet onderwijs
   translation:
-      ru: Неоконченное общее высшее образование
-      en:
+      ru: Продолженное общее высшее образование
+      en: Higher general continued education
 
 - abbr: hbo
   text: hoger beroepsonderwijs
   translation:
       ru: Высшее профессиональное образование
-      en:
+      en: Higher professional education
 
 - abbr: heao
   text: hoger economisch en administratief onderwijs
   translation:
       ru: Высшее административно-экономическое образование
-      en:
+      en: Higher economical and administrative education
 
 - abbr: HEMA
   text: Hollandsche Eenheidsprijzen Maatschappij Amsterdam
   translation:
-      ru: «Голландское Амстердамское общество единых цен» (сеть магазинов "HEMA")
-      en:
+      ru: «Голландское Амстердамское общество единых цен» (сеть магазинов «HEMA»)
+      en: '"Hollandic Standard Prices Company Amsterdam" (the "HEMA" store chain)'
 
 - abbr: hfl
   text: Hollandse florijn (gulden)
   translation:
       ru: Гульден (нидерландская валюта до евро)
-      en:
+      en: Dutch florin (Dutch currency before euro)
 
 - abbr: H.K.H.
   text: Hare Koninklijke Hoogheid
   translation:
       ru: Её Королевское Высочество
-      en:
+      en: Her Royal Highness
 
 - abbr: H.M.
   text: Hare Majesteit
   translation:
       ru: Её Величество
-      en:
+      en: Her Majesty
 
 - abbr: horeca
   text: hotel, restaurant, café
   translation:
       ru: Хорека (отельно-ресторанный бизнес)
-      en:
+      en: Hotel, restaurant, and café; hotel and catering industry
 
 - abbr: Hr.
   text: Heer
   translation:
       ru: Господин
-      en:
+      en: Mr
 
 - abbr: H.R.
   text: Hoge Raad
   translation:
       ru: Верховный суд Нидерландов
-      en:
+      en: Dutch Supreme Court
 
 - abbr: HS
   text: Hollands Spoor
   translation:
       ru: «Голландская железная дорога» (станция в Гааге)
-      en:
+      en: '"Holland railway" (station in the Hague)'
 
 - abbr: hsl
   text: hogesnelheidslijn
   translation:
       ru: Скоростная железная дорога
-      en:
+      en: High-speed rail link
 
 - abbr: hst
   text: hogesnelheidstrein
   translation:
       ru: Скоростной поезд
-      en:
+      en: High-speed train
 
 - abbr: hts
   text: hogere technische school
   translation:
       ru: Высшая техническая школа
-      en:
+      en: College/university of technology
 
 - abbr: i.a.v.
   text: in aanwezigheid van
   translation:
-      ru: В отсутствии *того-то*
-      en:
+      ru: В присутствии *того-то*
+      en: In the presence of
 
 - abbr: i.a.v.
   text: in afwachting van
   translation:
       ru: В ожидании *того-то*
-      en:
+      en: In expectation/anticipation of
 
 - abbr: IB
   text: Inkomstenbelasting
   translation:
       ru: Подоходный налог
-      en:
+      en: Income tax
 
 - abbr: i.b.d.
   text: in buitengewone dienst
   translation:
       ru: На особой службе
-      en:
+      en: In extraordinary service
 
 - abbr: i.b.v.
   text: in bezit van
   translation:
       ru: Владеющий *тем-то*
-      en:
+      en: In possession of
 
 - abbr: IC
   text: Intercity
   translation:
       ru: Интерсити (скоростной поезд)
-      en:
+      en: Intercity (train)
 
 - abbr: i.c.
   text: in casu
   translation:
       ru: В данном случае (*лат.*)
-      en:
+      en: In this case (*Latin*)
 
 - abbr: ICE
   text: Intercity Express
   translation:
       ru: Интерсити-экспресс (скоростной поезд)
-      en:
+      en: Intercity Express (high-speed train)
 
 - abbr: i.c.m.
   text: in combinatie met
   translation:
       ru: В сочетании с
-      en:
+      en: In combination with
 
 - abbr: ICT
   text: Informatie- en Communicatietechnologie
   translation:
       ru: ИТ (*букв.* «информационные и коммуникационные технологии»)
-      en:
+      en: IT (information and communication trchnology)
 
 - abbr: id.
   text: idem
   translation:
       ru: То же самое (*лат.*)
-      en:
+      en: Same (here) (*Latin*)
 
 - abbr: ID-bewijs
   text: identiteitsbewijs
   translation:
       ru: Удостоверение личности
-      en:
+      en: Identity
 
 - abbr: idd
   text: inderdaad
   translation:
       ru: Действительно
-      en:
+      en: Indeed
 
 - abbr: i.e.
   text: id est
   translation:
       ru: То есть (*лат.*)
-      en:
+      en: That is (*Latin*)
 
 - abbr: i.g.st.
   text: in goede staat
   translation:
       ru: В хорошем состоянии
-      en:
+      en: In good condition
 
 - abbr: i.g.v.
   text: in geval van
   translation:
       ru: В случае *того-то*
-      en:
+      en: In case of
 
 - abbr: i.h.a.
   text: in het algemeen
   translation:
       ru: В целом
-      en:
+      en: In general
 
 - abbr: i.h.b.
   text: in het bijzonder
   translation:
       ru: В особенности
-      en:
+      en: In particular, especially
 
 - abbr: i.h.k.v.
   text: in het kader van
   translation:
       ru: В рамках *того-то*
-      en:
+      en: Within the scope of, as part of
 
 - abbr: i.h.t.v.
   text: in het teken van
   translation:
       ru: Знаменующийся *тем-то*
-      en:
+      en: Characterised by
 
 - abbr: i.i.g.
   text: in ieder geval
   translation:
       ru: В любом случае
-      en:
+      en: In any case
 
 - abbr: IND
   text: Immigratie- en Naturalisatiedienst
   translation:
       ru: Иммиграционно-натурализационная служба
-      en:
+      en: Immigration and Naturalisation service
 
 - abbr: incl.
   text: inclusief
   translation:
       ru: Включая
-      en:
+      en: Including
 
 - abbr: info
   text: informatie
   translation:
       ru: Информация
-      en:
+      en: Information
 
 - abbr: ing.
   text: ingenieur
   translation:
       ru: Инженер
-      en:
+      en: Engineer
 
 - abbr: intern.
   text: internationaal
   translation:
       ru: Международный
-      en:
+      en: International
 
 - abbr: i.o.m.
   text: in overeenstemming met
   translation:
       ru: В соответствии с
-      en:
+      en: In accordance with
 
 - abbr: i.o.m.
   text: in overleg met
   translation:
       ru: В обсуждении с
-      en:
+      en: In agreement with
 
 - abbr: i.o.v.
   text: in opdracht van
   translation:
       ru: По поручению *того-то*
-      en:
+      en: By *someone's* order
 
 - abbr: i.p.v.
   text: in plaats van
   translation:
       ru: Вместо *того-то*
-      en:
+      en: Instead of
 
 - abbr: ir.
   text: ingenieur
   translation:
       ru: Инженер
-      en:
+      en: Engineer
 
 - abbr: i.r.t.
   text: in relatie tot
   translation:
       ru: В отношении *того-то*
-      en:
+      en: In relation to
 
 - abbr: i.s.m.
-  text: In samenwerking met
+  text: in samenwerking met
   translation:
       ru: В сотрудничестве с
-      en:
+      en: In cooperation with
 
 - abbr: i.t.t.
   text: in tegenstelling tot
   translation:
       ru: В противоположность *тому-то*
-      en:
+      en: In contrast to
 
 - abbr: ivf
   text: In-vitrofertilisatie
   translation:
       ru: Экстракорпоральное оплодотворение (ЭКО)
-      en:
+      en: In vitro fertilization
 
 - abbr: i.v.m.
   text: in verband met
@@ -1352,517 +1352,517 @@
   text: in zeer goede staat
   translation:
       ru: В очень хорошем состоянии
-      en:
+      en: In very good condition
 
 - abbr: j.
   text: jaar
   translation:
       ru: Год
-      en:
+      en: Year
 
 - abbr: jhr.
   text: Jonkheer
   translation:
       ru: Эсквайр
-      en:
+      en: Esquire
 
 - abbr: jkvr.
   text: jonkvrouw
   translation:
       ru: Леди
-      en:
+      en: Lady
 
 - abbr: jl.
   text: jongstleden
   translation:
       ru: Прошлый (о дате)
-      en:
+      en: Last (about date)
 
 - abbr: jr.
   text: junior
   translation:
       ru: Младший
-      en:
+      en: Junior
 
 - abbr: K.B.
   text: Koninklijk Besluit
   translation:
       ru: Королевское постановление
-      en:
+      en: Royal Decree
 
 - abbr: kca
   text: klein chemisch afval
   translation:
       ru: Мелкий химический мусор
-      en:
+      en: Household hazardous waste
 
 - abbr: kdt
   text: keuken, douche en toilet
   translation:
       ru: Кухня, душ и туалет
-      en:
+      en: Kitchen, shower, and toilet
 
 - abbr: k.g.v.
   text: kleinste gemene veelvoud
   translation:
       ru: Наименьшее общее кратное
-      en:
+      en: Lowest common multiple
 
 - abbr: KI
   text: Kunstmatige inseminatie
   translation:
       ru: Искуственное осеменение
-      en:
+      en: Artificial insemination
 
 - abbr: Kifid
   text: Klachteninstituut Financiële Dienstverlening
   translation:
-      ru: Институт претензий по финансовым услугам
-      en:
+      ru: Финансовый арбитражный суд
+      en: Financial Services Complaints Tribunal
 
 - abbr: k.k.
   text: kosten koper
   translation:
       ru: Расходы оплачивает покупатель
-      en:
+      en: Expenses to be paid for by the buyer
 
 - abbr: KL
   text: Koninklijke Landmacht
   translation:
       ru: Королевская пехота
-      en:
+      en: Royal Netherlands Army
 
 - abbr: Kliko
   text: Klinkenberg en Koster
   translation:
       ru: «Кли́ко» (народное название контейнеров для мусора)
-      en:
+      en: '"Kliko" (common name of household waste container)'
 
 - abbr: KLM
   text: Koninklijke Luchtvaart Maatschappij
   translation:
       ru: Королевское воздухоплавательное общество (авиакомпания)
-      en:
+      en: Royal Dutch Airlines (KLM)
 
 - abbr: KLPD
   text: Korps landelijke politiediensten
   translation:
       ru: Корпус национальной полиции
-      en:
+      en: National Police Services Agency
 
 - abbr: KLu
   text: Koninklijke Luchtmacht
   translation:
       ru: Королевские военно-воздушные силы
-      en:
+      en: Royal air force
 
 - abbr: KM
   text: Koninklijke Marine
   translation:
       ru: Королевские военно-морские силы
-      en:
+      en: Royal navy
 
 - abbr: KMAR
   text: Koninklijke Marechaussee
   translation:
       ru: Королевская военная полиция
-      en:
+      en: Royal military police
 
 - abbr: KNMI
   text: Koninklijk Nederlands Meteorologisch Instituut
   translation:
       ru: Королевский метеорологический институт
-      en:
+      en: Royal Netherlands Meteorological Institute
 
 - abbr: kno
   text: Keel-, neus- en oor-(heelkunde)
   translation:
       ru: Ухо-горло-нос («ЛОР»)
-      en:
+      en: Ear, nose, throat (E.N.T.)
 
 - abbr: Kon.
   text: Koninklijk
   translation:
       ru: Королевский (префикс)
-      en:
+      en: Royal
 
 - abbr: KP
   text: Kanaalpeil
   translation:
       ru: Уровень воды в канале
-      en:
+      en: Canal depth
 
 - abbr: KPN
-  text: Koninklijke PTT Nederland N.V.
+  text: Koninklijke PTT Nederland
   translation:
       ru: Королевская почтово-телеграфная компания (телеком-провайдер)
-      en:
+      en: Dutch landline and mobile telecommunications company
 
 - abbr: K.v.K.
   text: Kamer van Koophandel
   translation:
       ru: Торговая палата
-      en:
+      en: Chamber of Commerce
 
 - abbr: l.a.
   text: linksaf
   translation:
       ru: Налево
-      en:
+      en: (To the) left
 
 - abbr: lab
   text: laboratorium
   translation:
       ru: Лаборатория
-      en:
+      en:  Laboratory
 
 - abbr: lavo
   text: lager algemeen voortgezet onderwijs
   translation:
       ru: Низшее общее продолженное образование
-      en:
+      en: Lower general continued education
 
 - abbr: LB
   text: Limburg
   translation:
       ru: Лимбург (провинция)
-      en:
+      en: Limburg (province)
 
 - abbr: lbo
   text: lager beroepsonderwijs
   translation:
       ru: Низшее профессиональное образование
-      en:
+      en: Lower professional education
 
 - abbr: leao
   text: lager economisch en administratief onderwijs
   translation:
       ru: Низшее административно-экономическое образование
-      en:
+      en: Lower economical and administrative education
 
 - abbr: lez
   text: Lage emissizone
   translation:
       ru: Экологическая зона
-      en:
+      en: Low-emission zone
 
 - abbr: l.g.
   text: laatstgenoemde
   translation:
       ru: Упомянутый последним
-      en:
+      en: Last mentioned
 
 - abbr: l.i.
   text: landbouwkundig ingenieur
   translation:
       ru: Сельскохозяйственный инженер
-      en:
+      en: Agricultural engineer
 
 - abbr: LIO
   text: Leraar in opleiding
   translation:
       ru: Учитель-стажёр
-      en:
+      en: Teacher in practice
 
 - abbr: ll.
   text: laatstleden
   translation:
       ru: Прошлый (о дате)
-      en:
+      en: Last (about date)
 
 - abbr: LO
   text: lager onderwijs
   translation:
       ru: Низшее образование
-      en:
+      en: Lower education
 
 - abbr: LO
   text: lichamelijke opvoeding
   translation:
       ru: Физподготовка
-      en:
+      en: Physical education
 
 - abbr: LOM
   text: Kinderen met leer- en opvoedingsmoeilijkheden
   translation:
       ru: Дети с трудностями в обучении или воспитании
-      en:
+      en: Children with learning difficulties
 
 - abbr: lsd
   text: lysergeenzuurdi-ethylamide
   translation:
       ru: ЛСД (наркотик)
-      en:
+      en: LSD (drug)
 
 - abbr: lt.
   text: Luitenant
   translation:
       ru: Лейтенант
-      en:
+      en: Lieutenant
 
 - abbr: lts
   text: lagere technische school
   translation:
       ru: Низшая техническая школа
-      en:
+      en: Basic technical school
 
 - abbr: m.
   text: mannelijk
   translation:
       ru: Мужской род
-      en:
+      en: Male/masculine
 
 - abbr: m.
   text: meneer / mijnheer
   translation:
       ru: Господин
-      en:
+      en: Gentleman/mister
 
 - abbr: mavo
   text: middelbaar algemeen voortgezet onderwijs
   translation:
       ru: Среднее общее продолженное образование
-      en:
+      en: Secondary general continued education
 
 - abbr: m.a.w.
   text: met andere woorden
   translation:
       ru: Другими словами
-      en:
+      en: In other words
 
 - abbr: max.
   text: maximum/maximaal
   translation:
       ru: Максимум/максимальный
-      en:
+      en: Maximum/maximal
 
 - abbr: MBA
   text: Moderne Bedrijfsadministratie
   translation:
       ru: Современное бизнес-администрирование
-      en:
+      en: Modern business administration
 
 - abbr: mbo
   text: middelbaar beroepsonderwijs
   translation:
       ru: Среднее профессиональное образование
-      en:
+      en: Secondary professional education
 
 - abbr: m.b.t.
   text: met betrekking tot
   translation:
       ru: В отношении *того-то*
-      en:
+      en: With regard to
 
 - abbr: m.b.v.
   text: met behulp van
   translation:
       ru: При помощи *того-то*
-      en:
+      en: With the help of
 
 - abbr: ME
   text: Mobiele Eenheid
   translation:
       ru: Мобильное спецподразделение полиции
-      en:
+      en: Special duty police
 
 - abbr: ME
   text: Middeleeuwen
   translation:
       ru: Средние века
-      en:
+      en: Middle Ages
 
 - abbr: meao
   text: middelbaar economisch en administratief onderwijs
   translation:
       ru: Среднее административно-экономическое образование
-      en:
+      en: Secondary economical and administrative education
 
 - abbr: mej.
   text: mejuffrouw
   translation:
       ru: Мисс
-      en:
+      en: Miss
 
 - abbr: mevr.
   text: mevrouw
   translation:
       ru: Госпожа
-      en:
+      en: Madam/Mrs
 
 - abbr: m.h.g.
   text: met hartelijke groeten
   translation:
       ru: С наилучшими пожеланиями
-      en:
+      en: With kind regards
 
 - abbr: m.i.
   text: mijns inziens
   translation:
       ru: По моему мнению
-      en:
+      en: In my opinion
 
 - abbr: mi.
   text: middag
   translation:
       ru: Полдень
-      en:
+      en: (After)noon
 
 - abbr: Mij
   text: maatschappij
   translation:
       ru: Общество (организация)
-      en:
+      en: Society
 
 - abbr: min.
   text: minimum/minimaal
   translation:
       ru: Минимум/минимальный
-      en:
+      en: Minimum/minimal
 
 - abbr: min.
   text: minister
   translation:
       ru: Министр
-      en:
+      en: Minister
 
 - abbr: min.
   text: minuut
   translation:
       ru: Минута
-      en:
+      en: Minute
 
 - abbr: m.i.v.
   text: met ingang van
   translation:
       ru: Начиная с (даты)
-      en:
+      en: As of
 
 - abbr: m.i.v.
   text: met inbegrip van
   translation:
       ru: Включая
-      en:
+      en: Including
 
 - abbr: mkb
   text: Midden- en kleinbedrijf
   translation:
       ru: Средний и малый бизнес
-      en:
+      en: Small and medium-sized businesses
 
 - abbr: mld.
   text: miljard
   translation:
       ru: Миллиард
-      en:
+      en: Billion
 
 - abbr: mln.
   text: miljoen
   translation:
       ru: Миллион
-      en:
+      en: Million
 
 - abbr: MMT
   text: Mobiel Medisch Team
   translation:
       ru: Мобильная медбригада
-      en:
+      en: Air medical services
 
 - abbr: m.m.v.
   text: met medewerking van
   translation:
       ru: При сотрудничестве с
-      en:
+      en: With the cooperation of
 
 - abbr: m.n.
   text: met name
   translation:
       ru: Особенно
-      en:
+      en: Especially, particularly
 
 - abbr: mngt
   text: Management
   translation:
       ru: Менеджмент
-      en:
+      en: Management
 
 - abbr: MP
   text: Militaire politie
   translation:
       ru: Военная полиция
-      en:
+      en: Military police
 
 - abbr: mr.
   text: meester
   translation:
       ru: Мастер, магистр
-      en:
+      en: Master
 
 - abbr: ms
   text: motorschip
   translation:
       ru: Моторная лодка
-      en:
+      en: Motor vessel
 
 - abbr: MSc
   text: Magister Scientiae
   translation:
       ru: Магистр наук
-      en:
+      en: Master of Sciences
 
 - abbr: mts
   text: maatschap
   translation:
       ru: Партнёрство
-      en:
+      en: Partnership
 
 - abbr: mts
   text: middelbare technische school
   translation:
       ru: Средняя техническая школа
-      en:
+      en: Secondary technical school
 
 - abbr: m.u.v.
   text: met uitzondering van
   translation:
       ru: За исключением *того-то*
-      en:
+      en: With the exception of
 
 - abbr: mv.
   text: meervoud
   translation:
       ru: Множественное число
-      en:
+      en: Plural
 
 - abbr: m.v.g.
   text: met vriendelijke groet
   translation:
       ru: С дружескими пожеланиями
-      en:
+      en: With kind regards
 
 - abbr: mw.
   text: mevrouw
   translation:
       ru: Госпожа
-      en:
+      en: Madam/Mrs
 
 - abbr: 'N'
   text: noorden
   translation:
       ru: Север
-      en:
+      en: Morth
 
 - abbr: NA
   text: Nationaal Archief
   translation:
       ru: Национальный архив
-      en:
+      en: National Archive
 
 - abbr: nabo
   text: niet actief beveiligde overweg
   translation:
-      ru: Неактивный охраняемый переезд
-      en:
+      ru: Железнодорожный переезд без шлагбаума
+      en: Level crossing without barrier
 
 - abbr: NAP
   text: Normaal Amsterdams Peil
@@ -1874,223 +1874,223 @@
   text: naar aanleiding van
   translation:
       ru: Как результат *того-то*
-      en:
+      en: As a result of
 
 - abbr: NAVO
   text: Noord-Atlantische Verdragsorganisatie
   translation:
-      ru: НАТО
-      en:
+      ru: Организация Североатлантического договора (НАТО)
+      en: North Atlantic Treaty Organization (NATO)
 
 - abbr: NAW
   text: Naam, Adres en Woonplaats
   translation:
       ru: Имя, адрес, место жительства (данные)
-      en:
+      en: Name, address, and residence
 
 - abbr: NB
   text: Noord-Brabant
   translation:
       ru: Северный Брабант (провинция)
-      en:
+      en: North Brabant (province)
 
 - abbr: N.B.
   text: Nota bene
   translation:
-      ru: Обрати внимание
-      en:
+      ru: Обрати внимание (*лат.*)
+      en: Please note (*Latin*)
 
 - abbr: N.Br.
   text: noorderbreedte
   translation:
       ru: Северной широты
-      en:
+      en: North latitude
 
 - abbr: n.C.
   text: na Christus
   translation:
       ru: После (рождения) Христа, нашей эры
-      en:
+      en: After Christ (A.D.)
 
 - abbr: NCV
   text: Noodcommunicatievoorziening
   translation:
-      ru: Средство аварийной связи
-      en:
+      ru: Сеть аварийной связи
+      en: Emergency communication network
 
 - abbr: Ndl.
   text: Nederlands
   translation:
       ru: Нидерландский язык
-      en:
+      en: Dutch (language)
 
 - abbr: Ned.
   text: Nederlands
   translation:
       ru: Нидерландский язык
-      en:
+      en: Dutch (language)
 
 - abbr: n.e.g.
   text: niet eerder genoemd
   translation:
       ru: Ранее не упоминавшийся
-      en:
+      en: Not mentioned before
 
 - abbr: ngo
   text: Niet-gouvernementele organisatie
   translation:
       ru: Негосударственная организация
-      en:
+      en: Non-governmental organization
 
 - abbr: NH
   text: Noord-Holland
   translation:
       ru: Северная Голландия (провинция)
-      en:
+      en: North Holland (province)
 
 - abbr: NHG
   text: Nationale Hypotheek Garantie
   translation:
       ru: Национальная ипотечная гарантия
-      en:
+      en: National Mortgage Guarantee
 
 - abbr: Nibud
   text: Nationaal Instituut voor Budgetvoorlichting
   translation:
       ru: Национальный институт бюджетного информирования
-      en:
+      en: National Institute for Budget Information foundation
 
 - abbr: NL
   text: Nederland
   translation:
       ru: Нидерланды
-      en:
+      en: (The) Netherlands
 
 - abbr: Nl.
   text: Nederlands
   translation:
       ru: Нидерландский язык
-      en:
+      en: Dutch (language)
 
 - abbr: nl.
   text: namelijk
   translation:
       ru: А именно
-      en:
+      en: Namely
 
 - abbr: n.m.
   text: na de middag
   translation:
       ru: После обеда
-      en:
+      en: (In the) afternoon
 
 - abbr: NmG
   text: Nederlands met Gebarentaal
   translation:
       ru: Нидерландский язык с сурдопереводом
-      en:
+      en: Dutch with sign language
 
 - abbr: n.m.m.
   text: naar mijn mening
   translation:
       ru: По моему мнению
-      en:
+      en: In my opinion
 
 - abbr: N.N.
   text: nomen nescio
   translation:
       ru: Имя неизвестно (*лат.*)
-      en:
+      en: Name unknown (*Latin*)
 
 - abbr: n.n.b.
   text: nog niet bekend
   translation:
       ru: Пока неизвестно
-      en:
+      en: Not yet known
 
 - abbr: N.N.O.
   text: noordnoordoosten
   translation:
       ru: Северо-северо-восток
-      en:
+      en: North-northeast
 
 - abbr: N.N.W.
   text: noordnoordwesten
   translation:
       ru: Северо-северо-запад
-      en:
+      en: North-northwest
 
 - abbr: No.
   text: numéro
   translation:
       ru: Номер (*лат.*)
-      en:
+      en: Number (*Latin*)
 
 - abbr: no.
   text: netto
   translation:
       ru: Нетто
-      en:
+      en: Net
 
 - abbr: N.O.
   text: noordoosten
   translation:
       ru: Северо-восток
-      en:
+      en: Northeast
 
 - abbr: NOS
   text: Nederlandse Omroep Stichting
   translation:
       ru: Нидерландская вещательная корпорация
-      en:
+      en: Dutch Broadcast Foundation
 
 - abbr: n.o.t.k.
   text: nader overeen te komen
   translation:
       ru: Подлежит соглашению
-      en:
+      en: To be negotiated
 
 - abbr: NP
   text: Niet parkeren
   translation:
       ru: Парковка запрещена
-      en:
+      en: Do not park
 
 - abbr: NPO
   text: Nederlandse Publieke Omroep
   translation:
       ru: Нидерландское общественное вещание (телерадиокомпания)
-      en:
+      en: Dutch Foundation for Public Broadcasting
 
 - abbr: nr.
   text: nummer
   translation:
       ru: (Порядковый) номер
-      en:
+      en: Number
 
 - abbr: nrs.
   text: nummers
   translation:
       ru: (Порядковые) номера
-      en:
+      en: Numbers
 
 - abbr: NS
   text: Nederlandse Spoorwegen
   translation:
       ru: Нидерландские железные дороги (компания)
-      en:
+      en: Dutch Railways
 
 - abbr: N.T.
   text: Nieuwe Testament
   translation:
       ru: Новый Завет
-      en:
+      en: New Testament
 
 - abbr: n.t.b.
   text: nader te bepalen
   translation:
       ru: Подлежит определению
-      en:
+      en: to be determined later
 
 - abbr: n.t.o.
   text: nog te ontwikkelen
