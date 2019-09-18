@@ -87,6 +87,12 @@ $(document).ready(function () {
         doSearch();
     });
 
+    // Disable submitting the search form
+    $('#search-form').submit(function (event) {
+        event.preventDefault();
+        return false;
+    });
+
     // Add a history change listener
     $(window).on('popstate', searchCurHash);
 
