@@ -1,4 +1,4 @@
-- {id: copyright,        translation: 'Авторское право ©2000—{{ .year }} [Дмитрий Канн](https://yktoo.com).'}
+- {id: copyright,        translation: 'Авторское право ©2000—{{ .year }} [Дмитрий Канн](https://yktoo.com) · Лицензия [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ru) · Исходный код [на GitHub](https://github.com/yktoo/afk.best)'}
 - {id: resultsNone,      translation: 'Увы, ничего не найдено.'}
 - {id: resultsPresent,   translation: 'Найдено:'}
 - {id: searchHelp,       translation: 'Например:'}
