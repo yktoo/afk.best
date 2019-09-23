@@ -2800,6 +2800,12 @@
       ru: Нержавеющая сталь
       en: Stainless steel
 
+- abbr: RWN
+  text: Rijkswet op het Nederlanderschap
+  translation:
+      ru: Закон о гражданстве Нидерландов
+      en: Dutch Nationality Act
+
 - abbr: RWS
   text: Recht op Waardig Sterven
   translation:
