@@ -826,6 +826,12 @@
       ru: И следующие
       en: And the following
 
+- abbr: e/v
+  text: echtgenoot/echtgenote van
+  translation:
+      ru: Супруг(а) *того-то*
+      en: Spouse of
+
 - abbr: e.v.a.
   text: en vele andere(n)
   translation:
