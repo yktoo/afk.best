@@ -4,3 +4,4 @@
 - {id: searchHelp,       translation: 'Например:'}
 - {id: siteTitle,        translation: Сокращения нидерландского языка}
 - {id: typeAbbreviation, translation: Введите сокращение…}
+- {id: whatMeans,        translation: 'Что означает {{ .link }}?'}

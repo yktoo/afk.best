@@ -20,10 +20,30 @@ body {
 a.search-example {
     display: inline-block;
     margin: 0 0.3rem;
+    border-bottom: lighten($primary, 30%) 1px dashed;
+    @include hover-focus-active {
+        text-decoration: none;
+    }
 }
 
 footer {
     background-color: #eee;
     color: #6c757d;
     padding: 0.3rem;
+}
+
+.icon-info {
+    &::before {
+        display: inline-flex;
+        content: 'i';
+        width: 1rem;
+        height: 1rem;
+        background-color: $body-color;
+        font-size: 80%;
+        border-radius: 0.5rem;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    padding-right: 0.3rem;
 }

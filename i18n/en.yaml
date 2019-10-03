@@ -4,3 +4,4 @@
 - {id: searchHelp,       translation: 'Some examples:'}
 - {id: siteTitle,        translation: Dutch abbreviations}
 - {id: typeAbbreviation, translation: Type any abbreviation…}
+- {id: whatMeans,        translation: 'What does {{ .link }} mean?'}
