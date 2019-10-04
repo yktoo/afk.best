@@ -1,3 +1,4 @@
+- {id: abbrOnly,         translation: In abbr. only}
 - {id: copyright,        translation: 'Copyright ©2000—{{ .year }} [Dmitry Kann](https://yktoo.com) · Licensed under [CC-BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) · Fork me [on GitHub](https://github.com/yktoo/afk.best)'}
 - {id: resultsNone,      translation: Nothing found.}
 - {id: resultsPresent,   translation: 'Found:'}
