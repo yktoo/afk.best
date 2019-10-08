@@ -511,7 +511,7 @@
 - abbr: cao
   text: collectieve arbeidsovereenkomst
   translation:
-      ru: Коллективное трудовое соглашение
+      ru: '[Коллективный трудовой договор](https://yktoo.com/ru/glossary/cao/)'
       en: Collective labour agreement
 
 - abbr: cat.
@@ -621,6 +621,12 @@
   translation:
       ru: Демократы-66 (политическая партия)
       en: Democrats 66 (political party)
+
+- abbr: DBA
+  text: (Wet) Deregulering Beoordeling Arbeidsrelatie
+  translation:
+      ru: 'Закон о прекращении регулирования оценки рабочих отношений, см. [Wet DBA](https://yktoo.com/ru/glossary/wet-dba/)'
+      en: Labour relationship assessment deregulation law
 
 - abbr: d.d.
   text: de dato
@@ -949,8 +955,8 @@
 - abbr: gem.
   text: gemeente
   translation:
-      ru: Муниципалитет
-      en: Local authority/council
+      ru: 'Муниципалитет (или его здание), [«хемента»](https://yktoo.com/ru/glossary/gemeente/)'
+      en: '[Municipality or town hall](https://yktoo.com/en/glossary/gemeente/)'
 
 - abbr: gem.
   text: gemiddeld
@@ -3415,7 +3421,7 @@
 - abbr: VAR
   text: Verklaring arbeidsrelatie
   translation:
-      ru: Заявление о трудовых отношениях (предшественник "DBA")
+      ru: 'Заявление о трудовых отношениях (предшественник [закона DBA](https://yktoo.com/ru/glossary/wet-dba/))'
       en: Labour relation statement
 
 - abbr: VARA
