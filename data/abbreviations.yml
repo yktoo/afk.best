@@ -991,8 +991,8 @@
 - abbr: gft
   text: Groente-, fruit- en tuinafval
   translation:
-      ru: Био-отходы (овощные, фруктовые и садовые)
-      en: Organic waste (vegetable, fruit and garden waste)
+      ru: '[Био-отходы (овощные, фруктовые и садовые)](https://yktoo.com/ru/glossary/gft/)'
+      en: '[Organic waste (vegetable, fruit and garden waste)](https://yktoo.com/en/glossary/gft/)'
 
 - abbr: GGD
   text: Gemeentelijke gezondheidsdienst
