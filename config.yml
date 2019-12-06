@@ -28,6 +28,17 @@ languages:
                 - Нидерланды
                 - Голландия
                 - перевод
+    nl:
+        weight: 3
+        languageName: Nederlands
+        params:
+            author: Dmitry Kann
+            description: 'Woordenboek van meest voorkomende Nederlandse afkortingen'
+            keywords:
+                - afkorting
+                - Nederlands
+                - Nederland
+                - woordenboek
 
 # Params
 params:
