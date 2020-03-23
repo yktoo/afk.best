@@ -2794,6 +2794,12 @@
       ru: Соответственно (по порядку)
       en: Respective(ly)
 
+- abbr: RIVM
+  text: Rijksinstituut voor Volksgezondheid en Milieu
+  translation:
+      ru: Национальный институт здравоохранения и окружающей среды
+      en: National Institute for Public Health and Environment
+
 - abbr: ROC
   text: regionaal opleidingencentrum
   translation:
