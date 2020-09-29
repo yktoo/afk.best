@@ -538,6 +538,18 @@
       ru: Компакт-диск
       en: Compact disc
 
+- abbr: cf.
+  text: confer
+  translation:
+      ru: Сравни (*лат.*)
+      en: Compare (*Latin*)
+
+- abbr: cfr.
+  text: confer
+  translation:
+      ru: Сравни (*лат.*)
+      en: Compare (*Latin*)
+
 - abbr: c.i.
   text: civiel-ingenieur
   translation:
