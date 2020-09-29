@@ -17,12 +17,17 @@ body {
     padding: 1rem 0;
 }
 
-a.search-example {
+a.abbr-term {
     display: inline-block;
-    margin: 0 0.3rem;
-    border-bottom: lighten($primary, 30%) 1px dashed;
+    padding: 0 0.2rem;
+    margin: 0.1rem;
+    border: lighten($primary, 30%) 1px solid;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
     @include hover-focus-active {
         text-decoration: none;
+        background-color: lighten($primary, 40%);
     }
 }
 

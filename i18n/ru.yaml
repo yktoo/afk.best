@@ -3,6 +3,7 @@
 - {id: resultsNone,      translation: 'Увы, ничего не найдено.'}
 - {id: resultsPresent,   translation: 'Найдено:'}
 - {id: searchHelp,       translation: 'Например:'}
+- {id: seeAlso,          translation: см. также}
 - {id: siteTitle,        translation: Сокращения нидерландского языка}
 - {id: typeAbbreviation, translation: Введите сокращение…}
 - {id: whatMeans,        translation: 'Что означает {{ .link }}?'}

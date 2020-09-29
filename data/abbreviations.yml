@@ -543,12 +543,18 @@
   translation:
       ru: Сравни (*лат.*)
       en: Compare (*Latin*)
+  seeAlso:
+      - cfr.
+      - vgl.
 
 - abbr: cfr.
   text: confer
   translation:
       ru: Сравни (*лат.*)
       en: Compare (*Latin*)
+  seeAlso:
+      - cf.
+      - vgl.
 
 - abbr: c.i.
   text: civiel-ingenieur
@@ -867,6 +873,8 @@
   translation:
       ru: Исключая
       en: Excluding
+  seeAlso:
+      - m.u.v.
 
 - abbr: exx.
   text: exemplaren
@@ -1851,6 +1859,8 @@
   translation:
       ru: За исключением *того-то*
       en: With the exception of
+  seeAlso:
+      - excl.
 
 - abbr: mv.
   text: meervoud
@@ -3477,6 +3487,9 @@
   translation:
       ru: Сравни/сравнение
       en: Compare/comparison
+  seeAlso:
+      - cf.
+      - cfr.
 
 - abbr: vglo
   text: voortgezet lager onderwijs

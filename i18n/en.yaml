@@ -3,6 +3,7 @@
 - {id: resultsNone,      translation: Nothing found.}
 - {id: resultsPresent,   translation: 'Found:'}
 - {id: searchHelp,       translation: 'Some examples:'}
+- {id: seeAlso,          translation: see also}
 - {id: siteTitle,        translation: Dutch abbreviations}
 - {id: typeAbbreviation, translation: Type any abbreviation…}
 - {id: whatMeans,        translation: 'What does {{ .link }} mean?'}

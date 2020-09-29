@@ -121,7 +121,7 @@ $(document).ready(function () {
         var idx = Math.floor(Math.random() * abbrRows.length);
         var row = abbrRows.eq(idx);
         var abbr = $('td:first-child', row).text();
-        exList.append('<a class="search-example" href="#' + encodeURIComponent(abbr) + '&abbr">' + abbr + '</a>')
+        exList.append('<a class="abbr-term" href="#' + encodeURIComponent(abbr) + '&abbr">' + abbr + '</a>')
     }
 
     // Perform initial search if the URL contains a hash part
