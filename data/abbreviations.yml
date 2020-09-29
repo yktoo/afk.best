@@ -712,6 +712,12 @@
       ru: Священник
       en: Minister
 
+- abbr: DSO
+  text: Digitaal Stelsel Omgevingswet
+  translation:
+      ru: Онлайн-сервисы для реализации Закона о жилой среде
+      en: Online ecosystem supporting the Living Environment Regulation
+
 - abbr: DUO
   text: Dienst Uitvoering Onderwijs
   translation:
