@@ -63,6 +63,9 @@ $(document).ready(function () {
                 // Increment found counter
                 match && cnt++;
             });
+
+            // Scroll the page so that the search box is at the top
+            $([document.documentElement, document.body]).animate({scrollTop: searchBox.offset().top - 20}, 200);
         }
 
         // Adjust result display
