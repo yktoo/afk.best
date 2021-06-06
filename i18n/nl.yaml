@@ -1,4 +1,4 @@
-- {id: abbrOnly,         translation: Alleein in afkorting}
+- {id: abbrOnly,         translation: Alleen in afkorting}
 - {id: copyright,        translation: 'Auteursrecht ©2000—{{ .year }} [Dmitry Kann](https://yktoo.com) · Gelicentieerd onder [CC-BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.nl) · Fork me [on GitHub](https://github.com/yktoo/afk.best)'}
 - {id: resultsNone,      translation: Niets is gevonden.}
 - {id: resultsPresent,   translation: 'Gevonden:'}
