@@ -3020,6 +3020,12 @@
       ru: Финансовое пособие обучающемуся
       en: Student grant(s)
 
+- abbr: stavaza
+  text: stand van zaken
+  translation:
+      ru: Положение дел
+      en: State of affairs
+
 - abbr: StuVo
   text: studentenvoorzieningen
   translation:
