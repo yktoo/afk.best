@@ -1,7 +1,7 @@
 baseURL: https://afk.best/
 languageCode: en-us
 title: Afkortingen
-googleAnalytics: UA-19569086-7
+googleAnalytics: G-91W9M44VSG
 enableRobotsTXT: true
 disableKinds:
     - taxonomy
