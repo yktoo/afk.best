@@ -1,3 +1,3 @@
-{{- $jquery    := resources.Get "js/jquery-3.4.1.js" -}}
-{{- $main      := resources.Get "js/main.js" -}}
-<script src="{{ (slice $jquery $main | resources.Concat `js/bundle.js` ).Permalink }}"></script>
+{{- $js := slice       (resources.Get "vendor/jquery-3.5.1/jquery-3.5.1.slim.js") -}}
+{{- $js = $js | append (resources.Get "main.js") -}}
+<script src="{{ ($js | resources.Concat `js/bundle.js` | minify).Permalink }}"></script>

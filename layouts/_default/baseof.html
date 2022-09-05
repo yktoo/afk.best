@@ -30,15 +30,15 @@
 
 <!-- Main page content -->
 <section id="page">
-    <div class="container">
-        <!-- Heading -->
-        {{- block "heading" . }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
+    <!-- Heading -->
+    {{- block "heading" . }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
 
-        <!-- Main content -->
+    <!-- Main content -->
+    <main class="container py-5">
         {{ block "main" . }}
         {{ .Content }}
         {{ end }}
-    </div>
+    </main>
 
     <!-- Footer -->
     {{ block "footer" . }}{{ end }}

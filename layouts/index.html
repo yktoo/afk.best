@@ -1,25 +1,24 @@
 {{ define "title" }}{{ .Site.Title }} • {{ i18n "siteTitle" }}{{ end }}
 {{ define "heading" }}
-<div class="jumbotron">
+<div class="container-fluid p-5 hero">
     <img src="/images/logo.png" alt="Logo">
-    <h1>{{ i18n "siteTitle" }}</h1>
+    <h1 class="display-6 fw-bold">{{ i18n "siteTitle" }}</h1>
     <div class="d-flex justify-content-between">
-        <ul class="nav">
-        {{ range .AllTranslations }}
+        <ul class="nav nav-pills">
+            {{ range .AllTranslations }}
             <li class="nav-item">
                 {{- if eq $.Page.Lang .Language.Lang }}
-                    <span class="nav-link">{{- .Language.LanguageName }}</span>
+                    <span class="nav-link active">{{- .Language.LanguageName }}</span>
                 {{- else }}
                     <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
                 {{- end }}
             </li>
             {{ end }}
         </ul>
-        <ul class="nav">
-            <li class="nav-item">
-                <span class="nav-link"><span class="icon-info"></span>{{ i18n "whatMeans" (dict "link" `<a class="abbr-term" href="#afk.">afk.</a>`) | safeHTML }}</span>
-            </li>
-        </ul>
+        <div class="d-flex align-items-center">
+            {{- partial "info-icon" -}}
+            {{- i18n "whatMeans" (dict "link" `<a class="abbr-term mx-1" href="#afk.">afk.</a>`) | safeHTML -}}
+        </div>
     </div>
 </div>
 {{ end }}
@@ -27,23 +26,21 @@
 {{ define "main" }}
 <!-- The search form -->
 <form id="search-form">
-    <div class="form-group">
-        <div class="input-group">
-            <input type="search" class="form-control" id="search-text" aria-describedby="search-help" placeholder="{{ i18n `typeAbbreviation` }}" autofocus>
-            <div class="input-group-append">
-                <label class="input-group-text" for="abbr-only"><input type="checkbox" id="abbr-only">&nbsp;{{ i18n "abbrOnly" }}</label>
-            </div>
-        </div>
-        <div id="search-help" class="form-text text-muted text-small">{{ i18n "searchHelp" }}</div>
+    <div class="input-group">
+        <input type="search" class="form-control" id="search-text" aria-describedby="search-help" placeholder="{{ i18n `typeAbbreviation` }}" autofocus>
+        <label class="input-group-text" for="abbr-only"><input type="checkbox" id="abbr-only">&nbsp;{{ i18n "abbrOnly" }}</label>
+    </div>
+    <div id="search-help" class="form-text text-small">
+        <span class="text-muted me-1">{{ i18n "searchHelp" }}</span>
     </div>
 </form>
 
 <!-- No results banner -->
-<div class="text-muted" id="results-none" style="display: none">{{ i18n "resultsNone" }}</div>
+<div class="text-muted hide" id="results-none">{{ i18n "resultsNone" }}</div>
 
 <!-- Search results -->
-<div id="results" style="display: none">
-    <div class="text-muted">{{ i18n "resultsPresent" }}&nbsp;<span id="result-count"></span></div>
+<div id="results" class="hide">
+    <div class="text-primary">{{ i18n "resultsPresent" }}&nbsp;<span id="result-count"></span></div>
     <div class="table-responsive">
         <table class="table" id="abbr-table">
             {{ range .Site.Data.abbreviations }}
