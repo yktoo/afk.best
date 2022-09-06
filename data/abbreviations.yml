@@ -547,6 +547,12 @@
       - cfr.
       - vgl.
 
+- abbr: cf.
+  text: conform
+  translation:
+      ru: В соответствии с
+      en: In accordance with
+
 - abbr: cfr.
   text: confer
   translation:
