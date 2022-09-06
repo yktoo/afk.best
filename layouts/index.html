@@ -1,61 +1,71 @@
-{{ define "title" }}{{ .Site.Title }} • {{ i18n "siteTitle" }}{{ end }}
-{{ define "heading" }}
+{{- define "title" }}{{ .Site.Title }} • {{ i18n "siteTitle" }}{{ end }}
+
+{{- define "heading" }}
 <div class="container-fluid p-5 hero">
     <img src="/images/logo.png" alt="Logo">
-    <h1 class="display-6 fw-bold">{{ i18n "siteTitle" }}</h1>
-    <div class="d-flex justify-content-between">
-        <ul class="nav nav-pills">
-            {{ range .AllTranslations }}
-            <li class="nav-item">
-                {{- if eq $.Page.Lang .Language.Lang }}
-                    <span class="nav-link active">{{- .Language.LanguageName }}</span>
-                {{- else }}
-                    <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-                {{- end }}
-            </li>
-            {{ end }}
-        </ul>
-        <div class="d-flex align-items-center">
+    <h1 class="display-6">{{ i18n "siteTitle" }}</h1>
+    <hr>
+    <div class="row">
+        <div class="col-12 col-md">
+            <ul class="nav nav-pills">
+                {{ range .AllTranslations }}
+                <li class="nav-item">
+                    {{- if eq $.Page.Lang .Language.Lang }}
+                        <span class="nav-link active">{{- .Language.LanguageName }}</span>
+                    {{- else }}
+                        <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                    {{- end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="col-auto d-none d-md-flex align-items-center text-nowrap">
             {{- partial "info-icon" -}}
             {{- i18n "whatMeans" (dict "link" `<a class="abbr-term mx-1" href="#afk.">afk.</a>`) | safeHTML -}}
         </div>
     </div>
 </div>
-{{ end }}
+{{- end }}
 
-{{ define "main" }}
-<!-- The search form -->
-<form id="search-form">
-    <div class="input-group">
-        <input type="search" class="form-control" id="search-text" aria-describedby="search-help" placeholder="{{ i18n `typeAbbreviation` }}" autofocus>
-        <label class="input-group-text" for="abbr-only"><input type="checkbox" id="abbr-only">&nbsp;{{ i18n "abbrOnly" }}</label>
+{{- define "main" }}
+<main class="container-md py-5">
+    <!-- The search form -->
+    <form id="search-form">
+        <div class="input-group">
+            <input type="search" class="form-control" id="search-text" aria-describedby="search-help" placeholder="{{ i18n `typeAbbreviation` }}" autofocus>
+            <label class="input-group-text" for="abbr-only">
+                <input class="form-check-input mt-0 me-1" type="checkbox" id="abbr-only">
+                <span class="form-check-label d-md-none">{{ i18n "abbrOnlyShort" }}</span>
+                <span class="form-check-label d-none d-md-inline">{{ i18n "abbrOnly" }}</span>
+            </label>
+        </div>
+        <div id="search-help" class="form-text text-small">
+            <span class="text-muted me-1">{{ i18n "searchHelp" }}</span>
+        </div>
+    </form>
+
+    <!-- No results banner -->
+    <div class="text-muted hide" id="results-none">{{ i18n "resultsNone" }}</div>
+
+    <!-- Search results -->
+    <div id="results" class="hide">
+        <div class="text-primary">{{ i18n "resultsPresent" }}&nbsp;<span id="result-count"></span></div>
+        <div class="table-responsive">
+            <table class="table" id="abbr-table">
+                {{ range .Site.Data.abbreviations }}
+                <tr>
+                    <td>{{ .abbr }}</td>
+                    <td>{{ .text }}</td>
+                    <td>{{ index .translation $.Page.Lang | markdownify }}
+                        {{- with .seeAlso }}<p class="small">({{ T "seeAlso" }} {{ range . }}<a class="abbr-term" href="#{{ . }}&amp;abbr">{{ . }}</a>{{ end }})</p>{{ end }}</td>
+                </tr>
+                {{ end }}
+            </table>
+        </div>
     </div>
-    <div id="search-help" class="form-text text-small">
-        <span class="text-muted me-1">{{ i18n "searchHelp" }}</span>
-    </div>
-</form>
+</main>
+{{- end }}
 
-<!-- No results banner -->
-<div class="text-muted hide" id="results-none">{{ i18n "resultsNone" }}</div>
-
-<!-- Search results -->
-<div id="results" class="hide">
-    <div class="text-primary">{{ i18n "resultsPresent" }}&nbsp;<span id="result-count"></span></div>
-    <div class="table-responsive">
-        <table class="table" id="abbr-table">
-            {{ range .Site.Data.abbreviations }}
-            <tr>
-                <td>{{ .abbr }}</td>
-                <td>{{ .text }}</td>
-                <td>{{ index .translation $.Page.Lang | markdownify }}
-                    {{- with .seeAlso }}<p class="small">({{ T "seeAlso" }} {{ range . }}<a class="abbr-term" href="#{{ . }}&amp;abbr">{{ . }}</a>{{ end }})</p>{{ end }}</td>
-            </tr>
-            {{ end }}
-        </table>
-    </div>
-</div>
-{{ end }}
-
-{{ define "footer" }}
-<footer class="fixed-bottom text-center">{{ T "copyright" (dict "year" now.Year) | markdownify }}</footer>
-{{ end }}
+{{- define "footer" }}
+<footer>{{ T "copyright" (dict "year" now.Year) | markdownify }}</footer>
+{{- end }}

@@ -50,6 +50,15 @@ $enable-gradients: true;
 @import "vendor/bootstrap-5.2.0/scss/helpers";
 @import "vendor/bootstrap-5.2.0/scss/utilities/api";
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero {
     background-color: transparentize($primary, 0.8);
     background-size: 66px 66px, 45px 45px, 37px 37px, 53px 53px;
@@ -75,8 +84,8 @@ a.abbr-term {
 
 #results, #results-none {
     margin-top: 1rem;
-    margin-bottom: 4rem;
-    animation: fadeIn 0.333s;
+    margin-bottom: 1rem;
+    animation: fadeIn 0.5s;
 
     &.hide {
         display: none;
@@ -87,7 +96,17 @@ a.abbr-term {
 footer {
     background-color: $gray-200;
     color: #6c757d;
+    margin-top: auto;
     padding: 0.3rem;
+    text-align: center;
+
+    @include media-breakpoint-up(md) {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1030;
+    }
 }
 
 @keyframes fadeIn {

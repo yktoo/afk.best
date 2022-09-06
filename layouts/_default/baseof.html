@@ -27,23 +27,16 @@
     {{- end }}
 </head>
 <body>
-
-<!-- Main page content -->
-<section id="page">
     <!-- Heading -->
     {{- block "heading" . }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
 
     <!-- Main content -->
-    <main class="container py-5">
-        {{ block "main" . }}
-        {{ .Content }}
-        {{ end }}
-    </main>
+    {{- block "main" . }}{{ .Content }}{{ end }}
 
     <!-- Footer -->
-    {{ block "footer" . }}{{ end }}
-</section>
+    {{- block "footer" . }}{{ end }}
 
-{{ partial "scripts" . }}
+    <!-- Scripts -->
+    {{- partial "scripts" . }}
 </body>
 </html>
