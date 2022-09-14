@@ -1,3 +1,0 @@
-{{- $css := slice (resources.Get "main.scss" | toCSS) -}}
-<!-- Make a minified bundle of all stylesheets -->
-<link href="{{ ($css | resources.Concat `css/bundle.css` | minify).Permalink }}" rel="stylesheet">

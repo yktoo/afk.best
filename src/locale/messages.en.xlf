@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="en">
+    <body>
+      <trans-unit id="1613729201970187926" datatype="html">
+        <source>Type any abbreviation…</source>
+        <target state="final">Type any abbreviation…</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3021804269174650071" datatype="html">
+        <source>In abbr.</source>
+        <target state="final">In abbr.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3635262297304388376" datatype="html">
+        <source>In abbreviation only</source>
+        <target state="final">In abbreviation only</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73980615646817002" datatype="html">
+        <source>Some examples:</source>
+        <target state="final">Some examples:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8928012760668964107" datatype="html">
+        <source>Nothing found.</source>
+        <target state="final">Nothing found.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7989791073412644531" datatype="html">
+        <source>Found:</source>
+        <target state="final">Found:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4778144873270647927" datatype="html">
+        <source>see also</source>
+        <target state="final">see also</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1655136047050452444" datatype="html">
+        <source>Copyright ©2000—<x id="INTERPOLATION" equiv-text="{{ year }}"/></source>
+        <target state="final">Copyright ©2000—<x id="INTERPOLATION" equiv-text="{{ year }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689475189089962541" datatype="html">
+        <source>Dmitry Kann</source>
+        <target state="final">Dmitry Kann</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8289764700900520686" datatype="html">
+        <source>Licensed under</source>
+        <target state="final">Licensed under</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4550958265168690830" datatype="html">
+        <source>Logo</source>
+        <target state="final">Logo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8897528155388166455" datatype="html">
+        <source>Dutch abbreviations</source>
+        <target state="final">Dutch abbreviations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2788523917444786646" datatype="html">
+        <source>What does <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;abbr-term mx-1&quot; routerLink=&quot;/abbr/afk.&quot;>"/>afk.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> mean?</source>
+        <target state="final">What does <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;abbr-term mx-1&quot; routerLink=&quot;/abbr/afk.&quot;>"/>afk.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> mean?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

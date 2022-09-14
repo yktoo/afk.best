@@ -1,0 +1,56 @@
+<div class="container">
+    <!-- Search form -->
+    <div class="row">
+        <form [formGroup]="form">
+            <div class="input-group">
+                <input #searchBox formControlName="pattern" type="search" class="form-control" id="search-text"
+                       aria-describedby="search-help" placeholder="Type any abbreviation…" i18n-placeholder>
+                <label class="input-group-text" for="abbr-only">
+                    <input formControlName="abbrOnly" class="form-check-input mt-0 me-1" type="checkbox" id="abbr-only">
+                    <span class="form-check-label d-md-none" i18n>In abbr.</span>
+                    <span class="form-check-label d-none d-md-inline" i18n>In abbreviation only</span>
+                </label>
+            </div>
+
+            <!-- Examples -->
+            <div id="search-help" class="form-text text-small">
+                <span class="text-muted me-1" i18n>Some examples:</span>
+                <a *ngFor="let a of abbrExamples" [routerLink]="['/search', a.abbr, {abbrOnly: true}]" class="abbr-term mx-1">{{ a.abbr }}</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- Results -->
+    <div *ngIf="abbreviations" class="row">
+        <!-- No results banner -->
+        <div *ngIf="!abbreviations!.length" class="py-3 text-muted" i18n>Nothing found.</div>
+
+        <!-- Search results -->
+        <div *ngIf="abbreviations!.length">
+            <!-- Result count -->
+            <div class="pt-3 pb-2 border-bottom text-primary">
+                <ng-container i18n>Found:</ng-container>&ngsp;
+                <span class="badge bg-secondary">{{ abbreviations!.length }}</span>
+            </div>
+            <!-- Result table -->
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+                    <tr *ngFor="let a of abbreviations">
+                        <td>{{ a.abbr }}</td>
+                        <td>{{ a.text }}</td>
+                        <td>
+                            {{ a.translation[locale] }}
+                            <p *ngIf="a.seeAlso?.length" class="small">
+                                (<ng-container i18n>see also</ng-container>
+                                &ngsp;
+                                <a *ngFor="let sa of a.seeAlso" class="abbr-term" [routerLink]="sa">{{ sa }}</a>
+                            </p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
