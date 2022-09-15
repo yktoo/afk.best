@@ -6,10 +6,13 @@
         "start": "ng serve",
         "build": "ng build --configuration development --localize",
         "build:prod": "ng build --localize",
+        "postbuild:prod": "npm run copy-assets && npm run cleanup-assets",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
         "lint": "ng lint",
-        "i18n": "ng extract-i18n --output-path src/locale && xliffmerge --profile src/locale/xliffmerge.json"
+        "i18n": "ng extract-i18n --output-path src/locale && xliffmerge --profile src/locale/xliffmerge.json",
+        "copy-assets": "cp dist/afk-best/en/*.ico dist/afk-best/en/*.xml dist/afk-best/en/*.txt dist/afk-best/en/_redirects dist/afk-best/",
+        "cleanup-assets": "rm -f dist/afk-best/*/*.ico dist/afk-best/*/*.xml dist/afk-best/*/*.txt dist/afk-best/*/_redirects"
     },
     "private": true,
     "dependencies": {
