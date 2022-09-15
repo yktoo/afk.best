@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { RouterTestingModule } from '@angular/router/testing';
+import { FontAwesomeTestingModule } from '@fortawesome/angular-fontawesome/testing';
 import { AbbrComponent } from './abbr.component';
 
 describe('AbbrComponent', () => {
@@ -9,6 +10,7 @@ describe('AbbrComponent', () => {
     beforeEach(async () => {
         await TestBed.configureTestingModule({
             declarations: [AbbrComponent],
+            imports: [RouterTestingModule, FontAwesomeTestingModule],
         })
             .compileComponents();
 

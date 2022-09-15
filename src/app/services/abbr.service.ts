@@ -22,11 +22,11 @@ export class AbbrService {
     }
 
     /**
-     * Finds and returns one abbreviation with the given abbr, or null if not found.
+     * Finds and returns all abbreviation with the given abbr.
      * @param abbr abbreviation to search.
      */
-    findOne(abbr: string): Abbreviation | null {
-        return abbreviations.find(a => a.abbr === abbr) || null;
+    findExact(abbr: string): Abbreviation[] {
+        return abbreviations.filter(a => a.abbr === abbr);
     }
 
     /**

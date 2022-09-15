@@ -1,25 +1,44 @@
 <!-- Heading -->
-<h1>{{ abbr }}</h1>
+<h1 class="mb-0">{{ abbr }}</h1>
+<p class="lead mb-3" i18n>abbreviation</p>
 
 <!-- Abbreviation details -->
-<dl *ngIf="abbreviation else unknown">
-    <div>
-        <dt i18n>Stands for:</dt>
-        <dd>{{ abbreviation!.text }}</dd>
+<div *ngIf="abbreviations?.length else unknown">
+    <div *ngFor="let a of abbreviations; index as i" class="border-bottom mb-3 d-flex align-content-center">
+        <!-- Occurrence number, only if there's more than one -->
+        <div *ngIf="abbreviations!.length > 1" class="display-6 me-3 text-dimmed">{{ i+1 }}</div>
+        <!-- Details -->
+        <dl>
+            <div>
+                <dt><ng-container i18n>Stands for</ng-container></dt>
+                <dd>{{ a!.text }}</dd>
+            </div>
+            <div *ngIf="a!.translation[locale] as t">
+                <dt i18n>Translation</dt>
+                <dd><span [innerHTML]="t"></span></dd>
+            </div>
+        </dl>
     </div>
-    <div *ngIf="abbreviation!.translation[locale] as t">
-        <dt i18n>Translation:</dt>
-        <dd>{{ t }}</dd>
-    </div>
-</dl>
+</div>
 
 <!-- Abbreviation unknown -->
 <ng-template #unknown>
-    <p i18n>Sorry, we this abbreviation is unknown to us.</p>
+    <p class="lead fw-bold">¯\_(ツ)_/¯</p>
+    <p i18n>Sorry, this abbreviation is unknown to us.</p>
 </ng-template>
 
 <!-- Buttons -->
 <div class="mt-4 d-grid d-sm-block gap-2">
-    <button routerLink="/search" type="button" class="btn btn-outline-primary me-sm-2" i18n>« Back to search</button>
-    <button type="button" class="btn btn-outline-primary" (click)="share()" i18n>Share</button>
+    <button routerLink="/search" [queryParams]="searchParams" type="button" class="btn btn-outline-primary me-sm-2">
+        <fa-icon [icon]="faChevronLeft" class="me-1"></fa-icon>
+        <ng-container i18n>Back to search</ng-container>
+    </button>
+    <button *ngIf="abbreviations?.length" (click)="copyLink()" type="button" class="btn btn-outline-primary">
+        <fa-icon [icon]="faCopy" class="me-1"></fa-icon>
+        <ng-container i18n>Copy link</ng-container>
+    </button>
+    <span *ngIf="textCopied" class="ms-2 fadeIn text-success">
+        <fa-icon [icon]="faCheck" class="me-1"></fa-icon>
+        <ng-container i18n>Link is copied!</ng-container>
+    </span>
 </div>

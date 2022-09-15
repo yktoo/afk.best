@@ -1,4 +1,5 @@
 import { Component, Inject, LOCALE_ID } from '@angular/core';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
     selector: 'app-header',
@@ -11,6 +12,8 @@ export class HeaderComponent {
         {code: 'ru', name: 'Русский'},
         {code: 'nl', name: 'Nederlands'},
     ];
+
+    readonly faInfoCircle = faInfoCircle;
 
     constructor(
         @Inject(LOCALE_ID) readonly locale: string,

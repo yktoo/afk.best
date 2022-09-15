@@ -1,5 +1,5 @@
 import { Component, ElementRef, Inject, LOCALE_ID, OnInit, ViewChild } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -34,6 +34,10 @@ export class SearchComponent implements OnInit {
         private readonly abbrService: AbbrService,
     ) {}
 
+    get searchParams(): Params {
+        return this.getSearchParams(this.form.value);
+    }
+
     ngOnInit(): void {
         // Subscribe to route changes to update the filtered list
         this.route.queryParamMap
@@ -52,13 +56,13 @@ export class SearchComponent implements OnInit {
             .pipe(debounceTime(500), distinctUntilChanged())
             .subscribe(vals =>
                 this.form.valid &&
-                this.router.navigate(
-                    ['/search'],
-                    {
-                        queryParams: {q: vals.pattern || undefined, a: vals.abbrOnly || undefined},
-                    }));
+                this.router.navigate(['/search'], {queryParams: this.getSearchParams(vals)}));
 
         // Focus the search box initially
         setTimeout(() => this.searchBox?.nativeElement?.focus(), 100);
+    }
+
+    getSearchParams(vals: {pattern?: string, abbrOnly?: boolean}): Params {
+        return {q: vals.pattern || undefined, a: vals.abbrOnly || undefined};
     }
 }

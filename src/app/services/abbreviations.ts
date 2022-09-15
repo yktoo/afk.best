@@ -82,7 +82,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'a.d.h.v.',
         text: 'aan de hand van',
         translation: {
-            ru: 'На основании *того-то*',
+            ru: 'На основании <i>того-то</i>',
             en: 'On the basis of/In the view of',
         },
     },
@@ -146,7 +146,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'a.g.v.',
         text: 'als gevolg van',
         translation: {
-            ru: 'Как следствие *того-то*',
+            ru: 'Как следствие <i>того-то</i>',
             en: 'As a consequence of, owing to',
         },
     },
@@ -170,8 +170,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'a.i.',
         text: 'ad interim',
         translation: {
-            ru: 'Исполняющий обязанности (*лат.*)',
-            en: 'Temporary (*Latin*)',
+            ru: 'Исполняющий обязанности (<i>лат.</i>)',
+            en: 'Temporary (<i>Latin</i>)',
         },
     },
     {
@@ -218,8 +218,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'Ao',
         text: 'Anno',
         translation: {
-            ru: 'В *таком-то* году (*лат.*)',
-            en: 'In the year (*Latin*)',
+            ru: 'В <i>таком-то</i> году (<i>лат.</i>)',
+            en: 'In the year (<i>Latin</i>)',
         },
     },
     {
@@ -282,8 +282,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'a.s.',
         text: 'aanstaande',
         translation: {
-            ru: 'Предстоящий, следующий (*о дате*)',
-            en: 'Next (*about a date*)',
+            ru: 'Предстоящий, следующий (<i>о дате</i>)',
+            en: 'Next (<i>about a date</i>)',
         },
     },
     {
@@ -674,8 +674,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'ca.',
         text: 'circa',
         translation: {
-            ru: 'Примерно (*лат.*)',
-            en: 'Approximately (*Latin*)',
+            ru: 'Примерно (<i>лат.</i>)',
+            en: 'Approximately (<i>Latin</i>)',
         },
     },
     {
@@ -690,7 +690,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'cao',
         text: 'collectieve arbeidsovereenkomst',
         translation: {
-            ru: '[Коллективный трудовой договор](https://yktoo.com/ru/glossary/cao/)',
+            ru: '<a href="https://yktoo.com/ru/glossary/cao/">Коллективный трудовой договор</a>',
             en: 'Collective labour agreement',
         },
     },
@@ -730,8 +730,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'cf.',
         text: 'confer',
         translation: {
-            ru: 'Сравни (*лат.*)',
-            en: 'Compare (*Latin*)',
+            ru: 'Сравни (<i>лат.</i>)',
+            en: 'Compare (<i>Latin</i>)',
         },
         seeAlso: [
             'cfr.',
@@ -750,8 +750,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'cfr.',
         text: 'confer',
         translation: {
-            ru: 'Сравни (*лат.*)',
-            en: 'Compare (*Latin*)',
+            ru: 'Сравни (<i>лат.</i>)',
+            en: 'Compare (<i>Latin</i>)',
         },
         seeAlso: [
             'cf.',
@@ -794,8 +794,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'c.q.',
         text: 'casu quo',
         translation: {
-            ru: 'И/или (*лат.*)',
-            en: 'And/or (*Latin*)',
+            ru: 'И/или (<i>лат.</i>)',
+            en: 'And/or (<i>Latin</i>)',
         },
     },
     {
@@ -874,7 +874,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'DBA',
         text: '(Wet) Deregulering Beoordeling Arbeidsrelatie',
         translation: {
-            ru: 'Закон о прекращении регулирования оценки рабочих отношений, см. [Wet DBA](https://yktoo.com/ru/glossary/wet-dba/)',
+            ru: 'Закон о прекращении регулирования оценки рабочих отношений, см. <a href="https://yktoo.com/ru/glossary/wet-dba/">Wet DBA</a>',
             en: 'Labour relationship assessment deregulation law',
         },
     },
@@ -882,8 +882,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'd.d.',
         text: 'de dato',
         translation: {
-            ru: 'Датируемый (*лат.*)',
-            en: 'Dated (*Latin*)',
+            ru: 'Датируемый (<i>лат.</i>)',
+            en: 'Dated (<i>Latin</i>)',
         },
     },
     {
@@ -954,8 +954,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'drs.',
         text: 'doctorandus',
         translation: {
-            ru: 'Доктор наук (*лат.*)',
-            en: 'Master of Arts (M.A.)/Master of Science (M.Sc.) (*Latin*)',
+            ru: 'Доктор наук (<i>лат.</i>)',
+            en: 'Master of Arts (M.A.)/Master of Science (M.Sc.) (<i>Latin</i>)',
         },
     },
     {
@@ -1010,8 +1010,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'e.c.',
         text: 'exempli causa',
         translation: {
-            ru: 'Например (*лат.*)',
-            en: 'For example (*Latin*)',
+            ru: 'Например (<i>лат.</i>)',
+            en: 'For example (<i>Latin</i>)',
         },
     },
     {
@@ -1066,8 +1066,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'e.g.',
         text: 'exempli gratia',
         translation: {
-            ru: 'Например (*лат.*)',
-            en: 'For example (*Latin*)',
+            ru: 'Например (<i>лат.</i>)',
+            en: 'For example (<i>Latin</i>)',
         },
     },
     {
@@ -1138,16 +1138,16 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'et al.',
         text: 'et alii',
         translation: {
-            ru: 'И другие (*лат.*)',
-            en: 'And other(s) (*Latin*)',
+            ru: 'И другие (<i>лат.</i>)',
+            en: 'And other(s) (<i>Latin</i>)',
         },
     },
     {
         abbr: 'etc.',
         text: 'et cetera',
         translation: {
-            ru: 'И так далее (*лат.*)',
-            en: 'And so on (*Latin*)',
+            ru: 'И так далее (<i>лат.</i>)',
+            en: 'And so on (<i>Latin</i>)',
         },
     },
     {
@@ -1162,7 +1162,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'e/v',
         text: 'echtgenoot/echtgenote van',
         translation: {
-            ru: 'Супруг(а) *того-то*',
+            ru: 'Супруг(а) <i>того-то</i>',
             en: 'Spouse of',
         },
     },
@@ -1325,8 +1325,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'gem.',
         text: 'gemeente',
         translation: {
-            ru: 'Муниципалитет (или его здание), [«хемента»](https://yktoo.com/ru/glossary/gemeente/)',
-            en: '[Municipality or town hall](https://yktoo.com/en/glossary/gemeente/)',
+            ru: 'Муниципалитет (или его здание), <a href="https://yktoo.com/ru/glossary/gemeente/">«хемента»</a>',
+            en: '<a href="https://yktoo.com/en/glossary/gemeente/">Municipality or town hall</a>',
         },
     },
     {
@@ -1373,8 +1373,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'gft',
         text: 'Groente-, fruit- en tuinafval',
         translation: {
-            ru: '[Био-отходы (овощные, фруктовые и садовые)](https://yktoo.com/ru/glossary/gft/)',
-            en: '[Organic waste (vegetable, fruit and garden waste)](https://yktoo.com/en/glossary/gft/)',
+            ru: '<a href="https://yktoo.com/ru/glossary/gft/">Био-отходы (овощные, фруктовые и садовые)</a>',
+            en: '<a href="https://yktoo.com/en/glossary/gft/">Organic waste (vegetable, fruit and garden waste)</a>',
         },
     },
     {
@@ -1581,7 +1581,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.a.v.',
         text: 'in aanwezigheid van',
         translation: {
-            ru: 'В присутствии *того-то*',
+            ru: 'В присутствии <i>того-то</i>',
             en: 'In the presence of',
         },
     },
@@ -1589,7 +1589,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.a.v.',
         text: 'in afwachting van',
         translation: {
-            ru: 'В ожидании *того-то*',
+            ru: 'В ожидании <i>того-то</i>',
             en: 'In expectation/anticipation of',
         },
     },
@@ -1613,7 +1613,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.b.v.',
         text: 'in bezit van',
         translation: {
-            ru: 'Владеющий *тем-то*',
+            ru: 'Владеющий <i>тем-то</i>',
             en: 'In possession of',
         },
     },
@@ -1629,8 +1629,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.c.',
         text: 'in casu',
         translation: {
-            ru: 'В данном случае (*лат.*)',
-            en: 'In this case (*Latin*)',
+            ru: 'В данном случае (<i>лат.</i>)',
+            en: 'In this case (<i>Latin</i>)',
         },
     },
     {
@@ -1653,7 +1653,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'ICT',
         text: 'Informatie- en Communicatietechnologie',
         translation: {
-            ru: 'ИТ (*букв.* «информационные и коммуникационные технологии»)',
+            ru: 'ИТ (<i>букв.</i> «информационные и коммуникационные технологии»)',
             en: 'IT (information and communication technology)',
         },
     },
@@ -1661,8 +1661,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'id.',
         text: 'idem',
         translation: {
-            ru: 'То же самое (*лат.*)',
-            en: 'Same (here) (*Latin*)',
+            ru: 'То же самое (<i>лат.</i>)',
+            en: 'Same (here) (<i>Latin</i>)',
         },
     },
     {
@@ -1685,8 +1685,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.e.',
         text: 'id est',
         translation: {
-            ru: 'То есть (*лат.*)',
-            en: 'That is (*Latin*)',
+            ru: 'То есть (<i>лат.</i>)',
+            en: 'That is (<i>Latin</i>)',
         },
     },
     {
@@ -1701,7 +1701,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.g.v.',
         text: 'in geval van',
         translation: {
-            ru: 'В случае *того-то*',
+            ru: 'В случае <i>того-то</i>',
             en: 'In case of',
         },
     },
@@ -1725,7 +1725,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.h.k.v.',
         text: 'in het kader van',
         translation: {
-            ru: 'В рамках *того-то*',
+            ru: 'В рамках <i>того-то</i>',
             en: 'Within the scope of, as part of',
         },
     },
@@ -1733,7 +1733,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.h.t.v.',
         text: 'in het teken van',
         translation: {
-            ru: 'Знаменующийся *тем-то*',
+            ru: 'Знаменующийся <i>тем-то</i>',
             en: 'Characterised by',
         },
     },
@@ -1805,15 +1805,15 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.o.v.',
         text: 'in opdracht van',
         translation: {
-            ru: 'По поручению *того-то*',
-            en: 'By *someone\'s* order',
+            ru: 'По поручению <i>того-то</i>',
+            en: 'By <i>someone\'s</i> order',
         },
     },
     {
         abbr: 'i.p.v.',
         text: 'in plaats van',
         translation: {
-            ru: 'Вместо *того-то*',
+            ru: 'Вместо <i>того-то</i>',
             en: 'Instead of',
         },
     },
@@ -1829,7 +1829,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.r.t.',
         text: 'in relatie tot',
         translation: {
-            ru: 'В отношении *того-то*',
+            ru: 'В отношении <i>того-то</i>',
             en: 'In relation to',
         },
     },
@@ -1845,7 +1845,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.t.t.',
         text: 'in tegenstelling tot',
         translation: {
-            ru: 'В противоположность *тому-то*',
+            ru: 'В противоположность <i>тому-то</i>',
             en: 'In contrast to',
         },
     },
@@ -2269,7 +2269,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'm.b.t.',
         text: 'met betrekking tot',
         translation: {
-            ru: 'В отношении *того-то*',
+            ru: 'В отношении <i>того-то</i>',
             en: 'With regard to',
         },
     },
@@ -2277,7 +2277,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'm.b.v.',
         text: 'met behulp van',
         translation: {
-            ru: 'При помощи *того-то*',
+            ru: 'При помощи <i>того-то</i>',
             en: 'With the help of',
         },
     },
@@ -2501,7 +2501,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'm.u.v.',
         text: 'met uitzondering van',
         translation: {
-            ru: 'За исключением *того-то*',
+            ru: 'За исключением <i>того-то</i>',
             en: 'With the exception of',
         },
         seeAlso: [
@@ -2569,7 +2569,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'n.a.v.',
         text: 'naar aanleiding van',
         translation: {
-            ru: 'Как результат *того-то*',
+            ru: 'Как результат <i>того-то</i>',
             en: 'As a result of',
         },
     },
@@ -2601,8 +2601,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'N.B.',
         text: 'Nota bene',
         translation: {
-            ru: 'Обрати внимание (*лат.*)',
-            en: 'Please note (*Latin*)',
+            ru: 'Обрати внимание (<i>лат.</i>)',
+            en: 'Please note (<i>Latin</i>)',
         },
     },
     {
@@ -2737,8 +2737,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'N.N.',
         text: 'nomen nescio',
         translation: {
-            ru: 'Имя неизвестно (*лат.*)',
-            en: 'Name unknown (*Latin*)',
+            ru: 'Имя неизвестно (<i>лат.</i>)',
+            en: 'Name unknown (<i>Latin</i>)',
         },
     },
     {
@@ -2769,8 +2769,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'No.',
         text: 'numéro',
         translation: {
-            ru: 'Номер (*лат.*)',
-            en: 'Number (*Latin*)',
+            ru: 'Номер (<i>лат.</i>)',
+            en: 'Number (<i>Latin</i>)',
         },
     },
     {
@@ -2953,8 +2953,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'ob.',
         text: 'obiit',
         translation: {
-            ru: 'Умерший (*лат.*)',
-            en: 'Deceased (*Latin*)',
+            ru: 'Умерший (<i>лат.</i>)',
+            en: 'Deceased (<i>Latin</i>)',
         },
     },
     {
@@ -2993,7 +2993,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'o.b.v.',
         text: 'op basis van',
         translation: {
-            ru: 'На основе *того-то*',
+            ru: 'На основе <i>того-то</i>',
             en: 'On the basis of',
         },
     },
@@ -3001,7 +3001,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'o.b.v.',
         text: 'onder begeleiding van',
         translation: {
-            ru: 'Под руководством *того-то*',
+            ru: 'Под руководством <i>того-то</i>',
             en: 'Accompanied/led by',
         },
     },
@@ -3009,8 +3009,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'o.c.',
         text: 'opere citato',
         translation: {
-            ru: 'В цитируемой работе (*лат.*)',
-            en: 'In the work quoted (*Latin*)',
+            ru: 'В цитируемой работе (<i>лат.</i>)',
+            en: 'In the work quoted (<i>Latin</i>)',
         },
     },
     {
@@ -3081,7 +3081,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'o.g.v.',
         text: 'op grond van',
         translation: {
-            ru: 'На основании *того-то*',
+            ru: 'На основании <i>того-то</i>',
             en: 'On the basis of',
         },
     },
@@ -3153,7 +3153,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'o.l.v.',
         text: 'onder leiding van',
         translation: {
-            ru: 'Под руководством *того-то*',
+            ru: 'Под руководством <i>того-то</i>',
             en: 'Conducted/led by',
         },
     },
@@ -3369,8 +3369,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'o.v.v.',
         text: 'onder vermelding van',
         translation: {
-            ru: 'С указанием *того-то*',
-            en: 'Mentioning *something*',
+            ru: 'С указанием <i>того-то</i>',
+            en: 'Mentioning <i>something</i>',
         },
     },
     {
@@ -3433,16 +3433,16 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'p.c.',
         text: 'par couvert',
         translation: {
-            ru: 'Вложенный (*фр.*)',
-            en: 'Enclosed (*French*)',
+            ru: 'Вложенный (<i>фр.</i>)',
+            en: 'Enclosed (<i>French</i>)',
         },
     },
     {
         abbr: 'p.c.',
         text: 'pour condoléance',
         translation: {
-            ru: 'К (моему) соболезнованию (*фр.*)',
-            en: 'To (my) condolence (*French*)',
+            ru: 'К (моему) соболезнованию (<i>фр.</i>)',
+            en: 'To (my) condolence (<i>French</i>)',
         },
     },
     {
@@ -3497,16 +3497,16 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'p.m.',
         text: 'pro memoria',
         translation: {
-            ru: 'Для напоминания (*лат.*)',
-            en: 'For memory (*Latin*)',
+            ru: 'Для напоминания (<i>лат.</i>)',
+            en: 'For memory (<i>Latin</i>)',
         },
     },
     {
         abbr: 'p.m.',
         text: 'post mortem',
         translation: {
-            ru: 'Пост-мортем, после смерти (*лат.*)',
-            en: 'After death (*Latin*)',
+            ru: 'Пост-мортем, после смерти (<i>лат.</i>)',
+            en: 'After death (<i>Latin</i>)',
         },
     },
     {
@@ -3745,8 +3745,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'R.D.',
         text: 'reverendus dominus',
         translation: {
-            ru: 'Почтенный (сан священника) (*лат.*)',
-            en: 'Reverend (father) (*Latin*)',
+            ru: 'Почтенный (сан священника) (<i>лат.</i>)',
+            en: 'Reverend (father) (<i>Latin</i>)',
         },
     },
     {
@@ -3921,8 +3921,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 's.l.',
         text: 'sensu lato',
         translation: {
-            ru: 'В широком смысле (*лат.*)',
-            en: 'In the broad sense (*Latin*)',
+            ru: 'В широком смысле (<i>лат.</i>)',
+            en: 'In the broad sense (<i>Latin</i>)',
         },
     },
     {
@@ -3969,7 +3969,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'sp.',
         text: 'species',
         translation: {
-            ru: 'Вид (*лат.*)',
+            ru: 'Вид (<i>лат.</i>)',
             en: 'Species',
         },
     },
@@ -3985,7 +3985,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'Sr.',
         text: 'senior',
         translation: {
-            ru: 'Старший/пожилой (*лат.*)',
+            ru: 'Старший/пожилой (<i>лат.</i>)',
             en: 'Senior',
         },
     },
@@ -4001,24 +4001,24 @@ export const abbreviations: Abbreviation[] = [
         abbr: 's.s.',
         text: 'sensu stricto',
         translation: {
-            ru: 'В узком смысле (*лат.*)',
-            en: 'In the narrow sense (*Latin*)',
+            ru: 'В узком смысле (<i>лат.</i>)',
+            en: 'In the narrow sense (<i>Latin</i>)',
         },
     },
     {
         abbr: 's.s.t.t.',
         text: 'salvis titulis',
         translation: {
-            ru: 'Титулы опущены (*лат.*)',
-            en: 'Saving titles (*Latin*)',
+            ru: 'Титулы опущены (<i>лат.</i>)',
+            en: 'Saving titles (<i>Latin</i>)',
         },
     },
     {
         abbr: 's.t.',
         text: 'salvo titulo',
         translation: {
-            ru: 'Титул опущен (*лат.*)',
-            en: 'Saving title (*Latin*)',
+            ru: 'Титул опущен (<i>лат.</i>)',
+            en: 'Saving title (<i>Latin</i>)',
         },
     },
     {
@@ -4073,8 +4073,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 's.v.p.',
         text: 's\'il vous plaît',
         translation: {
-            ru: 'Просим/пожалуйста (*фр.*)',
-            en: 'Please (*French*)',
+            ru: 'Просим/пожалуйста (<i>фр.</i>)',
+            en: 'Please (<i>French</i>)',
         },
     },
     {
@@ -4129,7 +4129,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.a.v.',
         text: 'ter attentie van',
         translation: {
-            ru: 'Вниманию *такого-то*',
+            ru: 'Вниманию <i>такого-то</i>',
             en: 'For the attention of',
         },
     },
@@ -4137,7 +4137,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.a.v.',
         text: 'ten aanzien van',
         translation: {
-            ru: 'В отношении *того-то*',
+            ru: 'В отношении <i>того-то</i>',
             en: 'With regard to',
         },
     },
@@ -4169,7 +4169,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.b.v.',
         text: 'ten behoeve van',
         translation: {
-            ru: 'Ради/для *того-то*',
+            ru: 'Ради/для <i>того-то</i>',
             en: 'For the benefit of',
         },
     },
@@ -4177,7 +4177,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.b.v.',
         text: 'ten bate van',
         translation: {
-            ru: 'Для *того-то*/от лица *того-то*',
+            ru: 'Для <i>того-то</i>/от лица <i>того-то</i>',
             en: 'For the benefit of/on behalf of',
         },
     },
@@ -4185,15 +4185,15 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.b.v.',
         text: 'ter beschikking van',
         translation: {
-            ru: 'В распоряжение *того-то*',
-            en: 'At *someone\'s* disposal',
+            ru: 'В распоряжение <i>того-то</i>',
+            en: 'At <i>someone\'s</i> disposal',
         },
     },
     {
         abbr: 't.b.v.',
         text: 'ten bedrage van',
         translation: {
-            ru: 'На сумму *такую-то*',
+            ru: 'На сумму <i>такую-то</i>',
             en: 'Amounting to',
         },
     },
@@ -4225,8 +4225,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.g.t.',
         text: 'te gebruiken tot',
         translation: {
-            ru: 'Использовать до *даты*',
-            en: 'Use before *date*',
+            ru: 'Использовать до <i>даты</i>',
+            en: 'Use before <i>date</i>',
         },
     },
     {
@@ -4241,7 +4241,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.g.v.',
         text: 'tengevolge van',
         translation: {
-            ru: 'Вследствие *того-то*',
+            ru: 'Вследствие <i>того-то</i>',
             en: 'As a result of',
         },
     },
@@ -4249,7 +4249,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.g.v.',
         text: 'ter gelegenheid van',
         translation: {
-            ru: 'По случаю *того-то*',
+            ru: 'По случаю <i>того-то</i>',
             en: 'On the occasion of',
         },
     },
@@ -4257,7 +4257,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.g.v.',
         text: 'ten gunste van',
         translation: {
-            ru: 'В пользу *того-то*',
+            ru: 'В пользу <i>того-то</i>',
             en: 'To the credit of',
         },
     },
@@ -4281,7 +4281,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.h.t.',
         text: 'ten minste houdbaar tot',
         translation: {
-            ru: 'Как минимум годен то *даты*',
+            ru: 'Как минимум годен то <i>даты</i>',
             en: 'Best before',
         },
     },
@@ -4289,8 +4289,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.h.v.',
         text: 'ter hoogte van',
         translation: {
-            ru: 'Вблизи *чего-то*',
-            en: 'Near *something*',
+            ru: 'Вблизи <i>чего-то</i>',
+            en: 'Near <i>something</i>',
         },
     },
     {
@@ -4321,16 +4321,16 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'tl',
         text: 'tube luminescent',
         translation: {
-            ru: 'Люминесцентная лампа-трубка (*фр.*)',
-            en: 'Fluorescent tube (*French*)',
+            ru: 'Люминесцентная лампа-трубка (<i>фр.</i>)',
+            en: 'Fluorescent tube (<i>French</i>)',
         },
     },
     {
         abbr: 't/m',
         text: 'tot en met',
         translation: {
-            ru: 'До *даты/номера* включительно',
-            en: 'Up to and including *date/number*',
+            ru: 'До <i>даты/номера</i> включительно',
+            en: 'Up to and including <i>date/number</i>',
         },
     },
     {
@@ -4345,7 +4345,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.n.v.',
         text: 'ten name van',
         translation: {
-            ru: 'На имя *того-то*',
+            ru: 'На имя <i>того-то</i>',
             en: 'In the name of',
         },
     },
@@ -4377,7 +4377,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.o.v.',
         text: 'ten overstaan van',
         translation: {
-            ru: 'В присутствии *того-то*',
+            ru: 'В присутствии <i>того-то</i>',
             en: 'In the presence of',
         },
     },
@@ -4401,7 +4401,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.t.v.',
         text: 'ten tijde van',
         translation: {
-            ru: 'Во времена/время *того-то*',
+            ru: 'Во времена/время <i>того-то</i>',
             en: 'In the days/time/age of',
         },
     },
@@ -4457,8 +4457,8 @@ export const abbreviations: Abbreviation[] = [
         abbr: 't.w.v.',
         text: 'ter waarde van',
         translation: {
-            ru: 'Эквивалентный сумме *такой-то*',
-            en: 'Worth *amount*',
+            ru: 'Эквивалентный сумме <i>такой-то</i>',
+            en: 'Worth <i>amount</i>',
         },
     },
     {
@@ -4609,7 +4609,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'v.a.',
         text: 'vanaf',
         translation: {
-            ru: 'С *даты/места/возраста и т.д.*',
+            ru: 'С <i>даты/места/возраста и т.д.</i>',
             en: 'From/as of',
         },
     },
@@ -4633,7 +4633,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'VAR',
         text: 'Verklaring arbeidsrelatie',
         translation: {
-            ru: 'Заявление о трудовых отношениях (предшественник [закона DBA](https://yktoo.com/ru/glossary/wet-dba/))',
+            ru: 'Заявление о трудовых отношениях (предшественник <a href="https://yktoo.com/ru/glossary/wet-dba/">закона DBA</a>)',
             en: 'Labour relation statement',
         },
     },
@@ -4657,7 +4657,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'v.C.',
         text: 'voor Christus',
         translation: {
-            ru: 'До нашей эры (*букв.* «до Христа»)',
+            ru: 'До нашей эры (<i>букв.</i> «до Христа»)',
             en: 'Before Christ (B.C.)',
         },
     },
@@ -5150,7 +5150,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'z.a.',
         text: 'zie aldaar',
         translation: {
-            ru: 'Смотри *там-то*',
+            ru: 'Смотри <i>там-то</i>',
             en: 'Look at',
         },
     },
@@ -5430,7 +5430,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'z.v.',
         text: 'zoon van',
         translation: {
-            ru: 'Сын *того-то*',
+            ru: 'Сын <i>того-то</i>',
             en: 'Son of',
         },
     },

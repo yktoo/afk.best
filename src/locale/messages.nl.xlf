@@ -2,60 +2,100 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template" target-language="nl">
     <body>
-      <trans-unit id="1613729201970187926" datatype="html">
-        <source>Type any abbreviation…</source>
-        <target state="translated">Typ een afkorting…</target>
+      <trans-unit id="3262618292154623320" datatype="html">
+        <source>abbreviation</source>
+        <target state="translated">afkorting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">7</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3021804269174650071" datatype="html">
-        <source>In abbr.</source>
-        <target state="translated">In afk.</target>
+      <trans-unit id="5730156631743607388" datatype="html">
+        <source>Stands for</source>
+        <target state="translated">Staat voor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6870893562392932905" datatype="html">
+        <source>Translation</source>
+        <target state="translated">Vertaling</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8163152185887063403" datatype="html">
+        <source>Sorry, this abbreviation is unknown to us.</source>
+        <target state="translated">Sorry, deze afkorting is ons niet bekend.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3172590664019265965" datatype="html">
+        <source>Back to search</source>
+        <target state="translated">Terug naar zoeken</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2618101617221155143" datatype="html">
+        <source>Copy link</source>
+        <target state="translated">Link kopiëren</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7374923174625584976" datatype="html">
+        <source>Link is copied!</source>
+        <target state="translated">Link is gekopieerd!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3635262297304388376" datatype="html">
         <source>In abbreviation only</source>
         <target state="translated">Alleen in afkorting</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="73980615646817002" datatype="html">
         <source>Some examples:</source>
         <target state="translated">Enkele voorbeelden:</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8928012760668964107" datatype="html">
         <source>Nothing found.</source>
         <target state="translated">Niets is gevonden.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7989791073412644531" datatype="html">
         <source>Found:</source>
         <target state="translated">Gevonden:</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">36</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4778144873270647927" datatype="html">
         <source>see also</source>
         <target state="translated">zie ook</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1655136047050452444" datatype="html">
@@ -63,7 +103,7 @@
         <target state="translated">Auteursrecht ©2000—<x id="INTERPOLATION" equiv-text="{{ year }}"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6689475189089962541" datatype="html">
@@ -71,7 +111,7 @@
         <target state="translated">Dmitry Kann</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
-          <context context-type="linenumber">4</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8289764700900520686" datatype="html">
@@ -86,24 +126,48 @@
         <source>Logo</source>
         <target state="translated">Logo</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8897528155388166455" datatype="html">
         <source>Dutch abbreviations</source>
         <target state="translated">Nederlandse afkortingen</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">3</context>
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2788523917444786646" datatype="html">
         <source>What does <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;abbr-term mx-1&quot; routerLink=&quot;/abbr/afk.&quot;>"/>afk.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> mean?</source>
         <target state="translated">Wat betekent <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;abbr-term mx-1&quot; routerLink=&quot;/abbr/afk.&quot;>"/>afk.<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>?</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4975938175945306195" datatype="html">
+        <source>Sorry, this page doesn't exist.</source>
+        <target state="translated">Sorry, deze pagina bestaat niet.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4830487269617493033" datatype="html">
+        <source>Home page</source>
+        <target state="translated">Startpagina</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/not-found/not-found.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6623479725938368494" datatype="html">
+        <source>Abbreviation or acronym</source>
+        <target state="translated">Afkorting of acroniem</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.html</context>
+          <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
     </body>

@@ -8,6 +8,8 @@ import { AbbrComponent } from './abbr/abbr.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
 import { HeaderComponent } from './header/header.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
     declarations: [
@@ -16,11 +18,13 @@ import { HeaderComponent } from './header/header.component';
         FooterComponent,
         SearchComponent,
         HeaderComponent,
+        NotFoundComponent,
     ],
     imports: [
         BrowserModule,
         FormsModule,
         ReactiveFormsModule,
+        FontAwesomeModule,
         AppRoutingModule,
     ],
     providers: [

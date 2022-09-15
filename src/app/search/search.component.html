@@ -41,10 +41,10 @@
             <table class="table">
                 <tbody>
                 <tr *ngFor="let a of abbreviations">
-                    <td><a [routerLink]="['/abbr', a.abbr]">{{ a.abbr }}</a></td>
+                    <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams" class="abbr-term">{{ a.abbr }}</a></td>
                     <td>{{ a.text }}</td>
                     <td>
-                        {{ a.translation[locale] }}
+                        <span [innerHTML]="a.translation[locale]"></span>
                         <div *ngIf="a.seeAlso?.length" class="mt-2 small">
                             (<ng-container i18n>see also</ng-container>
                             &ngsp;
