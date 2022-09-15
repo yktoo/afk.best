@@ -1,7 +1,25 @@
-<div>
-    <dl>
-        <div>
-            <dt></dt>
-        </div>
-    </dl>
+<!-- Heading -->
+<h1>{{ abbr }}</h1>
+
+<!-- Abbreviation details -->
+<dl *ngIf="abbreviation else unknown">
+    <div>
+        <dt i18n>Stands for:</dt>
+        <dd>{{ abbreviation!.text }}</dd>
+    </div>
+    <div *ngIf="abbreviation!.translation[locale] as t">
+        <dt i18n>Translation:</dt>
+        <dd>{{ t }}</dd>
+    </div>
+</dl>
+
+<!-- Abbreviation unknown -->
+<ng-template #unknown>
+    <p i18n>Sorry, we this abbreviation is unknown to us.</p>
+</ng-template>
+
+<!-- Buttons -->
+<div class="mt-4 d-grid d-sm-block gap-2">
+    <button routerLink="/search" type="button" class="btn btn-outline-primary me-sm-2" i18n>« Back to search</button>
+    <button type="button" class="btn btn-outline-primary" (click)="share()" i18n>Share</button>
 </div>

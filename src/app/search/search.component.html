@@ -30,7 +30,7 @@
     <div *ngIf="!abbreviations!.length" class="py-3 text-muted fadeIn" i18n>Nothing found.</div>
 
     <!-- Search results -->
-    <div *ngIf="abbreviations!.length" class="fadeIn">
+    <div *ngIf="abbreviations!.length" class="fadeIn mb-4">
         <!-- Result count -->
         <div class="pt-3 pb-2 border-bottom fw-bold">
             <ng-container i18n>Found:</ng-container>&ngsp;
@@ -41,7 +41,7 @@
             <table class="table">
                 <tbody>
                 <tr *ngFor="let a of abbreviations">
-                    <td>{{ a.abbr }}</td>
+                    <td><a [routerLink]="['/abbr', a.abbr]">{{ a.abbr }}</a></td>
                     <td>{{ a.text }}</td>
                     <td>
                         {{ a.translation[locale] }}

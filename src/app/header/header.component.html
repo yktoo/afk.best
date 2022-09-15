@@ -1,4 +1,4 @@
-<header class="container-fluid p-5 hero">
+<header class="container-fluid p-4 p-md-5 hero">
     <!-- Logo -->
     <a routerLink="/"><img src="assets/images/logo.png" alt="Logo" i18n-alt></a>
 
@@ -11,10 +11,10 @@
         <div class="col-12 col-md">
             <ul class="nav nav-pills">
                 <li *ngFor="let lang of languages" class="nav-item">
-                    <span *ngIf="lang.code === locale else langLink" class="nav-link active">{{ lang.name }}</span>
-                    <ng-template #langLink>
-                        <a class="nav-link" [href]="'/' + lang.code + '/'">{{ lang.name }}</a>
-                    </ng-template>
+                    <a [href]="'/' + lang.code + '/'" [class.active]="lang.code === locale" class="nav-link">
+                        <span class="d-md-none">{{ lang.code | uppercase }}</span>
+                        <span class="d-none d-md-inline">{{ lang.name }}</span>
+                    </a>
                 </li>
             </ul>
         </div>

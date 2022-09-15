@@ -1,8 +1,19 @@
-footer {
+:host {
     color: #6c757d;
-    margin-top: auto;
-    padding: 0.3rem;
+    margin: auto 0 0 0;
     text-align: center;
+
+    footer {
+        padding: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        span {
+            margin-left: 0.5rem;
+            margin-right: 0.5rem;
+        }
+    }
 
     @media (min-width: 768px) {
         position: fixed;

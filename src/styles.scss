@@ -56,9 +56,10 @@ html, body {
     height: 100%;
 }
 
-body {
+body, app-root {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
 }
 
 .hero {
@@ -78,6 +79,7 @@ a.abbr-term {
     border-radius: 2px;
     text-decoration: none;
     transition: all ease-in-out 0.3s;
+
     &:hover, &:focus, &:active {
         text-decoration: none;
         background-color: transparentize($primary, 0.333);

@@ -22,6 +22,14 @@ export class AbbrService {
     }
 
     /**
+     * Finds and returns one abbreviation with the given abbr, or null if not found.
+     * @param abbr abbreviation to search.
+     */
+    findOne(abbr: string): Abbreviation | null {
+        return abbreviations.find(a => a.abbr === abbr) || null;
+    }
+
+    /**
      * Return the given number of random abbreviations.
      * @param count Number of abbreviations to return.
      */
