@@ -1,15 +1,19 @@
-<!-- Header (hero area) -->
 <header class="container-fluid p-5 hero">
+    <!-- Logo -->
     <a routerLink="/"><img src="assets/images/logo.png" alt="Logo" i18n-alt></a>
+
+    <!-- Title -->
     <h1 class="display-6" i18n>Dutch abbreviations</h1>
     <hr>
+
     <div class="row">
+        <!-- Language switcher -->
         <div class="col-12 col-md">
             <ul class="nav nav-pills">
-                <li *ngFor="let lang of ['en', 'ru', 'nl']" class="nav-item">
-                    <span *ngIf="lang === locale else langLink" class="nav-link active">{{ lang | uppercase }}</span>
+                <li *ngFor="let lang of languages" class="nav-item">
+                    <span *ngIf="lang.code === locale else langLink" class="nav-link active">{{ lang.name }}</span>
                     <ng-template #langLink>
-                        <a class="nav-link" [href]="'/' + lang + '/'">{{ lang | uppercase }}</a>
+                        <a class="nav-link" [href]="'/' + lang.code + '/'">{{ lang.name }}</a>
                     </ng-template>
                 </li>
             </ul>
@@ -22,12 +26,7 @@
                 <path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256s256-114.6 256-256S397.4 0 256 0zM256 128c17.67 0 32 14.33 32 32c0 17.67-14.33 32-32 32S224 177.7 224 160C224 142.3 238.3 128 256 128zM296 384h-80C202.8 384 192 373.3 192 360s10.75-24 24-24h16v-64H224c-13.25 0-24-10.75-24-24S210.8 224 224 224h32c13.25 0 24 10.75 24 24v88h16c13.25 0 24 10.75 24 24S309.3 384 296 384z"></path>
             </svg>
             <!-- Link -->
-            <span i18n>What does <a class="abbr-term mx-1" routerLink="/search/afk.">afk.</a> mean?</span>
+            <span i18n>What does <a class="abbr-term mx-1" routerLink="/search" [queryParams]="{q: 'afk.'}">afk.</a> mean?</span>
         </div>
     </div>
 </header>
-
-<!-- Abbreviation search box and list -->
-<main class="py-3">
-    <app-search></app-search>
-</main>

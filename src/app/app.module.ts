@@ -6,16 +6,16 @@ import { AppComponent } from './app.component';
 import { AbbrService } from './services/abbr.service';
 import { AbbrComponent } from './abbr/abbr.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         AbbrComponent,
         FooterComponent,
-        HomeComponent,
         SearchComponent,
+        HeaderComponent,
     ],
     imports: [
         BrowserModule,

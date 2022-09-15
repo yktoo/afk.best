@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AbbrComponent } from './abbr/abbr.component';
-import { HomeComponent } from './home/home.component';
+import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
-    {path: '',                pathMatch: 'full', redirectTo: '/search'},
-    {path: 'search',          component: HomeComponent},
-    {path: 'search/:pattern', component: HomeComponent},
-    {path: 'abbr/:abbr',      component: AbbrComponent},
+    {path: '',           pathMatch: 'full', redirectTo: '/search'},
+    {path: 'search',     component: SearchComponent},
+    {path: 'abbr/:abbr', component: AbbrComponent},
 ];
 
 @NgModule({

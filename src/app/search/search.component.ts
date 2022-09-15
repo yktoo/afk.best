@@ -36,11 +36,11 @@ export class SearchComponent implements OnInit {
 
     ngOnInit(): void {
         // Subscribe to route changes to update the filtered list
-        this.route.paramMap
+        this.route.queryParamMap
             .pipe(untilDestroyed(this))
             .subscribe(pm => {
-                const pattern = pm.get('pattern') ?? '';
-                const abbrOnly = pm.get('abbrOnly') === 'true';
+                const pattern = pm.get('q') ?? '';
+                const abbrOnly = pm.get('a') === 'true';
                 this.abbreviations = pattern ?
                     this.abbrService.find(pattern, this.locale, abbrOnly) :
                     undefined;
@@ -53,9 +53,10 @@ export class SearchComponent implements OnInit {
             .subscribe(vals =>
                 this.form.valid &&
                 this.router.navigate(
-                    vals.pattern ?
-                        ['/search', vals.pattern, {abbrOnly: vals.abbrOnly}] :
-                        ['/search']));
+                    ['/search'],
+                    {
+                        queryParams: {q: vals.pattern || undefined, a: vals.abbrOnly || undefined},
+                    }));
 
         // Focus the search box initially
         setTimeout(() => this.searchBox?.nativeElement?.focus(), 100);
