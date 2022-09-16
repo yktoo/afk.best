@@ -5,6 +5,7 @@ import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Abbreviation } from '../services/abbreviations';
 import { AbbrService } from '../services/abbr.service';
+import { MetadataService } from '../services/metadata.service';
 
 @UntilDestroy()
 @Component({
@@ -26,11 +27,16 @@ export class SearchComponent implements OnInit {
     // Generate a few abbreviation examples
     readonly abbrExamples = this.abbrService.random(4);
 
+    private readonly appTitle       = $localize`Dutch Abbreviations`;
+    private readonly appSearch      = $localize`Search`;
+    private readonly appDescription = $localize`Common Dutch abbreviations and their translations into English`;
+
     constructor(
         @Inject(LOCALE_ID) readonly locale: string,
         private readonly route: ActivatedRoute,
         private readonly router: Router,
         private readonly fb: FormBuilder,
+        private readonly metadataSvc: MetadataService,
         private readonly abbrService: AbbrService,
     ) {}
 
@@ -49,6 +55,10 @@ export class SearchComponent implements OnInit {
                     this.abbrService.find(pattern, this.locale, abbrOnly) :
                     undefined;
                 this.form.setValue({pattern, abbrOnly});
+
+                // Update page metadata
+                this.metadataSvc.title       = `${this.appSearch}${pattern ? ': ' + pattern : ''} | ${this.appTitle}`;
+                this.metadataSvc.description = this.appDescription;
             });
 
         // Subscribe to search text changes

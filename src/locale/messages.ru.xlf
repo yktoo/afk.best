@@ -9,6 +9,10 @@
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
           <context context-type="linenumber">3</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5730156631743607388" datatype="html">
         <source>Stands for</source>
@@ -56,6 +60,74 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
           <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6882643681184572286" datatype="html">
+        <source>Meaning of "{abbr}" and its translations into English</source>
+        <target state="translated">Значение «{abbr}» и его перевод на русский</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3684593701070143730" datatype="html">
+        <source>Dutch Abbreviations</source>
+        <target state="translated">Сокращения нидерландского языка</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4580988005648117665" datatype="html">
+        <source>Search</source>
+        <target state="translated">Поиск</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1668242019141067482" datatype="html">
+        <source>Dutch language</source>
+        <target state="translated">Нидерландский язык</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3783587393795767345" datatype="html">
+        <source>Netherlands</source>
+        <target state="translated">Нидерланды</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="675867794571887327" datatype="html">
+        <source>Holland</source>
+        <target state="translated">Голландия</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4435458555231795208" datatype="html">
+        <source>translation</source>
+        <target state="translated">перевод</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2143632747157948118" datatype="html">
+        <source>Common Dutch abbreviations and their translations into English</source>
+        <target state="translated">Распространённые сокращения нидерландского языка и их перевод на русский</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/search/search.component.ts</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3635262297304388376" datatype="html">
@@ -109,6 +181,10 @@
       <trans-unit id="6689475189089962541" datatype="html">
         <source>Dmitry Kann</source>
         <target state="translated">Дмитрий Канн</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/footer/footer.component.html</context>
           <context context-type="linenumber">3</context>

@@ -6,6 +6,7 @@ import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { faCheck, faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
+import { MetadataService } from '../services/metadata.service';
 
 @UntilDestroy()
 @Component({
@@ -22,10 +23,14 @@ export class AbbrComponent implements OnInit {
     readonly faChevronLeft = faChevronLeft;
     readonly faCopy        = faCopy;
 
+    private readonly appTitle       = $localize`Dutch Abbreviations`;
+    private readonly appDescription = $localize`Meaning of "{abbr}" and its translations into English`;
+
     constructor(
         @Inject(LOCALE_ID) readonly locale: string,
         @Inject(DOCUMENT) private readonly doc: Document,
         private readonly route: ActivatedRoute,
+        private readonly metadataSvc: MetadataService,
         private readonly abbrService: AbbrService,
     ) {}
 
@@ -44,6 +49,10 @@ export class AbbrComponent implements OnInit {
             .subscribe(pm => {
                 this.abbr = pm.get('abbr');
                 this.abbreviations = this.abbr ? this.abbrService.findExact(this.abbr) : null;
+
+                // Update page metadata
+                this.metadataSvc.title       = (this.abbr ? this.abbr + ' | ' : '') + this.appTitle;
+                this.metadataSvc.description = this.appDescription.replace('{abbr}', this.abbr ?? '');
             });
     }
 
