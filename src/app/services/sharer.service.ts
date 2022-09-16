@@ -104,9 +104,16 @@ export class SharerService {
      * @param title Title text.
      */
     getShareUrl(sharer: Sharer, url: string, title: string): SafeUrl {
+        // Encode the URL
+        url = encodeURIComponent(url)
+        // If it ends with a dot, percent-encode that trailing dot to prevent parsing errors while sharing
+        if (url.endsWith('.')) {
+            url = url.slice(0, -1) + '%2E';
+        }
+        // Make a safe sharing URL
         return this.sanitizer.bypassSecurityTrustUrl(
             sharer.shareUrl
-                .replace('\tu', encodeURIComponent(url))
+                .replace('\tu', url)
                 .replace('\tt', encodeURIComponent(title)));
     }
 

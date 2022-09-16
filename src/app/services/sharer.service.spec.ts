@@ -47,6 +47,11 @@ describe('SharerService', () => {
         expect(u).toEqual(sanitizer.bypassSecurityTrustUrl('https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fafk.best%2Fabbreviatura'));
     });
 
+    it('handles URL with trailing dot', () => {
+        const u = service.getShareUrl(service.sharers.twitter, 'https://afk.best/a.b.b.r.', 'ABBR');
+        expect(u).toEqual(sanitizer.bypassSecurityTrustUrl('https://twitter.com/intent/tweet/?url=https%3A%2F%2Fafk.best%2Fa.b.b.r%2E'));
+    });
+
     it('provides WhatsApp share URL', () => {
         const u = service.getShareUrl(service.sharers.whatsApp, 'https://afk.best/abbreviatura', 'Winter is coming');
         expect(u).toEqual(sanitizer.bypassSecurityTrustUrl('whatsapp://send?text=Winter%20is%20coming+https%3A%2F%2Fafk.best%2Fabbreviatura'));
