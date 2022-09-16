@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AbbrService } from './services/abbr.service';
 import { AbbrComponent } from './abbr/abbr.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
@@ -27,9 +26,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
         FontAwesomeModule,
         AppRoutingModule,
     ],
-    providers: [
-        AbbrService,
-    ],
+    providers: [],
     bootstrap: [AppComponent],
 })
 export class AppModule {}

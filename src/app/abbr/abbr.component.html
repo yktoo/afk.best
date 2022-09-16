@@ -41,4 +41,13 @@
         <fa-icon [icon]="faCheck" class="me-1"></fa-icon>
         <ng-container i18n>Link is copied!</ng-container>
     </span>
+
+    <!-- Sharing buttons -->
+    <span class="ms-sm-3" i18n>Share:</span>
+    <span>
+        <a *ngFor="let sh of sharers" [href]="getShareUrl(sh)" [target]="sh.newTab ? '_blank' : null"
+           [title]="sh.name" class="btn btn-link" rel="noopener noreferrer nofollow">
+            <fa-icon [icon]="sh.icon" size="2x"></fa-icon>
+        </a>
+    </span>
 </div>

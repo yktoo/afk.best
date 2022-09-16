@@ -1,12 +1,14 @@
 import { Component, Inject, LOCALE_ID, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
+import { SafeUrl } from '@angular/platform-browser';
 import { delay, finalize, from, tap } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { faCheck, faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
 import { MetadataService } from '../services/metadata.service';
+import { Sharer, SharerService } from '../services/sharer.service';
 
 @UntilDestroy()
 @Component({
@@ -18,6 +20,8 @@ export class AbbrComponent implements OnInit {
     abbr?: string | null;
     abbreviations?: Abbreviation[] | null;
     textCopied = false;
+
+    readonly sharers = this.sharerSvc.orderedSharers;
 
     readonly faCheck       = faCheck;
     readonly faChevronLeft = faChevronLeft;
@@ -32,7 +36,15 @@ export class AbbrComponent implements OnInit {
         private readonly route: ActivatedRoute,
         private readonly metadataSvc: MetadataService,
         private readonly abbrService: AbbrService,
+        private readonly sharerSvc: SharerService,
     ) {}
+
+    /**
+     * Return a shareable link URL.
+     */
+    get link(): string {
+        return this.doc.location.origin + this.doc.location.pathname;
+    }
 
     /**
      * Return query params for the search function.
@@ -57,11 +69,15 @@ export class AbbrComponent implements OnInit {
     }
 
     copyLink() {
-        from(navigator.clipboard.writeText(this.doc.location.href))
+        from(navigator.clipboard.writeText(this.link))
             .pipe(
                 tap(() => this.textCopied = true),
                 delay(3000),
                 finalize(() => this.textCopied = false))
             .subscribe();
+    }
+
+    getShareUrl(sharer: Sharer): SafeUrl | null {
+        return this.sharerSvc.getShareUrl(sharer, this.link, $localize`Abbreviation` + ': ' + this.abbr);
     }
 }

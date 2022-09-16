@@ -62,12 +62,28 @@
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1987485827140472904" datatype="html">
+        <source>Share:</source>
+        <target state="translated">Delen:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6882643681184572286" datatype="html">
         <source>Meaning of "{abbr}" and its translations into English</source>
         <target state="translated">Betekenis van "{abbr}"</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5727119424565802706" datatype="html">
+        <source>Abbreviation</source>
+        <target state="translated">Afkorting</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3684593701070143730" datatype="html">
@@ -75,7 +91,7 @@
         <target state="translated">Nederlandse afkortingen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search.component.ts</context>
