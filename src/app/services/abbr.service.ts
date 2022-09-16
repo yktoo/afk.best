@@ -22,11 +22,12 @@ export class AbbrService {
     }
 
     /**
-     * Finds and returns all abbreviation with the given abbr.
+     * Finds and returns all abbreviation with the given abbr. It also finds an abbreviation that's the same as abbr but
+     * includes a trailing dot.
      * @param abbr abbreviation to search.
      */
     findExact(abbr: string): Abbreviation[] {
-        return abbreviations.filter(a => a.abbr === abbr);
+        return abbreviations.filter(a => a.abbr === abbr || a.abbr === abbr + '.');
     }
 
     /**
