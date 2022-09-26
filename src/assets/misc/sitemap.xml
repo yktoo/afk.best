@@ -2,7 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://afk.best/en/</loc>
-        <lastmod>2022-09-26T10:41:28+0200</lastmod>
+        <lastmod>2022-09-26T10:41:28+02:00</lastmod>
+        <changefreq>weekly</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://afk.best/ru/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://afk.best/ru/search"/>
         <xhtml:link rel="alternate" hreflang="nl" href="https://afk.best/nl/"/>
@@ -12,7 +13,8 @@
     </url>
     <url>
         <loc>https://afk.best/ru/</loc>
-        <lastmod>2022-09-26T10:41:28+0200</lastmod>
+        <lastmod>2022-09-26T10:41:28+02:00</lastmod>
+        <changefreq>weekly</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://afk.best/ru/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://afk.best/ru/search"/>
         <xhtml:link rel="alternate" hreflang="nl" href="https://afk.best/nl/"/>
@@ -22,7 +24,8 @@
     </url>
     <url>
         <loc>https://afk.best/nl/</loc>
-        <lastmod>2022-09-26T10:41:28+0200</lastmod>
+        <lastmod>2022-09-26T10:41:28+02:00</lastmod>
+        <changefreq>weekly</changefreq>
         <xhtml:link rel="alternate" hreflang="ru" href="https://afk.best/ru/"/>
         <xhtml:link rel="alternate" hreflang="ru" href="https://afk.best/ru/search"/>
         <xhtml:link rel="alternate" hreflang="nl" href="https://afk.best/nl/"/>
