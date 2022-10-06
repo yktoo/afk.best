@@ -3006,6 +3006,14 @@ export const abbreviations: Abbreviation[] = [
         },
     },
     {
+        abbr: 'o.v.b.',
+        text: 'onder voorbehoud',
+        translation: {
+            ru: 'условный, с оговоркой',
+            en: 'conditional, with reservations',
+        },
+    },
+    {
         abbr: 'o.c.',
         text: 'opere citato',
         translation: {
