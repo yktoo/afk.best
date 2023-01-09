@@ -5051,6 +5051,14 @@ export const abbreviations: Abbreviation[] = [
         },
     },
     {
+        abbr: 'wmb',
+        text: 'wat mij betreft',
+        translation: {
+            ru: 'что касается меня, по моему мнению',
+            en: 'as for me, as far as I\'m concerned',
+        },
+    },
+    {
         abbr: 'wnd.',
         text: 'waarnemend',
         translation: {
