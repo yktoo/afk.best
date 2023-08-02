@@ -1,23 +1,23 @@
-import { Component, Inject, LOCALE_ID, OnInit } from '@angular/core';
+import { Component, Inject, Input, LOCALE_ID, OnChanges, SimpleChanges } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { SafeUrl } from '@angular/platform-browser';
 import { delay, finalize, from, tap } from 'rxjs';
-import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { faCheck, faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
 import { MetadataService } from '../services/metadata.service';
 import { Sharer, SharerService } from '../services/sharer.service';
 
-@UntilDestroy()
 @Component({
     selector: 'app-abbr',
     templateUrl: './abbr.component.html',
 })
-export class AbbrComponent implements OnInit {
+export class AbbrComponent implements OnChanges {
 
-    abbr?: string | null;
+    @Input()
+    abbr?: string;
+
     abbreviations?: Abbreviation[] | null;
     textCopied = false;
 
@@ -54,18 +54,14 @@ export class AbbrComponent implements OnInit {
         return this.route.snapshot.queryParams;
     }
 
-    ngOnInit(): void {
-        // Subscribe to route changes to load the specified abbreviation
-        this.route.paramMap
-            .pipe(untilDestroyed(this))
-            .subscribe(pm => {
-                this.abbr = pm.get('abbr');
-                this.abbreviations = this.abbr ? this.abbrService.findExact(this.abbr) : null;
+    ngOnChanges(changes: SimpleChanges): void {
+        if (changes['abbr']) {
+            this.abbreviations = this.abbr ? this.abbrService.findExact(this.abbr) : null;
 
-                // Update page metadata
-                this.metadataSvc.title       = (this.abbr ? this.abbr + ' | ' : '') + this.appTitle;
-                this.metadataSvc.description = this.appDescription.replace('{abbr}', this.abbr ?? '');
-            });
+            // Update page metadata
+            this.metadataSvc.title       = (this.abbr ? this.abbr + ' | ' : '') + this.appTitle;
+            this.metadataSvc.description = this.appDescription.replace('{abbr}', this.abbr ?? '');
+        }
     }
 
     copyLink() {

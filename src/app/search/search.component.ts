@@ -1,18 +1,32 @@
-import { Component, ElementRef, Inject, LOCALE_ID, OnInit, ViewChild } from '@angular/core';
+import {
+    Component,
+    ElementRef,
+    Inject,
+    Input,
+    LOCALE_ID,
+    OnChanges,
+    OnInit,
+    SimpleChanges,
+    ViewChild,
+} from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { FormBuilder } from '@angular/forms';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
-import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { Abbreviation } from '../services/abbreviations';
 import { AbbrService } from '../services/abbr.service';
 import { MetadataService } from '../services/metadata.service';
 
-@UntilDestroy()
 @Component({
     selector: 'app-search',
     templateUrl: './search.component.html',
 })
-export class SearchComponent implements OnInit {
+export class SearchComponent implements OnInit, OnChanges {
+
+    @Input('q')
+    pattern?: string;
+
+    @Input('a')
+    abbr?: string;
 
     @ViewChild('searchBox')
     searchBox?: ElementRef<HTMLInputElement>;
@@ -45,22 +59,6 @@ export class SearchComponent implements OnInit {
     }
 
     ngOnInit(): void {
-        // Subscribe to route changes to update the filtered list
-        this.route.queryParamMap
-            .pipe(untilDestroyed(this))
-            .subscribe(pm => {
-                const pattern = pm.get('q') ?? '';
-                const abbrOnly = pm.get('a') === 'true';
-                this.abbreviations = pattern ?
-                    this.abbrService.find(pattern, this.locale, abbrOnly) :
-                    undefined;
-                this.form.setValue({pattern, abbrOnly});
-
-                // Update page metadata
-                this.metadataSvc.title       = `${this.appSearch}${pattern ? ': ' + pattern : ''} | ${this.appTitle}`;
-                this.metadataSvc.description = this.appDescription;
-            });
-
         // Subscribe to search text changes
         this.form.valueChanges
             .pipe(debounceTime(500), distinctUntilChanged())
@@ -70,6 +68,20 @@ export class SearchComponent implements OnInit {
 
         // Focus the search box initially
         setTimeout(() => this.searchBox?.nativeElement?.focus(), 100);
+    }
+
+    ngOnChanges(changes: SimpleChanges): void {
+        if (changes['pattern'] || changes['abbr']) {
+            const abbrOnly = this.abbr === 'true';
+            this.abbreviations = this.pattern ?
+                this.abbrService.find(this.pattern, this.locale, abbrOnly) :
+                undefined;
+            this.form.setValue({pattern: this.pattern ?? '', abbrOnly});
+
+            // Update page metadata
+            this.metadataSvc.title       = `${this.appSearch}${this.pattern ? ': ' + this.pattern : ''} | ${this.appTitle}`;
+            this.metadataSvc.description = this.appDescription;
+        }
     }
 
     getSearchParams(vals: {pattern?: string, abbrOnly?: boolean}): Params {
