@@ -9,8 +9,7 @@ describe('AbbrComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [AbbrComponent],
-            imports: [RouterTestingModule, FontAwesomeTestingModule],
+            imports: [RouterTestingModule, FontAwesomeTestingModule, AbbrComponent],
         })
             .compileComponents();
 

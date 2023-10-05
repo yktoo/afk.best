@@ -9,8 +9,9 @@ import {
     SimpleChanges,
     ViewChild,
 } from '@angular/core';
-import { ActivatedRoute, Params, Router } from '@angular/router';
-import { FormBuilder } from '@angular/forms';
+import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgFor, NgIf } from '@angular/common';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { Abbreviation } from '../services/abbreviations';
 import { AbbrService } from '../services/abbr.service';
@@ -19,6 +20,14 @@ import { MetadataService } from '../services/metadata.service';
 @Component({
     selector: 'app-search',
     templateUrl: './search.component.html',
+    standalone: true,
+    imports: [
+        FormsModule,
+        ReactiveFormsModule,
+        NgFor,
+        RouterLink,
+        NgIf,
+    ],
 })
 export class SearchComponent implements OnInit, OnChanges {
 

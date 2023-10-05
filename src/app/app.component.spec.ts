@@ -8,11 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 describe('AppComponent', () => {
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            imports: [RouterTestingModule],
-            declarations: [
-                AppComponent,
-                MockComponents(HeaderComponent, FooterComponent),
-            ],
+            imports: [AppComponent, RouterTestingModule, MockComponents(HeaderComponent, FooterComponent)],
         })
             .compileComponents();
     });

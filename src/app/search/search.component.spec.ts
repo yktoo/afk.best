@@ -10,8 +10,7 @@ describe('SearchComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            declarations: [SearchComponent],
-            imports: [RouterTestingModule, FormsModule, ReactiveFormsModule],
+            imports: [RouterTestingModule, FormsModule, ReactiveFormsModule, SearchComponent],
         })
             .compileComponents();
 

@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
-import { NavigationEnd, Router } from '@angular/router';
+import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { MetadataService } from './services/metadata.service';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 // Declared in index.html
 declare let gaID: string;
@@ -12,6 +14,12 @@ declare let gtag: (key: string, id: string, params: any) => void;
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
+    standalone: true,
+    imports: [
+        HeaderComponent,
+        RouterOutlet,
+        FooterComponent,
+    ],
 })
 export class AppComponent {
 

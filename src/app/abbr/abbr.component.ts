@@ -1,8 +1,9 @@
 import { Component, Inject, Input, LOCALE_ID, OnChanges, SimpleChanges } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
-import { DOCUMENT } from '@angular/common';
+import { ActivatedRoute, Params, RouterLink } from '@angular/router';
+import { DOCUMENT, NgIf, NgFor } from '@angular/common';
 import { SafeUrl } from '@angular/platform-browser';
 import { delay, finalize, from, tap } from 'rxjs';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faCheck, faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
@@ -12,6 +13,13 @@ import { Sharer, SharerService } from '../services/sharer.service';
 @Component({
     selector: 'app-abbr',
     templateUrl: './abbr.component.html',
+    standalone: true,
+    imports: [
+        NgIf,
+        NgFor,
+        RouterLink,
+        FontAwesomeModule,
+    ],
 })
 export class AbbrComponent implements OnChanges {
 
