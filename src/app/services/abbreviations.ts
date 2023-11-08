@@ -1709,7 +1709,7 @@ export const abbreviations: Abbreviation[] = [
         abbr: 'i.h.a.',
         text: 'in het algemeen',
         translation: {
-            ru: 'В целом',
+            ru: 'В целом; обычно',
             en: 'In general',
         },
     },
