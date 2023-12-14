@@ -12,7 +12,9 @@
             <!-- Examples -->
             <div class="mt-3 form-text text-small" id="search-help">
                 <span class="text-muted me-1" i18n>Some examples:</span>
-                <a *ngFor="let a of abbrExamples" routerLink="." [queryParams]="{q: a.abbr, a: true}" class="abbr-term mx-1">{{ a.abbr }}</a>
+                @for (a of abbrExamples; track a) {
+                    <a routerLink="." [queryParams]="{q: a.abbr, a: true}" class="abbr-term mx-1">{{ a.abbr }}</a>
+                }
             </div>
 
             <!-- In abbreviation only -->
@@ -25,35 +27,47 @@
 </div>
 
 <!-- Results -->
-<div *ngIf="abbreviations" class="row">
-    <!-- No results banner -->
-    <div *ngIf="!abbreviations!.length" class="py-3 text-muted fadeIn" i18n>Nothing found.</div>
+@if (abbreviations) {
+    <div class="row">
+        <!-- No results banner -->
+        @if (!abbreviations!.length) {
+            <div class="py-3 text-muted fadeIn" i18n>Nothing found.</div>
+        }
 
-    <!-- Search results -->
-    <div *ngIf="abbreviations!.length" class="fadeIn mb-4">
-        <!-- Result count -->
-        <div class="pt-3 pb-2 border-bottom fw-bold">
-            <ng-container i18n>Found:</ng-container>&ngsp;
-            <span class="badge bg-secondary">{{ abbreviations!.length }}</span>
-        </div>
-        <!-- Result table -->
-        <div class="table-responsive">
-            <table class="table">
-                <tbody>
-                <tr *ngFor="let a of abbreviations">
-                    <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams" class="abbr-term">{{ a.abbr }}</a></td>
-                    <td>{{ a.text }}</td>
-                    <td>
-                        <span [innerHTML]="a.translation[locale]"></span>
-                        <div *ngIf="a.seeAlso?.length" class="mt-2 small">
-                            (<ng-container i18n>see also</ng-container>
-                            &ngsp;
-                            <a *ngFor="let sa of a.seeAlso" routerLink="." [queryParams]="{q: sa, a: true}" class="abbr-term mx-1">{{ sa }}</a>)
-                        </div>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+        <!-- Search results -->
+        @if (abbreviations!.length) {
+            <div class="fadeIn mb-4">
+                <!-- Result count -->
+                <div class="pt-3 pb-2 border-bottom fw-bold">
+                    <ng-container i18n>Found:</ng-container>&ngsp;
+                    <span class="badge bg-secondary">{{ abbreviations!.length }}</span>
+                </div>
+                <!-- Result table -->
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                        @for (a of abbreviations; track a) {
+                                <tr>
+                                <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams" class="abbr-term">{{ a.abbr }}</a></td>
+                                <td>{{ a.text }}</td>
+                                <td>
+                                    <span [innerHTML]="a.translation[locale]"></span>
+                                    @if (a.seeAlso?.length) {
+                                        <div class="mt-2 small">
+                                            (<ng-container i18n>see also</ng-container>
+                                            &ngsp;
+                                            @for (sa of a.seeAlso; track sa) {
+                                                <a routerLink="." [queryParams]="{q: sa, a: true}" class="abbr-term mx-1">{{ sa }}</a>
+                                            })
+                                        </div>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
     </div>
-</div>
+}

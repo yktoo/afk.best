@@ -1,6 +1,6 @@
 import { Component, Inject, LOCALE_ID } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { DOCUMENT, NgFor, UpperCasePipe } from '@angular/common';
+import { DOCUMENT, UpperCasePipe } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,12 +8,7 @@ import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
     selector: 'app-header',
     templateUrl: './header.component.html',
     standalone: true,
-    imports: [
-        RouterLink,
-        NgFor,
-        FontAwesomeModule,
-        UpperCasePipe,
-    ],
+    imports: [RouterLink, FontAwesomeModule, UpperCasePipe],
 })
 export class HeaderComponent {
 

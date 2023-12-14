@@ -3,29 +3,37 @@
 <p class="lead mb-3" i18n>abbreviation</p>
 
 <!-- Abbreviation details -->
-<div *ngIf="abbreviations?.length else unknown">
-    <div *ngFor="let a of abbreviations; index as i" class="border-bottom mb-3 d-flex align-content-center">
-        <!-- Occurrence number, only if there's more than one -->
-        <div *ngIf="abbreviations!.length > 1" class="display-6 me-3 text-dimmed">{{ i+1 }}</div>
-        <!-- Details -->
-        <dl>
-            <div>
-                <dt><ng-container i18n>Stands for</ng-container></dt>
-                <dd>{{ a!.text }}</dd>
+@if (abbreviations?.length) {
+    <div>
+        @for (a of abbreviations; track a; let i = $index) {
+            <div class="border-bottom mb-3 d-flex align-content-center">
+                <!-- Occurrence number, only if there's more than one -->
+                @if (abbreviations!.length > 1) {
+                    <div class="display-6 me-3 text-dimmed">{{ i+1 }}</div>
+                }
+                <!-- Details -->
+                <dl>
+                    <div>
+                        <dt><ng-container i18n>Stands for</ng-container></dt>
+                        <dd>{{ a!.text }}</dd>
+                    </div>
+                    @if (a!.translation[locale]; as t) {
+                        <div>
+                            <dt i18n>Translation</dt>
+                            <dd><span [innerHTML]="t"></span></dd>
+                        </div>
+                    }
+                </dl>
             </div>
-            <div *ngIf="a!.translation[locale] as t">
-                <dt i18n>Translation</dt>
-                <dd><span [innerHTML]="t"></span></dd>
-            </div>
-        </dl>
+        }
     </div>
-</div>
 
-<!-- Abbreviation unknown -->
-<ng-template #unknown>
+} @else {
+    <!-- Abbreviation unknown -->
     <p class="lead fw-bold">¯\_(ツ)_/¯</p>
     <p i18n>Sorry, this abbreviation is unknown to us.</p>
-</ng-template>
+
+}
 
 <!-- Buttons -->
 <div class="mt-4 d-grid d-sm-block gap-2">
@@ -33,21 +41,27 @@
         <fa-icon [icon]="faChevronLeft" class="me-1"></fa-icon>
         <ng-container i18n>Back to search</ng-container>
     </button>
-    <button *ngIf="abbreviations?.length" (click)="copyLink()" type="button" class="btn btn-outline-primary">
-        <fa-icon [icon]="faCopy" class="me-1"></fa-icon>
-        <ng-container i18n>Copy link</ng-container>
-    </button>
-    <span *ngIf="textCopied" class="ms-2 fadeIn text-success">
-        <fa-icon [icon]="faCheck" class="me-1"></fa-icon>
-        <ng-container i18n>Link is copied!</ng-container>
-    </span>
+    @if (abbreviations?.length) {
+        <button (click)="copyLink()" type="button" class="btn btn-outline-primary">
+            <fa-icon [icon]="faCopy" class="me-1"></fa-icon>
+            <ng-container i18n>Copy link</ng-container>
+        </button>
+    }
+    @if (textCopied) {
+        <span class="ms-2 fadeIn text-success">
+            <fa-icon [icon]="faCheck" class="me-1"></fa-icon>
+            <ng-container i18n>Link is copied!</ng-container>
+        </span>
+    }
 
     <!-- Sharing buttons -->
     <span class="ms-sm-3" i18n>Share:</span>
     <span>
-        <a *ngFor="let sh of sharers" [href]="getShareUrl(sh)" [target]="sh.newTab ? '_blank' : null"
-           [title]="sh.name" class="btn btn-link" rel="noopener noreferrer nofollow">
-            <fa-icon [icon]="sh.icon" size="2x"></fa-icon>
-        </a>
+        @for (sh of sharers; track sh) {
+            <a [href]="getShareUrl(sh)" [target]="sh.newTab ? '_blank' : null"
+               [title]="sh.name" class="btn btn-link" rel="noopener noreferrer nofollow">
+                <fa-icon [icon]="sh.icon" size="2x"></fa-icon>
+            </a>
+        }
     </span>
 </div>

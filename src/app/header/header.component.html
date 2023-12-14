@@ -10,12 +10,14 @@
         <!-- Language switcher -->
         <div class="col-12 col-md">
             <ul class="nav nav-pills">
-                <li *ngFor="let lang of languages" class="nav-item">
-                    <a [href]="getLangUrl(lang.code)" [class.active]="lang.code === locale" class="nav-link">
-                        <span class="d-md-none">{{ lang.code | uppercase }}</span>
-                        <span class="d-none d-md-inline">{{ lang.name }}</span>
-                    </a>
-                </li>
+                @for (lang of languages; track lang) {
+                    <li class="nav-item">
+                        <a [href]="getLangUrl(lang.code)" [class.active]="lang.code === locale" class="nav-link">
+                            <span class="d-md-none">{{ lang.code | uppercase }}</span>
+                            <span class="d-none d-md-inline">{{ lang.name }}</span>
+                        </a>
+                    </li>
+                }
             </ul>
         </div>
 
