@@ -9,12 +9,13 @@ import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
 import { MetadataService } from '../services/metadata.service';
 import { Sharer, SharerService } from '../services/sharer.service';
+import { NgxComentarioComponent } from 'ngx-comentario';
 
 @Component({
     selector: 'app-abbr',
     templateUrl: './abbr.component.html',
     standalone: true,
-    imports: [RouterLink, FontAwesomeModule],
+    imports: [RouterLink, FontAwesomeModule, NgxComentarioComponent],
 })
 export class AbbrComponent implements OnChanges {
 
