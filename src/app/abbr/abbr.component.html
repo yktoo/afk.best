@@ -70,5 +70,6 @@
 <section class="mt-4">
     <h2 i18n>Comments</h2>
     <p class="small" i18n>What do you think about this abbreviation? Let everyone know!</p>
-    <ngx-comentario-comments scriptUrl="https://comentario.app/comentario.js"></ngx-comentario-comments>
+    <ngx-comentario-comments scriptUrl="https://comentario.app/comentario.js"
+                             [extraOptions]="{monitorRouteChanges: true, ignoreQuery: true}"/>
 </section>
