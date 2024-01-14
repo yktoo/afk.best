@@ -32,7 +32,6 @@
     <!-- Abbreviation unknown -->
     <p class="lead fw-bold">¯\_(ツ)_/¯</p>
     <p i18n>Sorry, this abbreviation is unknown to us.</p>
-
 }
 
 <!-- Buttons -->
@@ -67,9 +66,11 @@
 </div>
 
 <!-- Comments -->
-<section class="mt-4">
-    <h2 i18n>Comments</h2>
-    <p class="small" i18n>What do you think about this abbreviation? Let everyone know!</p>
-    <ngx-comentario-comments scriptUrl="https://comentario.app/comentario.js"
-                             [extraOptions]="{monitorRouteChanges: true, ignoreQuery: true}"/>
-</section>
+@if (pageId) {
+    <section class="mt-4">
+        <h2 i18n>Comments</h2>
+        <p class="small" i18n>What do you think about the abbreviation "{{ abbr }}"? Let everyone know!</p>
+        <ngx-comentario-comments scriptUrl="https://comentario.app/comentario.js"
+                                 [pageId]="pageId"/>
+    </section>
+}

@@ -75,15 +75,15 @@
         <target state="translated">Commentaren</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7052166230758962627" datatype="html">
-        <source>What do you think about this abbreviation? Let everyone know!</source>
-        <target state="translated">Wat vind jij van deze afkorting? Laat het iedereen weten!</target>
+      <trans-unit id="859873947824026259" datatype="html">
+        <source>What do you think about the abbreviation "<x id="INTERPOLATION" equiv-text="{{ abbr }}"/>"? Let everyone know!</source>
+        <target state="translated">Wat vind jij van de afkorting "<x id="INTERPOLATION" equiv-text="{{ abbr }}"/>"? Laat het iedereen weten!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6882643681184572286" datatype="html">
@@ -91,7 +91,7 @@
         <target state="translated">Betekenis van "{abbr}"</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5727119424565802706" datatype="html">
@@ -99,7 +99,7 @@
         <target state="translated">Afkorting</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3684593701070143730" datatype="html">
@@ -107,7 +107,7 @@
         <target state="translated">Nederlandse afkortingen</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">36</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search.component.ts</context>

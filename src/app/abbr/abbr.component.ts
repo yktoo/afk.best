@@ -5,11 +5,11 @@ import { SafeUrl } from '@angular/platform-browser';
 import { delay, finalize, from, tap } from 'rxjs';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faCheck, faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { NgxComentarioComponent } from 'ngx-comentario';
 import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
 import { MetadataService } from '../services/metadata.service';
 import { Sharer, SharerService } from '../services/sharer.service';
-import { NgxComentarioComponent } from 'ngx-comentario';
 
 @Component({
     selector: 'app-abbr',
@@ -24,6 +24,8 @@ export class AbbrComponent implements OnChanges {
 
     abbreviations?: Abbreviation[] | null;
     textCopied = false;
+
+    pageId?: string;
 
     readonly sharers = this.sharerSvc.orderedSharers;
 
@@ -61,6 +63,12 @@ export class AbbrComponent implements OnChanges {
     ngOnChanges(changes: SimpleChanges): void {
         if (changes['abbr']) {
             this.abbreviations = this.abbr ? this.abbrService.findExact(this.abbr) : null;
+
+            // Update the page ID for comment. Don't bother if none has been found, strip the trailing dot to match the
+            // AbbrService.findExact() behaviour otherwise
+            this.pageId = this.abbreviations?.length ?
+                '/abbr/' + this.abbr!.replace(/\.$/, '') :
+                undefined;
 
             // Update page metadata
             this.metadataSvc.title       = (this.abbr ? this.abbr + ' | ' : '') + this.appTitle;

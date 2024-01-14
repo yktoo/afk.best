@@ -66,21 +66,21 @@
         <source>Comments</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">71</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7052166230758962627" datatype="html">
-        <source>What do you think about this abbreviation? Let everyone know!</source>
+      <trans-unit id="859873947824026259" datatype="html">
+        <source>What do you think about the abbreviation &quot;<x id="INTERPOLATION" equiv-text="{{ abbr }}"/>&quot;? Let everyone know!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3684593701070143730" datatype="html">
         <source>Dutch Abbreviations</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">36</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/search/search.component.ts</context>
@@ -91,14 +91,14 @@
         <source>Meaning of &quot;{abbr}&quot; and its translations into English</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5727119424565802706" datatype="html">
         <source>Abbreviation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/abbr/abbr.component.ts</context>
-          <context context-type="linenumber">81</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6689475189089962541" datatype="html">
