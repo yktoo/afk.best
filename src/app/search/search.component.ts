@@ -19,7 +19,6 @@ import { MetadataService } from '../services/metadata.service';
 @Component({
     selector: 'app-search',
     templateUrl: './search.component.html',
-    standalone: true,
     imports: [FormsModule, ReactiveFormsModule, RouterLink],
 })
 export class SearchComponent implements OnInit, OnChanges {

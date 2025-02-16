@@ -14,7 +14,6 @@ declare let gtag: (key: string, id: string, params: any) => void;
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
-    standalone: true,
     imports: [
         HeaderComponent,
         RouterOutlet,

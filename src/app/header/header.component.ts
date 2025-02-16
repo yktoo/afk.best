@@ -7,7 +7,6 @@ import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 @Component({
     selector: 'app-header',
     templateUrl: './header.component.html',
-    standalone: true,
     imports: [RouterLink, FontAwesomeModule, UpperCasePipe],
 })
 export class HeaderComponent {

@@ -14,7 +14,6 @@ import { Sharer, SharerService } from '../services/sharer.service';
 @Component({
     selector: 'app-abbr',
     templateUrl: './abbr.component.html',
-    standalone: true,
     imports: [RouterLink, FontAwesomeModule, NgxComentarioComponent],
 })
 export class AbbrComponent implements OnChanges {
