@@ -1,3 +1,8 @@
+# Sub-path redirects for the SPA routing
+/en/*  /en/index.html   200
+/ru/*  /ru/index.html   200
+/nl/*  /nl/index.html   200
+
 # Redirects for languages/countries
 /* /ru/ 302 Language=ru,uk,be
 /* /ru/ 302 Country=ru,ua,by
@@ -5,7 +10,3 @@
 /* /nl/ 302 Country=nl,be
 /* /en/ 301
 
-# Sub-path redirects for the SPA routing
-/en/*  /en/index.html   200
-/ru/*  /ru/index.html   200
-/nl/*  /nl/index.html   200
