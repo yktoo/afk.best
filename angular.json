@@ -11,7 +11,11 @@
                 }
             },
             "i18n": {
-                "sourceLocale": "en"
+                "sourceLocale": "en",
+                "locales": {
+                    "nl": "src/locale/messages.nl.xlf",
+                    "ru": "src/locale/messages.ru.xlf"
+                }
             },
             "root": "",
             "sourceRoot": "src",
