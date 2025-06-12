@@ -5099,6 +5099,14 @@ export const abbreviations: Abbreviation[] = [
         },
     },
     {
+        abbr: 'wss',
+        text: 'waarschijnlijk',
+        translation: {
+            ru: 'Вероятно',
+            en: 'Probably',
+        },
+    },
+    {
         abbr: 'w.t.b.w.',
         text: 'wat te bewijzen was',
         translation: {
