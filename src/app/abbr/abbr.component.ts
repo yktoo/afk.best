@@ -1,4 +1,4 @@
-import { Component, Inject, Input, LOCALE_ID, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, computed, effect, inject, input, LOCALE_ID } from '@angular/core';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { SafeUrl } from '@angular/platform-browser';
@@ -16,18 +16,33 @@ import { Sharer, SharerService } from '../services/sharer.service';
     templateUrl: './abbr.component.html',
     imports: [RouterLink, FontAwesomeModule, NgxComentarioComponent],
 })
-export class AbbrComponent implements OnChanges {
+export class AbbrComponent {
 
-    @Input()
-    abbr?: string;
+    readonly locale = inject(LOCALE_ID);
+    private readonly doc = inject<Document>(DOCUMENT);
+    private readonly route = inject(ActivatedRoute);
+    private readonly metadataSvc = inject(MetadataService);
+    private readonly abbrService = inject(AbbrService);
+    private readonly sharerSvc = inject(SharerService);
 
-    abbreviations?: Abbreviation[] | null;
+    /** Current abbreviation, populated from a query param. */
+    readonly abbr = input<string>();
+
+    /** List of found abbreviations. */
+    readonly abbreviations = computed<Abbreviation[] | null>(() =>  this.abbr() ? this.abbrService.findExact(this.abbr()!) : null);
+
     textCopied = false;
 
-    pageId?: string;
+    /**
+     * Page ID for comments.
+     * Don't bother if none has been found, strip the trailing dot to match the AbbrService.findExact() behaviour
+     * otherwise.
+     */
+    readonly pageId = computed<string | undefined>(() => this.abbreviations()?.length ? '/abbr/' + this.abbr()!.replace(/\.$/, '') : undefined);
 
     readonly sharers = this.sharerSvc.orderedSharers;
 
+    // Icons
     readonly faCheck       = faCheck;
     readonly faChevronLeft = faChevronLeft;
     readonly faCopy        = faCopy;
@@ -35,14 +50,14 @@ export class AbbrComponent implements OnChanges {
     private readonly appTitle       = $localize`Dutch Abbreviations`;
     private readonly appDescription = $localize`Meaning of "{abbr}" and its translations into English`;
 
-    constructor(
-        @Inject(LOCALE_ID) readonly locale: string,
-        @Inject(DOCUMENT) private readonly doc: Document,
-        private readonly route: ActivatedRoute,
-        private readonly metadataSvc: MetadataService,
-        private readonly abbrService: AbbrService,
-        private readonly sharerSvc: SharerService,
-    ) {}
+    constructor() {
+        // Update page metadata on abbr change
+        effect(() => {
+            const abbr = this.abbr();
+            this.metadataSvc.title       = (abbr ? abbr + ' | ' : '') + this.appTitle;
+            this.metadataSvc.description = this.appDescription.replace('{abbr}', abbr ?? '');
+        });
+    }
 
     /**
      * Return a shareable link URL.
@@ -57,22 +72,6 @@ export class AbbrComponent implements OnChanges {
     get searchParams(): Params {
         // The params should have been passed here by SearchComponent
         return this.route.snapshot.queryParams;
-    }
-
-    ngOnChanges(changes: SimpleChanges): void {
-        if (changes['abbr']) {
-            this.abbreviations = this.abbr ? this.abbrService.findExact(this.abbr) : null;
-
-            // Update the page ID for comment. Don't bother if none has been found, strip the trailing dot to match the
-            // AbbrService.findExact() behaviour otherwise
-            this.pageId = this.abbreviations?.length ?
-                '/abbr/' + this.abbr!.replace(/\.$/, '') :
-                undefined;
-
-            // Update page metadata
-            this.metadataSvc.title       = (this.abbr ? this.abbr + ' | ' : '') + this.appTitle;
-            this.metadataSvc.description = this.appDescription.replace('{abbr}', this.abbr ?? '');
-        }
     }
 
     copyLink() {

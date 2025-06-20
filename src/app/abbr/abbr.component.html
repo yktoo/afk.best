@@ -1,23 +1,24 @@
 <!-- Heading -->
-<h1 class="mb-0">{{ abbr }}</h1>
+<h1 class="mb-0">{{ abbr() }}</h1>
 <p class="lead mb-3" i18n>abbreviation</p>
 
 <!-- Abbreviation details -->
-@if (abbreviations?.length) {
+@let abbrs = abbreviations();
+@if (abbrs?.length; as len) {
     <div>
-        @for (a of abbreviations; track a; let i = $index) {
+        @for (a of abbrs; track a.abbr; let i = $index) {
             <div class="border-bottom mb-3 d-flex align-content-center">
                 <!-- Occurrence number, only if there's more than one -->
-                @if (abbreviations!.length > 1) {
+                @if (len > 1) {
                     <div class="display-6 me-3 text-dimmed">{{ i+1 }}</div>
                 }
                 <!-- Details -->
                 <dl>
                     <div>
                         <dt><ng-container i18n>Stands for</ng-container></dt>
-                        <dd>{{ a!.text }}</dd>
+                        <dd>{{ a.text }}</dd>
                     </div>
-                    @if (a!.translation[locale]; as t) {
+                    @if (a.translation[locale]; as t) {
                         <div>
                             <dt i18n>Translation</dt>
                             <dd><span [innerHTML]="t"></span></dd>
@@ -40,7 +41,7 @@
         <fa-icon [icon]="faChevronLeft" class="me-1"></fa-icon>
         <ng-container i18n>Back to search</ng-container>
     </button>
-    @if (abbreviations?.length) {
+    @if (abbrs?.length) {
         <button (click)="copyLink()" type="button" class="btn btn-outline-primary">
             <fa-icon [icon]="faCopy" class="me-1"></fa-icon>
             <ng-container i18n>Copy link</ng-container>
@@ -56,7 +57,7 @@
     <!-- Sharing buttons -->
     <span class="ms-sm-3" i18n>Share:</span>
     <span>
-        @for (sh of sharers; track sh) {
+        @for (sh of sharers; track sh.name) {
             <a [href]="getShareUrl(sh)" [target]="sh.newTab ? '_blank' : null"
                [title]="sh.name" class="btn btn-link" rel="noopener noreferrer nofollow">
                 <fa-icon [icon]="sh.icon" size="2x"></fa-icon>
@@ -66,11 +67,11 @@
 </div>
 
 <!-- Comments -->
-@if (pageId) {
+@if (pageId(); as id) {
     <section class="mt-4">
         <h2 i18n>Comments</h2>
-        <p class="small" i18n>What do you think about the abbreviation "{{ abbr }}"? Let everyone know!</p>
+        <p class="small" i18n>What do you think about the abbreviation "{{ abbr() }}"? Let everyone know!</p>
         <ngx-comentario-comments scriptUrl="https://comentario.app/comentario.js"
-                                 [pageId]="pageId"/>
+                                 [pageId]="id"/>
     </section>
 }

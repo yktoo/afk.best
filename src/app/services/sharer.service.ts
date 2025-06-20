@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
 import { DomSanitizer, SafeUrl } from '@angular/platform-browser';
 import { faEnvelope, IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faLinkedin, faTelegram, faTwitter, faVk, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -20,12 +20,14 @@ export interface Sharer {
     shareUrl: string;         // URL pattern for the sharer, which uses '\tu' for the shared URL and '\tt' for the text
 }
 
-export type SharerMap = {[type in SharerType]: Sharer};
+export type SharerMap = Record<SharerType, Sharer>;
 
 @Injectable({
     providedIn: 'root',
 })
 export class SharerService {
+    private readonly sanitizer = inject(DomSanitizer);
+
 
     private static readonly sharers: SharerMap = {
         facebook: {
@@ -78,10 +80,6 @@ export class SharerService {
             shareUrl: 'https://vk.com/share.php?url=\tu'
         },
     };
-
-    constructor(
-        private readonly sanitizer: DomSanitizer,
-    ) {}
 
     /**
      * Map of all known sharers.

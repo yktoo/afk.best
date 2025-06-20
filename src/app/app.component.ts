@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
@@ -21,6 +21,9 @@ declare let gtag: (key: string, id: string, params: any) => void;
     ],
 })
 export class AppComponent {
+    private readonly router = inject(Router);
+    private readonly metadataSvc = inject(MetadataService);
+
 
     private readonly author = $localize`Dmitry Kann`;
     private readonly keywords = [
@@ -31,10 +34,7 @@ export class AppComponent {
         $localize`translation`,
     ];
 
-    constructor(
-        private readonly router: Router,
-        private readonly metadataSvc: MetadataService,
-    ) {
+    constructor() {
         this.metadataSvc.author   = this.author;
         this.metadataSvc.keywords = this.keywords;
 

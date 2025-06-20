@@ -1,7 +1,7 @@
 export interface Abbreviation {
     abbr:        string;
     text:        string;
-    translation: { [lang: string]: string };
+    translation: Record<string, string>;
     seeAlso?:    string[];
 }
 

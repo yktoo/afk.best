@@ -12,7 +12,7 @@
             <!-- Examples -->
             <div class="mt-3 form-text text-small" id="search-help">
                 <span class="text-muted me-1" i18n>Some examples:</span>
-                @for (a of abbrExamples; track a) {
+                @for (a of abbrExamples; track a.abbr) {
                     <a routerLink="." [queryParams]="{q: a.abbr, a: true}" class="abbr-term mx-1">{{ a.abbr }}</a>
                 }
             </div>
@@ -27,26 +27,25 @@
 </div>
 
 <!-- Results -->
-@if (abbreviations) {
+@if (abbreviations(); as abbrs) {
     <div class="row">
         <!-- No results banner -->
-        @if (!abbreviations!.length) {
+        @if (!abbrs.length) {
             <div class="py-3 text-muted fadeIn" i18n>Nothing found.</div>
-        }
 
         <!-- Search results -->
-        @if (abbreviations!.length) {
+        } @else {
             <div class="fadeIn mb-4">
                 <!-- Result count -->
                 <div class="pt-3 pb-2 border-bottom fw-bold">
                     <ng-container i18n>Found:</ng-container>&ngsp;
-                    <span class="badge bg-secondary">{{ abbreviations!.length }}</span>
+                    <span class="badge bg-secondary">{{ abbrs.length }}</span>
                 </div>
                 <!-- Result table -->
                 <div class="table-responsive">
                     <table class="table">
                         <tbody>
-                        @for (a of abbreviations; track a) {
+                        @for (a of abbrs; track a.abbr) {
                                 <tr>
                                 <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams" class="abbr-term">{{ a.abbr }}</a></td>
                                 <td>{{ a.text }}</td>

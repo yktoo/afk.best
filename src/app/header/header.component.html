@@ -10,7 +10,7 @@
         <!-- Language switcher -->
         <div class="col-12 col-md">
             <ul class="nav nav-pills">
-                @for (lang of languages; track lang) {
+                @for (lang of languages; track lang.code) {
                     <li class="nav-item">
                         <a [href]="getLangUrl(lang.code)" [class.active]="lang.code === locale" class="nav-link">
                             <span class="d-md-none">{{ lang.code | uppercase }}</span>

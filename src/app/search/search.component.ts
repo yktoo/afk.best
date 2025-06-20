@@ -1,15 +1,5 @@
-import {
-    Component,
-    ElementRef,
-    Inject,
-    Input,
-    LOCALE_ID,
-    OnChanges,
-    OnInit,
-    SimpleChanges,
-    ViewChild,
-} from '@angular/core';
-import { ActivatedRoute, Params, Router, RouterLink } from '@angular/router';
+import { Component, computed, effect, ElementRef, inject, input, LOCALE_ID, OnInit, viewChild } from '@angular/core';
+import { Params, Router, RouterLink } from '@angular/router';
 import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { Abbreviation } from '../services/abbreviations';
@@ -21,20 +11,33 @@ import { MetadataService } from '../services/metadata.service';
     templateUrl: './search.component.html',
     imports: [FormsModule, ReactiveFormsModule, RouterLink],
 })
-export class SearchComponent implements OnInit, OnChanges {
+export class SearchComponent implements OnInit {
 
-    @Input('q')
-    pattern?: string;
+    readonly locale = inject(LOCALE_ID);
 
-    @Input('a')
-    abbr?: string;
+    private readonly router = inject(Router);
+    private readonly metadataSvc = inject(MetadataService);
+    private readonly abbrService = inject(AbbrService);
 
-    @ViewChild('searchBox')
-    searchBox?: ElementRef<HTMLInputElement>;
+    /** Query string, populated from a query param. */
+    readonly q = input<string>();
 
-    abbreviations?: Abbreviation[];
+    /** Whether to search abbreviations only (as a string), populated from a query param. */
+    readonly a = input<string>();
 
-    readonly form = this.fb.nonNullable.group({
+    /** Whether to search abbreviations only (as a boolean). */
+    readonly abbrOnly = computed(() => this.a() === 'true');
+
+    /** Found abbreviations. */
+    readonly abbreviations = computed<Abbreviation[] | undefined>(() => {
+        const q = this.q();
+        return q ? this.abbrService.find(q, this.locale, this.abbrOnly()) : undefined;
+    });
+
+    /** The search input box. */
+    readonly searchBox = viewChild<ElementRef<HTMLInputElement>>('searchBox');
+
+    readonly form = inject(FormBuilder).nonNullable.group({
         pattern:  '',
         abbrOnly: false,
     });
@@ -46,14 +49,19 @@ export class SearchComponent implements OnInit, OnChanges {
     private readonly appSearch      = $localize`Search`;
     private readonly appDescription = $localize`Common Dutch abbreviations and their translations into English`;
 
-    constructor(
-        @Inject(LOCALE_ID) readonly locale: string,
-        private readonly route: ActivatedRoute,
-        private readonly router: Router,
-        private readonly fb: FormBuilder,
-        private readonly metadataSvc: MetadataService,
-        private readonly abbrService: AbbrService,
-    ) {}
+    constructor() {
+        effect(() => {
+            const pattern = this.q() ?? '';
+            const abbrOnly = this.abbrOnly();
+
+            // On parameter changes, update form values accordingly
+            this.form.setValue({pattern, abbrOnly});
+
+            // Also update page metadata
+            this.metadataSvc.title       = `${this.appSearch}${pattern ? ': ' + pattern : ''} | ${this.appTitle}`;
+            this.metadataSvc.description = this.appDescription;
+        });
+    }
 
     get searchParams(): Params {
         return this.getSearchParams(this.form.value);
@@ -68,21 +76,7 @@ export class SearchComponent implements OnInit, OnChanges {
                 this.router.navigate(['/search'], {queryParams: this.getSearchParams(vals)}));
 
         // Focus the search box initially
-        setTimeout(() => this.searchBox?.nativeElement?.focus(), 100);
-    }
-
-    ngOnChanges(changes: SimpleChanges): void {
-        if (changes['pattern'] || changes['abbr']) {
-            const abbrOnly = this.abbr === 'true';
-            this.abbreviations = this.pattern ?
-                this.abbrService.find(this.pattern, this.locale, abbrOnly) :
-                undefined;
-            this.form.setValue({pattern: this.pattern ?? '', abbrOnly});
-
-            // Update page metadata
-            this.metadataSvc.title       = `${this.appSearch}${this.pattern ? ': ' + this.pattern : ''} | ${this.appTitle}`;
-            this.metadataSvc.description = this.appDescription;
-        }
+        setTimeout(() => this.searchBox()?.nativeElement?.focus(), 100);
     }
 
     getSearchParams(vals: {pattern?: string, abbrOnly?: boolean}): Params {
