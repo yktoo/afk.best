@@ -1,3 +1,4 @@
+import { provideZonelessChangeDetection } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { MetadataService } from './metadata.service';
 
@@ -6,7 +7,9 @@ describe('MetadataService', () => {
     let service: MetadataService;
 
     beforeEach(() => {
-        TestBed.configureTestingModule({});
+        TestBed.configureTestingModule({
+            providers: [provideZonelessChangeDetection()],
+        });
         service = TestBed.inject(MetadataService);
     });
 

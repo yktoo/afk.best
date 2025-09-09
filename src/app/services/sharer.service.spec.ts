@@ -1,3 +1,4 @@
+import { provideZonelessChangeDetection } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
 import { DomSanitizer } from '@angular/platform-browser';
 import { SharerService, SharerType } from './sharer.service';
@@ -8,7 +9,9 @@ describe('SharerService', () => {
     let sanitizer: DomSanitizer;
 
     beforeEach(() => {
-        TestBed.configureTestingModule({});
+        TestBed.configureTestingModule({
+            providers: [provideZonelessChangeDetection()],
+        });
         service = TestBed.inject(SharerService);
         sanitizer = TestBed.inject(DomSanitizer);
     });

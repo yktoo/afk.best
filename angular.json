@@ -81,7 +81,8 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "buildTarget": "afk-best:build"
+                        "buildTarget": "afk-best:build",
+                        "hmr": false
                     },
                     "configurations": {
                         "production": {

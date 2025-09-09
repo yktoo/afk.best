@@ -1,3 +1,4 @@
+import { provideZonelessChangeDetection } from '@angular/core';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { RouterModule } from '@angular/router';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -10,8 +11,9 @@ describe('SearchComponent', () => {
 
     beforeEach(async () => {
         await TestBed.configureTestingModule({
-            imports: [RouterModule.forRoot([]), FormsModule, ReactiveFormsModule, SearchComponent],
-        })
+                imports: [RouterModule.forRoot([]), FormsModule, ReactiveFormsModule, SearchComponent],
+                providers: [provideZonelessChangeDetection()],
+            })
             .compileComponents();
 
         fixture = TestBed.createComponent(SearchComponent);
@@ -19,7 +21,7 @@ describe('SearchComponent', () => {
         fixture.detectChanges();
     });
 
-    it('should create', () => {
+    it('is created', () => {
         expect(component).toBeTruthy();
     });
 });
