@@ -1,0 +1,7 @@
+[build]
+    base = "/"
+    command = "yarn install && yarn run build:prod"
+    publish = "dist/afk-best"
+
+[build.environment]
+    NODE_VERSION = "22"

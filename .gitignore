@@ -1,6 +1,7 @@
 *.iml
 /.idea/
 /.angular/
+/.yarn/
 /dist/
 /node_modules/
 /tmp/
