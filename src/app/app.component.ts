@@ -21,9 +21,9 @@ declare let gtag: (key: string, id: string, params: any) => void;
     ],
 })
 export class AppComponent {
+
     private readonly router = inject(Router);
     private readonly metadataSvc = inject(MetadataService);
-
 
     private readonly author = $localize`Dmitry Kann`;
     private readonly keywords = [

@@ -42,16 +42,19 @@
         <ng-container i18n>Back to search</ng-container>
     </button>
     @if (abbrs?.length) {
-        <button (click)="copyLink()" type="button" class="btn btn-outline-primary">
+        <button (click)="copyLink()" type="button" class="btn btn-outline-primary position-relative">
             <fa-icon [icon]="faCopy" class="me-1"></fa-icon>
             <ng-container i18n>Copy link</ng-container>
+
+            @if (textCopied()) {
+                <div class="position-absolute p-1 bg-success-subtle text-success border rounded small shadow"
+                     style="bottom: 110%; left: 0; right: 0;"
+                     animate.enter="slide-in"
+                     animate.leave="slide-out">
+                    <ng-container i18n>Link is copied!</ng-container>
+                </div>
+            }
         </button>
-    }
-    @if (textCopied) {
-        <span class="ms-2 fadeIn text-success">
-            <fa-icon [icon]="faCheck" class="me-1"></fa-icon>
-            <ng-container i18n>Link is copied!</ng-container>
-        </span>
     }
 
     <!-- Sharing buttons -->

@@ -31,11 +31,11 @@
     <div class="row">
         <!-- No results banner -->
         @if (!abbrs.length) {
-            <div class="py-3 text-muted fadeIn" i18n>Nothing found.</div>
+            <div class="py-3 text-muted" animate.enter="slide-in" i18n>Nothing found.</div>
 
         <!-- Search results -->
         } @else {
-            <div class="fadeIn mb-4">
+            <div class="mb-4" animate.enter="slide-in">
                 <!-- Result count -->
                 <div class="pt-3 pb-2 border-bottom fw-bold">
                     <ng-container i18n>Found:</ng-container>&ngsp;
@@ -47,7 +47,7 @@
                         <tbody>
                         @for (a of abbrs; track a.abbr) {
                                 <tr>
-                                <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams" class="abbr-term">{{ a.abbr }}</a></td>
+                                <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams()" class="abbr-term">{{ a.abbr }}</a></td>
                                 <td>{{ a.text }}</td>
                                 <td>
                                     <span [innerHTML]="a.translation[locale]"></span>

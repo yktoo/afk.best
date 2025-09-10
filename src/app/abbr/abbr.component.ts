@@ -1,10 +1,10 @@
-import { Component, computed, effect, inject, input, LOCALE_ID } from '@angular/core';
+import { Component, computed, effect, inject, input, LOCALE_ID, signal } from '@angular/core';
 import { ActivatedRoute, Params, RouterLink } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 import { SafeUrl } from '@angular/platform-browser';
 import { delay, finalize, from, tap } from 'rxjs';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { faCheck, faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faCopy } from '@fortawesome/free-solid-svg-icons';
 import { NgxComentarioComponent } from 'ngx-comentario';
 import { AbbrService } from '../services/abbr.service';
 import { Abbreviation } from '../services/abbreviations';
@@ -31,7 +31,7 @@ export class AbbrComponent {
     /** List of found abbreviations. */
     readonly abbreviations = computed<Abbreviation[] | null>(() =>  this.abbr() ? this.abbrService.findExact(this.abbr()!) : null);
 
-    textCopied = false;
+    readonly textCopied = signal(false);
 
     /**
      * Page ID for comments.
@@ -43,7 +43,6 @@ export class AbbrComponent {
     readonly sharers = this.sharerSvc.orderedSharers;
 
     // Icons
-    readonly faCheck       = faCheck;
     readonly faChevronLeft = faChevronLeft;
     readonly faCopy        = faCopy;
 
@@ -77,9 +76,9 @@ export class AbbrComponent {
     copyLink() {
         from(navigator.clipboard.writeText(this.link))
             .pipe(
-                tap(() => this.textCopied = true),
-                delay(3000),
-                finalize(() => this.textCopied = false))
+                tap(() => this.textCopied.set(true)),
+                delay(2_000),
+                finalize(() => this.textCopied.set(false)))
             .subscribe();
     }
 
