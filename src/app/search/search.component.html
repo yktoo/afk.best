@@ -45,9 +45,9 @@
                 <div class="table-responsive">
                     <table class="table">
                         <tbody>
-                        @for (a of abbrs; track a.abbr) {
+                        @for (a of abbrs; track a) {
                                 <tr>
-                                <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="searchParams()" class="abbr-term">{{ a.abbr }}</a></td>
+                                <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="queryParams()" class="abbr-term">{{ a.abbr }}</a></td>
                                 <td>{{ a.text }}</td>
                                 <td>
                                     <span [innerHTML]="a.translation[locale]"></span>

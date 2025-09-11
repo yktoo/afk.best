@@ -8,9 +8,9 @@ import { Meta, Title } from '@angular/platform-browser';
     providedIn: 'root',
 })
 export class MetadataService {
+
     private readonly titleSvc = inject(Title);
     private readonly metaSvc = inject(Meta);
-
 
     /**
      * Set the author of the page.
