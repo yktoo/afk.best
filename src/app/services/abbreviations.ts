@@ -2379,6 +2379,14 @@ export const abbreviations: Abbreviation[] = [
     },
     {
         abbr: 'm.i.v.',
+        text: 'met inachtneming van',
+        translation: {
+            ru: 'С учётом',
+            en: 'Taking into account',
+        },
+    },
+    {
+        abbr: 'm.i.v.',
         text: 'met ingang van',
         translation: {
             ru: 'Начиная с (даты)',
