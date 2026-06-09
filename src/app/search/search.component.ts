@@ -1,11 +1,17 @@
-import { Component, computed, effect, ElementRef, inject, input, linkedSignal, LOCALE_ID, OnInit, viewChild } from '@angular/core';
-import { toSignal } from '@angular/core/rxjs-interop';
+import { Component, computed, effect, ElementRef, inject, input, LOCALE_ID, signal, viewChild } from '@angular/core';
+import { debounce, form, FormField } from '@angular/forms/signals';
 import { Router, RouterLink } from '@angular/router';
-import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { debounceTime, map } from 'rxjs';
 import { Abbreviation } from '../services/abbreviations';
 import { AbbrService } from '../services/abbr.service';
 import { MetadataService } from '../services/metadata.service';
+
+/** Search data model. */
+interface SearchData {
+    /** Search pattern. */
+    pattern: string;
+    /** Look in the abbreviation only. */
+    abbrOnly: boolean;
+}
 
 /** Search params recognised by this component. */
 interface SearchParams {
@@ -18,9 +24,9 @@ interface SearchParams {
 @Component({
     selector: 'app-search',
     templateUrl: './search.component.html',
-    imports: [FormsModule, ReactiveFormsModule, RouterLink],
+    imports: [RouterLink, FormField],
 })
-export class SearchComponent implements OnInit {
+export class SearchComponent {
 
     readonly locale = inject(LOCALE_ID);
 
@@ -46,20 +52,18 @@ export class SearchComponent implements OnInit {
     /** The search input box. */
     readonly searchBox = viewChild<ElementRef<HTMLInputElement>>('searchBox');
 
-    readonly form = inject(FormBuilder).nonNullable.group({
-        pattern:  '',
-        abbrOnly: false,
-    });
+    /** Search model signal. */
+    readonly searchModel = signal<SearchData>({pattern: '', abbrOnly: false});
 
-    /** Search form value, debounced. Undefined when invalid. */
-    readonly formValue = toSignal(this.form.valueChanges.pipe(debounceTime(500), map(v => this.form.valid ? v : undefined)));
+    /** Search form. */
+    readonly form = form(this.searchModel, schema => debounce(schema, 500));
 
-    /**
-     * Query (search) parameters. Gets updated when the search form value changes (delayed) or on URL query params
-     * changes (immediately).
-     */
-    readonly queryParams = linkedSignal<SearchParams | undefined>(
-        () => this.toQueryParams(this.formValue()?.pattern, this.formValue()?.abbrOnly),
+    /** Query (search) parameters. Gets updated when the search form value changes. */
+    readonly queryParams = computed<SearchParams | undefined>(
+        () => {
+            const v = this.searchModel();
+            return v ? {q: v.pattern, a: v.abbrOnly} : undefined;
+        },
         // Since signal's changes cause a redirect to a new URL, it should only happen when there's an actual value change
         {equal: (a, b) => a?.q === b?.q && a?.a === b?.a});
 
@@ -76,8 +80,7 @@ export class SearchComponent implements OnInit {
             const abbrOnly = this.abbrOnly();
 
             // On parameter changes, update form values and the query params accordingly
-            this.form.setValue({pattern, abbrOnly}, {emitEvent: false});
-            this.queryParams.set(this.toQueryParams(pattern, abbrOnly));
+            this.searchModel.set({pattern, abbrOnly});
 
             // Also update page metadata
             this.metadataSvc.title       = `${this.appSearch}${pattern ? ': ' + pattern : ''} | ${this.appTitle}`;
@@ -86,14 +89,14 @@ export class SearchComponent implements OnInit {
 
         // On query params change, navigate to the new URL
         effect(() => this.router.navigate(['/search'], {queryParams: this.queryParams()}));
-    }
 
-    ngOnInit(): void {
         // Focus the search box initially
-        setTimeout(() => this.searchBox()?.nativeElement?.focus(), 100);
-    }
-
-    toQueryParams(pattern?: string, abbrOnly?: boolean): SearchParams | undefined {
-        return pattern ? {q: pattern, a: !!abbrOnly} : undefined;
+        let focused = false;
+        effect(() => {
+            if (!focused) {
+                this.searchBox()?.nativeElement?.focus();
+                focused = true;
+            }
+        });
     }
 }

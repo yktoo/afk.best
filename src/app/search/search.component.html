@@ -1,9 +1,9 @@
 <!-- Search form -->
 <div class="row">
-    <form [formGroup]="form">
+    <form>
         <!-- Search box -->
         <div class="form-floating">
-            <input #searchBox formControlName="pattern" type="search" class="form-control" id="search-text"
+            <input #searchBox [formField]="form.pattern" type="search" class="form-control" id="search-text"
                    aria-describedby="search-help" placeholder="afk.">
             <label for="search-text" i18n>Abbreviation or acronym</label>
         </div>
@@ -19,7 +19,7 @@
 
             <!-- In abbreviation only -->
             <div class="mt-3 form-check">
-                <input formControlName="abbrOnly" class="form-check-input" type="checkbox" id="abbr-only">
+                <input [formField]="form.abbrOnly" class="form-check-input" type="checkbox" id="abbr-only">
                 <label class="form-check-label" for="abbr-only" i18n>In abbreviation only</label>
             </div>
         </div>
