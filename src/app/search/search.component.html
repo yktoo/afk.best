@@ -35,7 +35,7 @@
 
         <!-- Search results -->
         } @else {
-            <div class="mb-4" animate.enter="slide-in">
+            <div class="mb-4" animate.enter="slide-in" animate.leave="fade-out">
                 <!-- Result count -->
                 <div class="pt-3 pb-2 border-bottom fw-bold">
                     <ng-container i18n>Found:</ng-container>&ngsp;
@@ -46,7 +46,7 @@
                     <table class="table">
                         <tbody>
                         @for (a of abbrs; track a) {
-                                <tr>
+                            <tr animate.enter="fade-in">
                                 <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="queryParams()" class="abbr-term">{{ a.abbr }}</a></td>
                                 <td>{{ a.text }}</td>
                                 <td>

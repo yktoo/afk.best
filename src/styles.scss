@@ -93,12 +93,25 @@ a.abbr-term {
     opacity: 0.5 !important;
 }
 
+.fade-in {
+    animation: ani-fade-in 0.25s;
+}
+
+.fade-out {
+    animation: ani-fade-in 0.25s reverse;
+}
+
 .slide-in {
     animation: ani-slide-in 0.5s;
 }
 
 .slide-out {
     animation: ani-slide-out 0.5s;
+}
+
+@keyframes ani-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 @keyframes ani-slide-in {

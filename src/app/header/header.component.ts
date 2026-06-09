@@ -1,4 +1,4 @@
-import { Component, LOCALE_ID, inject } from '@angular/core';
+import { Component, inject, LOCALE_ID } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { DOCUMENT, UpperCasePipe } from '@angular/common';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
@@ -10,9 +10,9 @@ import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
     imports: [RouterLink, FontAwesomeModule, UpperCasePipe],
 })
 export class HeaderComponent {
+
     readonly locale = inject(LOCALE_ID);
     private readonly doc = inject<Document>(DOCUMENT);
-
 
     readonly languages = [
         {code: 'en', name: 'English'},
