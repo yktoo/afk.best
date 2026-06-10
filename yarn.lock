@@ -3605,7 +3605,7 @@ __metadata:
     eslint-scope: "npm:^9.1.2"
     jsdom: "npm:^29.1.1"
     ng-extract-i18n-merge: "npm:^3.4.0"
-    ngx-comentario: "npm:~0.6.0"
+    ngx-comentario: "npm:~0.7.0"
     rxjs: "npm:^7.8.2"
     tslib: "npm:^2.8.1"
     typescript: "npm:~6.0.3"
@@ -7207,15 +7207,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ngx-comentario@npm:~0.6.0":
-  version: 0.6.0
-  resolution: "ngx-comentario@npm:0.6.0"
+"ngx-comentario@npm:~0.7.0":
+  version: 0.7.0
+  resolution: "ngx-comentario@npm:0.7.0"
   dependencies:
     tslib: "npm:^2.3.0"
   peerDependencies:
-    "@angular/common": ">= 12.0.0 < 20.0.0"
-    "@angular/core": ">= 12.0.0 < 20.0.0"
-  checksum: 10c0/c9d6105c491a81233882e8b19bb83951b7689071251c3a6a6797297d78f94a460cc2d6155a4fd364de0c5175e6d401c19c53e6bfd524a8d6d09883658726b404
+    "@angular/common": ">= 20.0.0 < 23.0.0"
+    "@angular/core": ">= 20.0.0 < 23.0.0"
+  checksum: 10c0/3baad74bf79b806363b1f721700d0204eb2f91d2b8e3731c8a875110db96da5da93c04de688805b72b27c223191df2468d4c3a9ddf7b260d44c271e67fe72483
   languageName: node
   linkType: hard
 
