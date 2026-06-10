@@ -45,17 +45,17 @@
                 <div class="table-responsive">
                     <table class="table">
                         <tbody>
-                        @for (a of abbrs; track a) {
+                        @for (abbr of abbrs; track abbr) {
                             <tr animate.enter="fade-in">
-                                <td><a [routerLink]="['/abbr', a.abbr]" [queryParams]="queryParams()" class="abbr-term">{{ a.abbr }}</a></td>
-                                <td>{{ a.text }}</td>
+                                <td><a [routerLink]="['/abbr', abbr.abbr]" [queryParams]="{q: q(), a: abbrOnly()}" class="abbr-term">{{ abbr.abbr }}</a></td>
+                                <td>{{ abbr.text }}</td>
                                 <td>
-                                    <span [innerHTML]="a.translation[locale]"></span>
-                                    @if (a.seeAlso?.length) {
+                                    <span [innerHTML]="abbr.translation[locale]"></span>
+                                    @if (abbr.seeAlso?.length) {
                                         <div class="mt-2 small">
                                             (<ng-container i18n>see also</ng-container>
                                             &ngsp;
-                                            @for (sa of a.seeAlso; track sa) {
+                                            @for (sa of abbr.seeAlso; track sa) {
                                                 <a routerLink="." [queryParams]="{q: sa, a: true}" class="abbr-term mx-1">{{ sa }}</a>
                                             })
                                         </div>

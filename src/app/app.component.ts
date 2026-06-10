@@ -1,7 +1,7 @@
 import { Component, inject } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { NavigationEnd, Router, RouterOutlet } from '@angular/router';
 import { filter } from 'rxjs';
-import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { MetadataService } from './services/metadata.service';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
@@ -10,7 +10,6 @@ import { HeaderComponent } from './header/header.component';
 declare let gaID: string;
 declare let gtag: (key: string, id: string, params: any) => void;
 
-@UntilDestroy()
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
@@ -33,14 +32,16 @@ export class AppComponent {
         $localize`Holland`,
         $localize`translation`,
     ];
+    private readonly description = $localize`Common Dutch abbreviations and their translations into English`;
 
     constructor() {
-        this.metadataSvc.author   = this.author;
-        this.metadataSvc.keywords = this.keywords;
+        this.metadataSvc.author      = this.author;
+        this.metadataSvc.keywords    = this.keywords;
+        this.metadataSvc.description = this.description;
 
         // Subscribe to route changes to submit page to Google Analytics
         this.router.events
-            .pipe(untilDestroyed(this), filter(e => e instanceof NavigationEnd))
+            .pipe(takeUntilDestroyed(), filter(e => e instanceof NavigationEnd))
             .subscribe(e => gtag('config', gaID, {page_path: (e as NavigationEnd).urlAfterRedirects}));
     }
 }

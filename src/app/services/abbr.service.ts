@@ -8,17 +8,17 @@ export class AbbrService {
 
     /**
      * Search the list of known abbreviations using the provided pattern and return a list of matching ones.
-     * @param pattern substring to search.
+     * @param pattern substring to search. If empty, `null`, or `undefined`, `undefined` is returned.
      * @param lang language to use for translation matching, only if abbrOnly is falsy.
      * @param abbrOnly whether to only search the abbr field
      */
-    find(pattern: string | null, lang: string, abbrOnly: boolean): Abbreviation[] {
+    find(pattern: string | null | undefined, lang: string, abbrOnly: boolean): Abbreviation[] | undefined {
         const s = this.cleanUp(pattern);
         return s ?
             abbreviations.filter(a =>
                 this.cleanUp(a.abbr)?.includes(s) ||
                 !abbrOnly && (this.cleanUp(a.text)?.includes(s) || this.cleanUp(a.translation[lang])?.includes(s))) :
-            [];
+            undefined;
     }
 
     /**

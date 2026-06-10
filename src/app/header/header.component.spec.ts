@@ -24,4 +24,10 @@ describe('HeaderComponent', () => {
     it('is created', () => {
         expect(component).toBeTruthy();
     });
+
+    it('generates language URL', () => {
+        // Mimic a language-aware URL
+        jsdom.reconfigure({url: 'https://foo.bar/en/search'});
+        expect(component.getLangUrl('fr')).toBe('https://foo.bar/fr/search');
+    });
 });
